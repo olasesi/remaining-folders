@@ -1,0 +1,61 @@
+<header class="journal-header-default">
+  <div class="header">
+    <div class="journal-top-header j-min"></div>
+    <div id="header" class="journal-header">
+      <div class="journal-logo xs-100 sm-100 md-33 lg-25 xl-25">
+        {% if logo %}
+          <div id="logo">
+            <a href="{{ home | replace('index.php?route=common/home', '') }}">
+              {{ staticCall('Journal2Utils', 'getLogo', [config]) }}
+            </a>
+          </div>
+        {% endif %}
+      </div>
+      <div class="header-assets xs-100 sm-100 md-66 lg-75 xl-75">
+        <div class="journal-links j-min xs-100 sm-100 md-100 lg-66 xl-66">
+          <div class="links j-min">
+            <ul class="top-menu">
+              {{ journal2.settings.get('config_primary_menu') }}
+            </ul>
+          </div>
+        </div>
+        <div class="journal-cart j-min xs-100 sm-50 md-50 lg-33 xl-33">
+          {{ cart }}
+        </div>
+        <div class="journal-login j-min xs-100 sm-100 md-100 lg-66 xl-66">
+          {% if language %}
+            <div class="journal-language">
+              {{ language }}
+            </div>
+          {% endif %}
+          {% if currency %}
+            <div class="journal-currency">
+              {{ currency }}
+            </div>
+          {% endif %}
+          <div class="journal-secondary">
+            <ul class="top-menu">
+
+			{% if sellerlogged %}
+             <li><a href="{{ seller_panel_link }}"><i class="fa fa-user fas fa user-o" aria-hidden="true"></i><span class=""> {{ text_seller_panel }}</span></a></li>
+			{% else %}			
+			<li><a href="{{ seller_register_link }}"><i class="fa fa-user fas fa user-o" aria-hidden="true"></i><span class=""> {{ text_seller_register }}</span></a></li>
+			{% endif %}
+			{% if module_purpletree_multivendor_browse_sellers %}
+			<li><a href="{{ browse_seller_link }}"><i class="fa fa-users" aria-hidden="true"></i><span class=""> {{ text_browse_sellers }}</span></a></li>
+			{% endif %}
+			
+              {{ journal2.settings.get('config_secondary_menu') }}
+            </ul>
+          </div>
+        </div>
+        <div class="journal-search j-min xs-100 sm-50 md-50 lg-33 xl-33">
+          {{ search }}
+        </div>
+      </div>
+      <div class="journal-menu j-min xs-100 sm-100 md-100 lg-75 xl-75">
+        {{ journal2.settings.get('config_mega_menu') }}
+      </div>
+    </div>
+  </div>
+</header>

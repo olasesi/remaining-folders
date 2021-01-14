@@ -1,0 +1,27 @@
+
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+IP Address: 5.79.70.74
+Extension host agent listening on 36710
+
+
+[01:40:38] Extension host agent started.
+[01:40:40] [127.0.0.1][99c5f45a][ManagementConnection] New connection established.
+[01:40:40] [127.0.0.1][a011222d][ExtensionHostConnection] New connection established.
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+[01:40:40] [127.0.0.1][a011222d][ExtensionHostConnection] <15327> Launched Extension Host Process.
+[01:40:40] Listing 0 persistent terminals, 0 total terminals
+[01:40:58] [127.0.0.1][99c5f45a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[01:40:59] [127.0.0.1][a011222d][ExtensionHostConnection] <15327> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[01:40:59] Last EH closed, waiting before shutting down
+Last EH closed, shutting down
+[01:45:59] Last EH closed, shutting down

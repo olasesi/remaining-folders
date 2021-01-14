@@ -1,0 +1,119 @@
+--- 
+files: 
+  certificate: 
+    obejor_com_ng_ba263_6e6f7_1611964799_2e1a253c02aa011a69781e767c381a95: 
+      created: '1604105403'
+      domains: 
+        - obejor.com.ng
+        - cpanel.obejor.com.ng
+        - mail.obejor.com.ng
+        - webdisk.obejor.com.ng
+        - webmail.obejor.com.ng
+        - www.obejor.com.ng
+      friendly_name: Cert for “obejor.com.ng” 1604105403.0
+      id: obejor_com_ng_ba263_6e6f7_1611964799_2e1a253c02aa011a69781e767c381a95
+      is_self_signed: 0
+      issuer.commonName: cPanel, Inc. Certification Authority
+      issuer.organizationName: cPanel, Inc.
+      modulus: ba26301b3ce03478e49a4727862ac36d80c24caaf781995f128ee04db054e56780ccfce37ca6d7be648c2b1b823f295746aba1f5663f9654774373fb66e9393e75c8b610c2acdeefc2e3c7de3a704178f0ec29e26ec1d01cad353742bf4223baac96fe76e562d75cf444dde45ad44a9ac00d312db4279fd6ba9bca09532a02e4a48fb8600bb06f108c3e46e6f4e68cfc883158813f1d6bb6343484f881040cbb804d2b237539e4e103f002f854f247588667b1c278ddb9db43bd3430f31ab9284549386f1a6fd4643d0af82e6649dafeeb8f3f1619e7a32db3e3f4a9fae55eba3f631a2cce9d923c730d0f336f067b77544bd0b6d3bcea57248a35bc4e16e6f7
+      modulus_length: 2048
+      not_after: '1611964799'
+      not_before: '1604102400'
+      serial: 1b55cabf9e85aa2deb9786730807a662
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: obejor.com.ng
+      validation_type: dv
+    obejor_com_ng_c6dbf_7427d_1614643199_e2fc949e76cc95b105393466e945a4ab: 
+      created: '1606783746'
+      domains: 
+        - obejor.com.ng
+        - cpanel.obejor.com.ng
+        - cpcalendars.obejor.com.ng
+        - cpcontacts.obejor.com.ng
+        - mail.obejor.com.ng
+        - webdisk.obejor.com.ng
+        - webmail.obejor.com.ng
+        - www.obejor.com.ng
+      friendly_name: Cert for “obejor.com.ng” 1606783746.0
+      id: obejor_com_ng_c6dbf_7427d_1614643199_e2fc949e76cc95b105393466e945a4ab
+      is_self_signed: 0
+      issuer.commonName: cPanel, Inc. Certification Authority
+      issuer.organizationName: cPanel, Inc.
+      modulus: c6dbfe7043153159ca21a56120b469cc41de346d4a12be961efa72604640ae6e5d90edd9efb29571b99dbf7145ed4b8cb5a2203095759d43ac1e99cd9ab98cea62489e6f7d28be2beaea4961d6d1f923af7f28af562ddaeacfb9f91ae23c3e5c1e65009418ad82239b3911cacadbea1add26744cf6cd035c10c140e9f8acaa8efc1de70a469cf055c7eb3192979be893b98980e04c19178198f5312754d43c84e48beaf643778a6e4cd0855c6c4ce980ccba8979f232e457966da2ac0944cb064ae032221b97d5eb00aa71e88c01a36203dd7d096e07e79628d9923eabfc0e2d3707aeefe5aee49aafce007325e587cfd970d339e27089559eaacbda1277427d
+      modulus_length: 2048
+      not_after: '1614643199'
+      not_before: '1606780800'
+      serial: dd4a145c431f157ef412adf190cc495d
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: obejor.com.ng
+      validation_type: dv
+    obejor_com_ng_ca94a_3a279_1605398399_0527bb01d9fcc11efb57536f7edcc01b: 
+      created: '1597539003'
+      domains: 
+        - obejor.com.ng
+        - cpanel.obejor.com.ng
+        - mail.obejor.com.ng
+        - webdisk.obejor.com.ng
+        - webmail.obejor.com.ng
+        - www.obejor.com.ng
+      friendly_name: Cert for “obejor.com.ng” 1597539003.0
+      id: obejor_com_ng_ca94a_3a279_1605398399_0527bb01d9fcc11efb57536f7edcc01b
+      is_self_signed: 0
+      issuer.commonName: cPanel, Inc. Certification Authority
+      issuer.organizationName: cPanel, Inc.
+      modulus: ca94ad997f65dae885956a87f896816a51d8e0b4b231386cf6c273c0456a4395aea0dcfaa24590a690e3de8e82e8b1536fca713f57d6b3aba898ed3bed17846988cba7e77c9b4fe755ba1f425f5aff4ca4dc729f82118428fcd2f36782e8de69a2372aebf8b29e62e235938fad7dfe0426d5ee1e729b5df5a02ada70e550f1e1d0fe31229d799297b52ab22037258bdfb3e58f523dd53170ad0015afb7dacf26f7e2c2f91e1d7ba06ba9b294239bc0d99ad39701e10797b4e6f61bcf32cb2217da0318462e96c4f9a8d6703a075771e0b389696df8cfa61391de6e995acbf35ff66ed8454f7fcd11e6683c1809fbe7ebcae91febd0d0b55d56663d7e90d3a279
+      modulus_length: 2048
+      not_after: '1605398399'
+      not_before: '1597536000'
+      serial: 716034493ecb3e8cdc02d427e7bee769
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: obejor.com.ng
+      validation_type: dv
+  key: 
+    ba263_6e6f7_ade01d3e9f719ddfdc2af10cd014743d: 
+      created: '1604105403'
+      friendly_name: Key for “obejor.com.ng” 1604105403.0
+      id: ba263_6e6f7_ade01d3e9f719ddfdc2af10cd014743d
+      modulus: ba26301b3ce03478e49a4727862ac36d80c24caaf781995f128ee04db054e56780ccfce37ca6d7be648c2b1b823f295746aba1f5663f9654774373fb66e9393e75c8b610c2acdeefc2e3c7de3a704178f0ec29e26ec1d01cad353742bf4223baac96fe76e562d75cf444dde45ad44a9ac00d312db4279fd6ba9bca09532a02e4a48fb8600bb06f108c3e46e6f4e68cfc883158813f1d6bb6343484f881040cbb804d2b237539e4e103f002f854f247588667b1c278ddb9db43bd3430f31ab9284549386f1a6fd4643d0af82e6649dafeeb8f3f1619e7a32db3e3f4a9fae55eba3f631a2cce9d923c730d0f336f067b77544bd0b6d3bcea57248a35bc4e16e6f7
+      modulus_length: 2048
+    c6dbf_7427d_6e513fa8fe4de5cf92ccef873e651443: 
+      created: '1606783746'
+      friendly_name: Key for “obejor.com.ng” 1606783746.0
+      id: c6dbf_7427d_6e513fa8fe4de5cf92ccef873e651443
+      modulus: c6dbfe7043153159ca21a56120b469cc41de346d4a12be961efa72604640ae6e5d90edd9efb29571b99dbf7145ed4b8cb5a2203095759d43ac1e99cd9ab98cea62489e6f7d28be2beaea4961d6d1f923af7f28af562ddaeacfb9f91ae23c3e5c1e65009418ad82239b3911cacadbea1add26744cf6cd035c10c140e9f8acaa8efc1de70a469cf055c7eb3192979be893b98980e04c19178198f5312754d43c84e48beaf643778a6e4cd0855c6c4ce980ccba8979f232e457966da2ac0944cb064ae032221b97d5eb00aa71e88c01a36203dd7d096e07e79628d9923eabfc0e2d3707aeefe5aee49aafce007325e587cfd970d339e27089559eaacbda1277427d
+      modulus_length: 2048
+    ca94a_3a279_0c772c65bf0e67c6f3e1acd9c43f946f: 
+      created: '1597539003'
+      friendly_name: Key for “obejor.com.ng” 1597539003.0
+      id: ca94a_3a279_0c772c65bf0e67c6f3e1acd9c43f946f
+      modulus: ca94ad997f65dae885956a87f896816a51d8e0b4b231386cf6c273c0456a4395aea0dcfaa24590a690e3de8e82e8b1536fca713f57d6b3aba898ed3bed17846988cba7e77c9b4fe755ba1f425f5aff4ca4dc729f82118428fcd2f36782e8de69a2372aebf8b29e62e235938fad7dfe0426d5ee1e729b5df5a02ada70e550f1e1d0fe31229d799297b52ab22037258bdfb3e58f523dd53170ad0015afb7dacf26f7e2c2f91e1d7ba06ba9b294239bc0d99ad39701e10797b4e6f61bcf32cb2217da0318462e96c4f9a8d6703a075771e0b389696df8cfa61391de6e995acbf35ff66ed8454f7fcd11e6683c1809fbe7ebcae91febd0d0b55d56663d7e90d3a279
+      modulus_length: 2048
+indexes: 
+  certificate: 
+    modulus: 
+      ba26301b3ce03478e49a4727862ac36d80c24caaf781995f128ee04db054e56780ccfce37ca6d7be648c2b1b823f295746aba1f5663f9654774373fb66e9393e75c8b610c2acdeefc2e3c7de3a704178f0ec29e26ec1d01cad353742bf4223baac96fe76e562d75cf444dde45ad44a9ac00d312db4279fd6ba9bca09532a02e4a48fb8600bb06f108c3e46e6f4e68cfc883158813f1d6bb6343484f881040cbb804d2b237539e4e103f002f854f247588667b1c278ddb9db43bd3430f31ab9284549386f1a6fd4643d0af82e6649dafeeb8f3f1619e7a32db3e3f4a9fae55eba3f631a2cce9d923c730d0f336f067b77544bd0b6d3bcea57248a35bc4e16e6f7: 
+        obejor_com_ng_ba263_6e6f7_1611964799_2e1a253c02aa011a69781e767c381a95: ~
+      c6dbfe7043153159ca21a56120b469cc41de346d4a12be961efa72604640ae6e5d90edd9efb29571b99dbf7145ed4b8cb5a2203095759d43ac1e99cd9ab98cea62489e6f7d28be2beaea4961d6d1f923af7f28af562ddaeacfb9f91ae23c3e5c1e65009418ad82239b3911cacadbea1add26744cf6cd035c10c140e9f8acaa8efc1de70a469cf055c7eb3192979be893b98980e04c19178198f5312754d43c84e48beaf643778a6e4cd0855c6c4ce980ccba8979f232e457966da2ac0944cb064ae032221b97d5eb00aa71e88c01a36203dd7d096e07e79628d9923eabfc0e2d3707aeefe5aee49aafce007325e587cfd970d339e27089559eaacbda1277427d: 
+        obejor_com_ng_c6dbf_7427d_1614643199_e2fc949e76cc95b105393466e945a4ab: ~
+      ca94ad997f65dae885956a87f896816a51d8e0b4b231386cf6c273c0456a4395aea0dcfaa24590a690e3de8e82e8b1536fca713f57d6b3aba898ed3bed17846988cba7e77c9b4fe755ba1f425f5aff4ca4dc729f82118428fcd2f36782e8de69a2372aebf8b29e62e235938fad7dfe0426d5ee1e729b5df5a02ada70e550f1e1d0fe31229d799297b52ab22037258bdfb3e58f523dd53170ad0015afb7dacf26f7e2c2f91e1d7ba06ba9b294239bc0d99ad39701e10797b4e6f61bcf32cb2217da0318462e96c4f9a8d6703a075771e0b389696df8cfa61391de6e995acbf35ff66ed8454f7fcd11e6683c1809fbe7ebcae91febd0d0b55d56663d7e90d3a279: 
+        obejor_com_ng_ca94a_3a279_1605398399_0527bb01d9fcc11efb57536f7edcc01b: ~
+    subject.commonName: 
+      obejor.com.ng: 
+        obejor_com_ng_ba263_6e6f7_1611964799_2e1a253c02aa011a69781e767c381a95: ~
+        obejor_com_ng_c6dbf_7427d_1614643199_e2fc949e76cc95b105393466e945a4ab: ~
+        obejor_com_ng_ca94a_3a279_1605398399_0527bb01d9fcc11efb57536f7edcc01b: ~
+uniques: 
+  certificate: 
+    friendly_name: 
+      Cert for “obejor.com.ng” 1597539003.0: obejor_com_ng_ca94a_3a279_1605398399_0527bb01d9fcc11efb57536f7edcc01b
+      Cert for “obejor.com.ng” 1604105403.0: obejor_com_ng_ba263_6e6f7_1611964799_2e1a253c02aa011a69781e767c381a95
+      Cert for “obejor.com.ng” 1606783746.0: obejor_com_ng_c6dbf_7427d_1614643199_e2fc949e76cc95b105393466e945a4ab
+  key: 
+    friendly_name: 
+      Key for “obejor.com.ng” 1597539003.0: ca94a_3a279_0c772c65bf0e67c6f3e1acd9c43f946f
+      Key for “obejor.com.ng” 1604105403.0: ba263_6e6f7_ade01d3e9f719ddfdc2af10cd014743d
+      Key for “obejor.com.ng” 1606783746.0: c6dbf_7427d_6e513fa8fe4de5cf92ccef873e651443
+    modulus:ecdsa_curve_name:ecdsa_public: 
+      ba26301b3ce03478e49a4727862ac36d80c24caaf781995f128ee04db054e56780ccfce37ca6d7be648c2b1b823f295746aba1f5663f9654774373fb66e9393e75c8b610c2acdeefc2e3c7de3a704178f0ec29e26ec1d01cad353742bf4223baac96fe76e562d75cf444dde45ad44a9ac00d312db4279fd6ba9bca09532a02e4a48fb8600bb06f108c3e46e6f4e68cfc883158813f1d6bb6343484f881040cbb804d2b237539e4e103f002f854f247588667b1c278ddb9db43bd3430f31ab9284549386f1a6fd4643d0af82e6649dafeeb8f3f1619e7a32db3e3f4a9fae55eba3f631a2cce9d923c730d0f336f067b77544bd0b6d3bcea57248a35bc4e16e6f7: ba263_6e6f7_ade01d3e9f719ddfdc2af10cd014743d
+      c6dbfe7043153159ca21a56120b469cc41de346d4a12be961efa72604640ae6e5d90edd9efb29571b99dbf7145ed4b8cb5a2203095759d43ac1e99cd9ab98cea62489e6f7d28be2beaea4961d6d1f923af7f28af562ddaeacfb9f91ae23c3e5c1e65009418ad82239b3911cacadbea1add26744cf6cd035c10c140e9f8acaa8efc1de70a469cf055c7eb3192979be893b98980e04c19178198f5312754d43c84e48beaf643778a6e4cd0855c6c4ce980ccba8979f232e457966da2ac0944cb064ae032221b97d5eb00aa71e88c01a36203dd7d096e07e79628d9923eabfc0e2d3707aeefe5aee49aafce007325e587cfd970d339e27089559eaacbda1277427d: c6dbf_7427d_6e513fa8fe4de5cf92ccef873e651443
+      ca94ad997f65dae885956a87f896816a51d8e0b4b231386cf6c273c0456a4395aea0dcfaa24590a690e3de8e82e8b1536fca713f57d6b3aba898ed3bed17846988cba7e77c9b4fe755ba1f425f5aff4ca4dc729f82118428fcd2f36782e8de69a2372aebf8b29e62e235938fad7dfe0426d5ee1e729b5df5a02ada70e550f1e1d0fe31229d799297b52ab22037258bdfb3e58f523dd53170ad0015afb7dacf26f7e2c2f91e1d7ba06ba9b294239bc0d99ad39701e10797b4e6f61bcf32cb2217da0318462e96c4f9a8d6703a075771e0b389696df8cfa61391de6e995acbf35ff66ed8454f7fcd11e6683c1809fbe7ebcae91febd0d0b55d56663d7e90d3a279: ca94a_3a279_0c772c65bf0e67c6f3e1acd9c43f946f

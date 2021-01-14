@@ -1,0 +1,47 @@
+
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+IP Address: 5.79.70.74
+Extension host agent listening on 46277
+
+
+[11:51:25] Extension host agent started.
+[11:51:29] [127.0.0.1][bd212244][ManagementConnection] New connection established.
+[11:51:29] [127.0.0.1][291d25c7][ExtensionHostConnection] New connection established.
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+[11:51:29] [127.0.0.1][291d25c7][ExtensionHostConnection] <21334> Launched Extension Host Process.
+[11:52:26] [127.0.0.1][bd212244][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[11:52:27] [127.0.0.1][291d25c7][ExtensionHostConnection] <21334> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[11:52:27] Last EH closed, waiting before shutting down
+Got delay-shutdown request while in shutdown timeout, delaying
+[11:52:37] Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+[11:52:37] Cancelling previous shutdown timeout
+[11:52:38] [127.0.0.1][7ed02af1][ManagementConnection] New connection established.
+[11:52:38] [127.0.0.1][53f660c7][ExtensionHostConnection] New connection established.
+[11:52:38] [127.0.0.1][53f660c7][ExtensionHostConnection] <21537> Launched Extension Host Process.
+[11:52:41] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+New EH opened, aborting shutdown
+[11:57:37] New EH opened, aborting shutdown
+[13:21:43] [127.0.0.1][7ed02af1][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/obejorng/.vscode-server/bin/d2e414d9e4239a252d1ab117bd7067f125afd80a/out/bootstrap.js:5:377)
+    at process.emit (events.js:223:5)
+[13:50:39] [127.0.0.1][7ed02af1][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[13:50:39] [127.0.0.1][7ed02af1][ManagementConnection] The client has reconnected.
+[13:50:39] [127.0.0.1][53f660c7][ExtensionHostConnection] The client has reconnected.
+[13:54:27] [127.0.0.1][7ed02af1][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[13:54:28] [127.0.0.1][53f660c7][ExtensionHostConnection] <21537> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[13:54:28] Last EH closed, waiting before shutting down
+Last EH closed, shutting down
+[13:59:28] Last EH closed, shutting down

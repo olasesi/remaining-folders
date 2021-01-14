@@ -1,0 +1,4 @@
+whitelist_from *@outlook.com
+whitelist_from *@yahoo.com
+whitelist_from *@gmail.com
+whitelist_from *@hotmail.com

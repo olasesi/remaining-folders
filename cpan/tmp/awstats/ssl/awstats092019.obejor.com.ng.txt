@@ -1,0 +1,3037 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 201909 will be lost/reset.
+# Last config file used to build this data file was /home/obejorng/tmp/awstats/ssl/awstats.obejor.com.ng.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2014                
+POS_TIME 2705                
+POS_VISITOR 38708               
+POS_DAY 96055               
+POS_DOMAIN 3781                
+POS_LOGIN 4549                
+POS_ROBOT 4704                
+POS_WORMS 6176                
+POS_EMAILSENDER 6307                
+POS_EMAILRECEIVER 6450                
+POS_SESSION 96538               
+POS_SIDER 96755               
+POS_FILETYPES 6585                
+POS_DOWNLOADS 6994                
+POS_OS 7042                
+POS_BROWSER 7393                
+POS_SCREENSIZE 11092               
+POS_UNKNOWNREFERER 11166               
+POS_UNKNOWNREFERERBROWSER 13827               
+POS_ORIGIN 15054               
+POS_SEREFERRALS 15209               
+POS_PAGEREFS 15418               
+POS_SEARCHWORDS 18979               
+POS_KEYWORDS 19594               
+POS_MISC 2369                
+POS_ERRORS 20109               
+POS_CLUSTER 4405                
+POS_SIDER_404 20274               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20191001000013 35564 10901398 13014030639644
+FirstTime 20190918144650
+LastTime 20190930234829
+LastUpdate 20191001120948 35564 0 35563 0 0
+TotalVisits 1866                
+TotalUnique 1243                
+MonthHostsKnown 0                   
+MonthHostsUnknown 1423                
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+DirectorSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+TotalMisc 0 0 0
+RealPlayerSupport 0 0 0
+PDFSupport 0 0 0
+AddToFavourites 0 8 0
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 212 2612 38497838 75 192 3274035
+1 113 1930 28588935 91 265 3488780
+2 159 1674 23028168 87 184 2928084
+3 124 1633 26807786 100 203 4158764
+4 135 3211 47453592 143 595 7885444
+5 327 5444 84025608 103 249 5152828
+6 312 4973 75022982 115 232 4784474
+7 856 8404 120249335 238 652 10596150
+8 2344 12862 178674523 379 670 10902057
+9 2737 16740 223882937 708 1251 17722188
+10 2440 15864 211289796 555 1336 23203833
+11 4512 26735 387256335 974 2256 37276838
+12 3691 22281 303862928 799 1185 19876109
+13 3687 14919 199388803 935 1261 30270952
+14 3567 14188 179208138 956 1643 32305845
+15 4149 23455 331081498 2186 3624 64249887
+16 3609 14111 176640161 2397 2786 51115391
+17 1078 9410 128126601 1056 1493 35015325
+18 601 7609 113789102 1142 1453 45689617
+19 1144 13297 195346692 1239 2033 52411459
+20 902 10434 151120640 1677 1953 46066872
+21 684 10202 154876561 502 936 19846288
+22 240 5082 78270663 896 1504 51441223
+23 166 2290 34032821 232 660 32035400
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 31
+ng 33969 174445 2301341258
+us 2531 48300 782396584
+gb 270 4726 74375056
+se 260 5047 59734621
+ie 197 5114 85343478
+in 137 3149 42781714
+ru 115 2044 28741626
+cn 81 505 9902621
+no 38 890 13237355
+ph 36 1046 17045607
+id 25 491 7647226
+de 23 248 4613297
+ua 18 214 3943113
+nl 13 849 20622392
+lr 10 341 5305008
+zw 10 226 3321034
+ca 9 275 5125974
+ao 7 155 2392488
+bd 6 201 3657828
+au 5 103 806672
+mu 5 270 4624245
+bj 5 145 2608825
+fr 5 230 4124865
+be 4 198 3911696
+gh 4 98 1041600
+pk 0 1 41274
+bw 1 1 547032
+za 1 1 389351
+ro 1 1 26225
+cz 1 1 547905
+eg 2 45 324473
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 33
+Googlebot/ 4177 49482441 20190930235905 0
+Googlebot\-Image/ 4103 86656402 20190930235919 0
+MJ12bot/ 3805 120750125 20190930231812 0
+SemrushBot/ 2376 103908781 20190930235945 0
+bot[\s_+:,\.\;\/\\-] 1952 30964167 20190930230406 0
+AdsBot\-Google[\x20]\( 1894 28064482 20190930191457 0
+(firefox/)([0-9]\.|[0-1][0]\.) 990 15635795 20190930220335 0
+nbot 911 18898393 20190924164447 0
+no_user_agent 860 58416120 20190930190250 0
+facebookexternalhit/ 844 23409245 20190930220223 0
+bingpreview 511 8832407 20190930115229 0
+YandexBot/ 274 6402593 20190930234240 1
+Dalvik/ 209 4116631 20190928121635 0
+baidu 149 2744623 20190930184842 0
+spider 94 716926 20190927015015 0
+YandexMobileBot/ 61 722719 20190930213755 0
+AhrefsBot/ 16 575328 20190930113030 0
+TweetmemeBot/ 15 369395 20190927155158 0
+blog 15 81623 20190925150625 0
+DotBot/ 14 7097632 20190930222346 0
+Applebot/ 12 333106 20190923154731 0
+perl 10 246717 20190924151852 0
+LinkedInBot/ 9 188084 20190925151214 0
+DuckDuckGo\-Favicons\-Bot/ 8 181742 20190927174722 0
+curl 4 2173940 20190924143823 0
+feed 2 52124 20190926005759 0
+crawl 2 61095 20190923154709 0
+bingbot/ 3 129937 20190930134431 0
+Mediapartners-Google 2 45828 20190929122934 0
+validator 3 135 20190924090716 0
+BLEXBot/ 2 47405 20190924151733 0
+Google\-Adwords\-Instant 2 86728 20190927124303 0
+Python\-urllib/ 1 0 20190924150357 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 16
+Unknown 2514 72427277 0 0
+jpg 122020 1741399362 0 0
+js 30852 264024847 0 0
+png 28131 746732680 0 0
+woff 1117 223680200 0 0
+php 32612 170568976 0 0
+0 1 34239 0 0
+html 660 39083154 0 0
+ttf 26 2412769 0 0
+jpeg 1349 13889545 0 0
+5 1 30687 0 0
+gif 217 1336324 0 0
+svg 42 6845920 0 0
+css 28960 142514144 0 0
+eot 27 1871218 0 0
+woff2 826 63520708 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 19
+linuxandroid 118509 8022
+win8 5405 1000
+win7 5065 206
+winlong 1 1
+winphone 439 27
+macosx11 17 17
+win8.1 11102 532
+Unknown 2406 294
+macosx 568 40
+win10 90003 27045
+linux 5830 176
+ios_ipad 184 8
+unix 1579 82
+linuxubuntu 1 1
+macosx12 1 1
+winxp 6 6
+sunos 1 1
+win98 1 1
+ios_iphone 8242 329
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 156
+opera12.16 11484 539
+chrome52.0.2743.98 634 34
+opera63.0.3368.94 586 22
+safari13.0 439 19
+chrome37.0.0.0 66 6
+chrome63.0.3239.111 649 33
+chrome38.0.2125.102 702 48
+firefox69.0 14956 3451
+netscape5.0 3 3
+chrome70.0.3538.80 666 38
+chrome75.0.3770.100 471 11
+chrome53.0.2785.143 6 6
+chrome59.0.3071.122 87 4
+firefox52.7.4 1 1
+samsung 270 12
+opera50.3.2426.136976 157 6
+chrome51.0.2704.106 3 3
+chrome68.0.3440.106 76 15
+chrome74.0.3729.157 2857 155
+chrome45.0.2454.95 339 10
+chrome75.0.3770.142 1093 20
+chrome46.0.2490.76 991 60
+chrome56.0.2924.87 1661 118
+chrome46.0.2490.85 61 3
+chrome73.0.3683.90 1425 182
+android 2428 201
+firefox52.7.0 1 1
+edge18 1343 47
+chrome77.0.3865.97 467 11
+chrome77.0.3865.92 10078 678
+chrome65.0.3325.181 30 30
+safari12.0 179 6
+chrome62.0.3202.94 1 1
+chrome77.0.3865.75 3569 2129
+chrome71.0.3578.99 5430 553
+chrome70.0.3538.67 21 21
+firefox52.6.0 3 3
+chrome36.0.1985.135 178 6
+chrome50.0.2661.94 4 4
+chrome71.0.3578.141 362 10
+chrome26.0.1410.35 12 12
+chrome44.0.2403.119 431 15
+chrome76.0.3809.136 1213 56
+chrome74.0.3729.131 328 44
+chrome74.0.3729.112 602 57
+firefox50.0 141 7
+chrome72.0.3626.105 659 41
+chrome40.0.2214.109 463 24
+chrome68.0.3440.91 983 62
+firefox40.1 17 17
+firefox24.0 1 1
+chrome76.0.3809.111 3123 251
+chrome76.0.3809.132 35121 9696
+firefox49.0 1 1
+msie8.0 213 5
+chrome50.0.2661.89 629 34
+chrome67.0.3396.87 1708 119
+firefox54.0 1 1
+safari11.0 348 10
+chrome47.0.2526.111 5 5
+chrome75.0.3770.89 228 17
+chrome74.0.3694.0 4299 111
+chrome64.0.3282.137 4405 322
+chrome55.0.2883.91 3614 183
+firefox68.0 171 6
+safari12.1 166 4
+chrome69.0.3497.100 1881 81
+chrome59.0.3071.115 5 5
+firefox57.0 1 1
+chrome43.0.2357.93 155 7
+safari12.1.2 4943 186
+chrome48.0.2564.106 222 27
+chrome50.0.2661.86 464 29
+firefox67.0 84 5
+chrome60.0.3112.107 36 2
+firefox52.4.0 1 1
+chrome54.0.2840.85 514 25
+chrome33.0.0.0 351 22
+chrome72.0.3626.119 1 1
+chrome62.0.3202.84 2062 117
+safari13.0.1 449 17
+chrome41.0.2272.118 741 32
+wap 119 9
+chrome69.0.3497.81 53 53
+chrome51.0.2704.81 575 68
+chrome77.0.3865.73 2829 180
+chrome71.0.3578.83 141 6
+firefox53.0 3 3
+chrome57.0.2987.108 824 26
+msie11.0 712 32
+firefox64.0 18 9
+chrome72.0.3626.109 11 11
+chrome73.0.3683.75 336 16
+chrome41.0.2228.0 958 39
+safari10.3.2.680 150 6
+Unknown 1324 229
+chrome39.0.0.0 860 74
+chrome58.0.3029.125 217 12
+chrome60.0.3112.116 1099 52
+chrome59.0.3071.125 1014 69
+chrome73.0.3683.103 6 1
+chrome76.0.3809.100 271 15
+chrome75.0.3770.67 136 6
+firefox60.0 378 12
+chrome31.0.1650.57 4 4
+firefox50.0.1 1 1
+safari 414 8
+opera6.0.2254.136488 165 7
+msie9.0 26 1
+chrome72.0.3626.121 3966 212
+iphone 1096 53
+nokia 25 0
+chrome57.0.2987.132 190 14
+chrome38.0.1025.166 5603 200
+firefox52.0.2 1 1
+chrome75.0.3770.143 2572 199
+chrome47.0.2526.83 80 80
+firefox21.0 3 3
+opera14.0.123.123 1 1
+chrome61.0.3163.100 268 5
+chrome61.0.3163.98 689 33
+chrome43.0.2357.121 925 36
+msie6.0 5 5
+chrome73.0.3683.114 366 26
+chrome35.0.1916.141 110 6
+chrome75.0.3770.101 3183 154
+firefox29.0 2 2
+firefox55.0 1 1
+chrome40.0.2214.85 1742 65
+chrome64.0.3282.123 150 7
+chrome76.0.3809.89 1261 55
+firefox52.7.3 1 1
+firefox70.0 3226 446
+chrome42.0.2311.111 202 4
+mozilla 224 32
+chrome69.0.3497.86 200 4
+chrome60.0.3112.90 4 4
+firefox46.0 1 1
+chrome70.0.3538.110 10426 983
+chrome49.0.2623.75 9 4
+chrome31.0.1650.59 178 6
+safari11.0.1 1 1
+edge17 127 3
+chrome58.0.3029.83 1483 91
+chrome72.0.3626.96 178 10
+chrome77.0.3865.82 648 16
+chrome65.0.3325.109 1007 56
+opera43.2.2254.140293 201 23
+chrome71.0.3578.98 10829 523
+chrome74.0.3729.136 2578 161
+chrome77.0.3865.90 45220 12996
+chrome66.0.3359.126 937 43
+chrome30.0.0.0 619 37
+opera4.1.2254.128479 191 9
+safari12.1.1 850 49
+chrome66.0.3359.158 568 20
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 33
+node-superagent/4.1.0 20190930092815
+SMUrlExpander 20190923234334
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_e~finscience-1253) 20190924004606
+\ 20190921212218
+WhatsApp/2.19.100_A 20190928101038
+facebookexternalua 20190927170900
+Mozilla/5.0_(compatible;_evc-batch/2.0) 20190930160810
+WhatsApp/2.19.230_A 20190924095803
+[FBAN/FB4A;FBAV/238.0.0.41.116;FBBV/171725785;FBDM/{density=4.0,width=2560,height=1440};FBLC/en_US;FBRV/173243262;FBCR/cricket;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SAMSUNG-SM-G920AZ;FBSV/7.0;FBOP/19;FBCA/armeabi-v7a:armeabi;] 20190923152232
+Opera/9.80_(SpreadTrum;_Opera_Mini/4.4.33961/154.91;_U;_en)_Presto/2.12.423_Version/12.16 20190930142058
+Mozilla/5.0_(compatible;_TrendsmapResolver/0.1) 20190923152416
+Jetty/9.3.z-SNAPSHOT,_SMUrlExpander 20190923150339
+adreview/1.0 20190930220357
+[FBAN/FB4A;FBAV/239.0.0.41.152;FBBV/172860804;FBDM/{density=3.0,width=1080,height=2040};FBLC/es_LA;FBRV/174153521;FBCR/Metro_by_T-Mobile;FBMF/HUAWEI;FBBD/HONOR;FBPN/com.facebook.katana;FBDV/BKL-L04;FBSV/9;FBOP/1;FBCA/arm64-v8a:;] 20190927085710
+Opera/9.80_(MAUI_Runtime;_Opera_Mini/4.4.33576/154.91;_U;_en)_Presto/2.12.423_Version/12.16 20190928100322
+Mozilla/5.0_(BB10;_Touch)_AppleWebKit/537.35__(KHTML,_like_Gecko)_Version/10.3.2.680_Mobile_Safari/537.35_ 20190929141916
+Mozilla/5.0_(compatible;_Google-Site-Verification/1.0) 20190930090329
+[FBAN/FB4A;FBAV/239.0.0.41.152;FBBV/172860649;FBDM/{density=1.3312501,width=800,height=1280};FBLC/en_US;FBRV/0;FBCR/Verizon_;FBMF/samsung;FBBD/Verizon;FBPN/com.facebook.katana;FBDV/SM-T377V;FBSV/7.1.1;FBOP/1;FBCA/armeabi-v7a:armeabi;] 20190923152337
+Jakarta_Commons-HttpClient/3.1 20190923145151
+WhatsApp/2.19.90_A 20190923142040
+cortex/1.0 20190930220403
+Sprinklr_2.0 20190923193312
+Mozilla/5.0_(compatible;_Embedly/0.2;_snap;__http://support.embed.ly/) 20190923193307
+WhatsApp/0.3.4679_N 20190925163541
+MailChimp 20190930182429
+WhatsApp/2.19.84_A 20190922131254
+python-requests/2.22.0 20190930092808
+Nokia6280/2.0_(03.60)_Profile/MIDP-2.0_Configuration/CLDC-1.1_Google 20190930152802
+[FBAN/FB4A;FBAV/238.0.0.41.116;FBBV/171725811;FBDM/{density=2.75,width=1080,height=2028};FBLC/en_US;FBRV/172811536;FBCR/Verizon;FBMF/Google;FBBD/google;FBPN/com.facebook.katana;FBDV/Pixel_3;FBSV/10;FBOP/1;FBCA/arm64-v8a:;] 20190923152904
+Mozilla/5.0_(compatible) 20190923154732
+Mozilla/5.0_AppEngine-Google;_(_http://code.google.com/appengine;_appid:_e~finscience-1253) 20190924004604
+Mozilla/5.0_(compatible;_Embedly/0.2;__http://support.embed.ly/) 20190923193259
+Go-http-client/1.1 20190930083708
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 20
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_e~finscience-1253) 20190924004606
+node-superagent/4.1.0 20190930092815
+SMUrlExpander 20190923234334
+Sprinklr_2.0 20190923193312
+cortex/1.0 20190930220403
+python-requests/2.22.0 20190930092808
+WhatsApp/2.19.230_A 20190924095803
+facebookexternalua 20190927170900
+WhatsApp/0.3.4679_N 20190925163541
+\ 20190921212218
+WhatsApp/2.19.84_A 20190922131254
+MailChimp 20190930182429
+WhatsApp/2.19.100_A 20190928101038
+adreview/1.0 20190930220357
+[FBAN/FB4A;FBAV/239.0.0.41.152;FBBV/172860804;FBDM/{density=3.0,width=1080,height=2040};FBLC/es_LA;FBRV/174153521;FBCR/Metro_by_T-Mobile;FBMF/HUAWEI;FBBD/HONOR;FBPN/com.facebook.katana;FBDV/BKL-L04;FBSV/9;FBOP/1;FBCA/arm64-v8a:;] 20190927085710
+Jetty/9.3.z-SNAPSHOT,_SMUrlExpander 20190923150339
+[FBAN/FB4A;FBAV/238.0.0.41.116;FBBV/171725811;FBDM/{density=2.75,width=1080,height=2028};FBLC/en_US;FBRV/172811536;FBCR/Verizon;FBMF/Google;FBBD/google;FBPN/com.facebook.katana;FBDV/Pixel_3;FBSV/10;FBOP/1;FBCA/arm64-v8a:;] 20190923152904
+WhatsApp/2.19.90_A 20190923142040
+Jakarta_Commons-HttpClient/3.1 20190923145151
+Go-http-client/1.1 20190930083708
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 3900 21198
+From1 8 8
+From2 48 544
+From3 1406 2085
+From4 32427 225525
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 4
+bing 1 1
+google_com 8 496
+www_google_be 1 1
+www_google_com 38 46
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 72
+https://l.facebook.com 442 442
+http://m.facebook.com 266 438
+http://localhost:8100/tabs/home 173 353
+https://l.facebook.com 71 71
+http://m.facebook.com 53 53
+https://l.facebook.com/l.php 49 49
+https://googleads.g.doubleclick.net/pagead/ads 45 45
+http://localhost:8100 34 34
+http://localhost:8100/order-status/193 32 32
+http://localhost:8100/login 29 29
+http://localhost:8100/orders 24 24
+https://lm.facebook.com 20 20
+https://m.facebook.com 14 14
+http://localhost:8100/order-status/226 13 13
+https://m.facebook.com/home.php 10 192
+https://lm.facebook.com/l.php 9 9
+http://localhost:8100/cart 8 14
+https://www.obejor.com//index.php 8 8
+https://www.obejor.com 7 7
+https://www.froala.com/online-html-editor 7 7
+https://m.facebook.com 5 5
+https://bit.ly/2kSFiXw 4 4
+http://localhost:8100/saved-items 4 7
+http://www.obejor.net/index.php 4 4
+http://localhost:8100/tabs/category 3 56
+https://t.co/MpYcXylFKS 1 1
+https://obejorblog.com/infinix-note-8-full-specifications-best-price-in-nigeria/ 1 1
+https://www-pulse-ng.cdn.ampproject.org/v/s/www.pulse.ng/bi/finance/finance-nigerian-banks-lost-n1206-billion-to-fraud-and-forgery-in-6-months/przvt2z.amp 2 2
+https://www.obejor.com/obejorstore_backend/ 1 1
+http://www.obejor.com/index.php 0 79
+https://bit.ly/2l4KmrA 2 2
+http://localhost:8100/product/810 3 3
+https://bit.ly/2kDHoKI 2 2
+https://www.newsnow.co.uk/h/Sport/Football/La+Liga/Barcelona 1 1
+https://t.co/Khde7XmKDK 1 1
+https://bit.ly/2l2l2Te 1 1
+https://googleads.g.doubleclick.net/pagead/html/r20190924/r20190131/zrt_lookup.html 1 1
+https://www.vanguardngr.com/2019/09/2023-election-campaign-posters-of-tinubu-oshiomhole-el-rufai-handiwork-of-pdp-apc/ 1 1
+https://www.obejor.com/index.php 1 1
+https://brandongaille.com/list-59-catchy-shopping-slogans-and-taglines/ 1 1
+https://obejorblog.com 3 3
+https://naijaknowhow-net.cdn.ampproject.org/v/s/naijaknowhow.net/online-shopping-sites-in-nigeria/ 1 1
+https://punchng.com/2019-bbnaija-cindy-leaves-house-in-surprise-eviction/ 1 1
+https://bit.ly/2kSKr1M 2 2
+https://conversationstartersworld.com/questions-to-ask-a-girl/ 1 1
+https://t.co/25UogRXO1F 1 1
+https://techviews.com.ng/tecno-phantom-8/ 1 1
+http://handdigitalmobi.com 2 2
+http://localhost:8100/product/2346 3 3
+https://bit.ly/2l321QC 3 3
+https://lm.facebook.com 2 2
+https://m.apkpure.com/jumia-online-shopping/com.jumia.android/download 1 1
+https://www.correctng.com/countries-with-the-highest-number-of-scammers-in-the-world-10/ 1 1
+https://twitter.com 1 1
+https://bit.ly/2m8MRJJ 1 1
+https://mobile.facebook.com 2 2
+https://imasdk.googleapis.com/js/core/bridge3.335.0_en.html 3 3
+http://localhost:8100/tabs/account 3 3
+https://www.w3schools.com/js/tryit.asp 1 1
+https://www.nairaland.com/5436669/7-essential-office-electronics-gadgets 1 1
+https://mobilityarena.com 1 1
+https://t.co/NWjqNe8gO5 3 3
+https://bit.ly/2mbSsik 1 1
+https://t.co/NWjqNdQFpv 1 1
+https://t.co/dqhewLUr3H 1 1
+https://www.lifehack.org/525095/8-the-best-places-buy-used-goods-online 2 2
+https://www.premiumtimesng.com/news/top-news/354853-olisa-metuh-how-i-shared-n400-million-received-from-dasuki.html/amp/ 1 1
+http://192.168.172.1:8100/tabs/support 1 1
+https://www-pulse-ng.cdn.ampproject.org/v/s/www.pulse.ng/lifestyle/womens-health/apples-latest-airpods-headphones-are-on-sale-for-the-lowest-theyre-ever-been-on/g5ndv6p.amp 1 1
+http://localhost:8100/order-details 2 4
+http://localhost:8100/product/344 3 5
+https://bit.ly/2kDPpPO 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 9
+lb8 5
+https+//www.obejor.com.ng/samsung-galaxy-tab-a-10.1-2016-with-s-pen-p585-10.1-inch-16gb-3gb-4g-lte 3
+puovoir3+lb8+plus 1
+https+//www.obejor.com.ng/samsung-galaxy-tab-s4-10.5%25e2%2580%259d+64gb+4gb+-13mp-rear-with-flash-8mp-selfie-7300mah-4g-lte 1
+obejor 1
+amazon 1
+https+//www.obejor.com.ng/samsung-galaxy-tab-e-sm-t561-tablet-9.6-inch-wifi-3g 1
+https+%2f%2fwww.obejor.com.ng%2findex.php%3froute%3dproduct%2fcategory%26path%3d367_374_397 1
+tecno+spark+3 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 16
+https 6
+lb8 6
+//www.obejor.com.ng/samsung-galaxy-tab-a-10.1-2016-with-s-pen-p585-10.1-inch-16gb-3gb-4g-lte 3
+-13mp-rear-with-flash-8mp-selfie-7300mah-4g-lte 1
+//www.obejor.com.ng/samsung-galaxy-tab-s4-10.5%25e2%2580%259d 1
+amazon 1
+3 1
+puovoir3 1
+4gb 1
+plus 1
+tecno 1
+spark 1
+obejor 1
+64gb 1
+%2f%2fwww.obejor.com.ng%2findex.php%3froute%3dproduct%2fcategory%26path%3d367_374_397 1
+//www.obejor.com.ng/samsung-galaxy-tab-e-sm-t561-tablet-9.6-inch-wifi-3g 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+206 317 4700523
+504 128 46775
+500 47 3807
+302 3083 61520
+404 1059 35426140
+301 316 64865
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 209
+/Samsung%20Galaxy%20J6+ 1 -
+/itel%20It5616%202.4%22%20Screen,%202500mAh%20Big%20Battery,%208MB%20ROM+8MB%20ROM,%20Bright%20Torch,%20Java%20Support%20Dual%20SIM%20Mobile 3 -
+/img/y90-style-img-md.jpg 1 https://www.obejor.com.ng/obejorstore_backend/
+/Infinix%20Zero%206 2 -
+/product/search&search=%20%09century%20stabilizer%202000va&description=true 1 -
+/Itel%20A14%20-%20Android%208.1%20-%204%22%20Screen%20-%20512MB%20RAM,%208GB%20ROM%20-%20Dual%20Sim%20+%20Camera 2 -
+/fexda-bl-25jt-battery-for-tecno-2500mah-capacity 1 -
+/fexda-bl-21bi-battery-for-itel-phone-it1503-it205 4 -
+/iPhone%20Xs%20Max%205D%20Full%20Screen%20Protector 1 -
+/hp-elitebook-840-g4-7th-gen-intel-corei7 1 -
+/apple%20imac%2027'%20-%20intel%20core%20i5%20,(silver)) 2 -
+/Lenovo%20ThinkPad%20X1%20Carbon%20G6%20Intel%20i7-8650U%20%2016GB/512GB-SSD%20%2014inch%20FHD%20IPS%20/Win10%20Pro%2064 2 -
+/Samsung%20Galaxy%20J4+ 1 -
+/bl-5car-battery 1 -
+/Lava%20Z81%20-32GB%20+%203GB%20%205.7%22%20HD%20+%20IPS%20(Dual%20SIM)%2013MP%20Rear%2013MP%20Front%20Android%208.1%20Oreo%204G%203000%20MAh 1 -
+/catalog/view/theme/journal2/lib/jquery.ui/images/ui-bg_glass_65_ffffff_1x400.png 2 https://www.obejor.com.ng/catalog/view/theme/journal2/lib/jquery.ui/jquery-ui-slider.min.css
+/samsung/https://www.obejor.com.ng/index.php 4 http://www.obejor.com.ng/samsung/samsung-galaxy-a30-6.4-inch-4gb-ram-64gb-rom-android-9.0-pie-16mp-5mp-16mp-4g-lte-dual-sim-smartphone
+/Mini-x-thermal-printer-Reciept-printer 1 -
+/Infinix%20NOTE%204%20(X572)%205.7-Inch%20IPS%20LCD%20(16GB%20ROM%202GB%20ROM)%20Android%207.0%20Nougat,%2013MP%20+%208MP%20Dual%20SIM%204G%20Smartphone 1 -
+/Oppo%20A5s%20(4GB%20RAM,64GB%20ROM)%206.2-Inch,%2013MP%20+%202MP%20Rear%20Camera%20Dual%20SIM%204,230%20MAh%204G%20Smartphone 2 -
+/infinix-hot-7-x624b-6.2-inch-32gb-rom-2gb-ram-13mp-8mp-dual-sim-face-unlock-3g-smartphone-midnight-black-4000mah-battery 1 -
+/home/obejorng/public_html/image/catalog/iphones/Apple%20iPhone%2011%20Pro%20(64GB)%20black%20obejor%201.jpg 115 https://www.obejor.com.ng/obejorstore_backend/index.php
+/JBL%20Charge%202+ 15 -
+/https://www.obejor.com.ng/index.php 8 http://www.obejor.com.ng/samsung
+/HD%20720P%20Backup%20Camera%20and%20Monitor%20One%20Power%20Kit%20for%20Cars,Campers,Trucks%20Easy%20Installation%20Driving/Reversing%20High-Speed%20Observation%20Parking%20Asistance%20System 1 -
+/product/search-09century20stabilizer%202000va&description=true 1 -
+/apple-iphone-xs-max-4gb-ram-64gb-rom-ios-12-12mp-12mp-7mp 1 -
+/GIONEE%20P8M%20(1GB,8GB%20ROM) 1 -
+/Itel%20P13%20PLUS-5.5%22%20FULLSCREEN%20DISPLAY-8GB%20ROM%20+%201GB%20RAM%20-5MP%20+%202MP%20-GPS-4000MAH%20-ANDROID%208.1 2 -
+/Infinix%20Hot%206%20Pro%20(X608)%2032GB 1 -
+/apple-iphone-11-pro-max-12mp-tof-3d-camera-6-5-inch-64gb-rom-4gb-ram-grey 3 -
+/product/search09century%20stabilizer%202000va&description=true 1 -
+/dell-alienware-17-r4-i7-6700hq-16gb-1tb-plus-128gb-ssd-fhd-1080-gtx1070-8gb-vr-ready 1 -
+/img/y90-performance-img1-md.png 1 https://www.obejor.com.ng/obejorstore_backend/
+/Jbl%20XTREME-2%20Portable%20Bluetooth%20Speaker 1 -
+/%20fexda-BL-45at-battery-for-tecno-L6 1 -
+/image/undefined 23 http://localhost:8100/order-status/193
+/fexda-n9000-battery-for-samsung-galaxy-phone-note-3 1 -
+/Ozium%20804281-2%20Regular%20(4.5oz)%20-%202%20Pack%20Smoke%20&%20Odors%20Eliminator%20Gel,%20Original%20Scent 2 -
+/Samsung%20Galaxy%20A2%20Core%205-Inch%20HD%20(1GB,16GB%20ROM)%20Andorid%209.0%20(Pie)%205MP%20+%205MP%20Dual%20SIM%202600mAh%20-%20Blue 1 -
+/Samsung%20Galaxy%20A6 1 -
+/ASUS%20VivoBook%20Max%20X541SA-PD0703X%2015.6%20inches%20(%20500GB%20Hard%20Drive%20&%204GB%20Ram)%20%20Windows%2010 1 -
+/itel%206910%204.0%20Inch%20(8MB%20ROM%20+%208MB%20RAM) 2 -
+/apple-touch-icon.png 17 -
+/Huawei%20MediaPad%20T3%207.0 1 -
+/catalog/view/theme/journal2/lib/jquery.ui/images/ui-icons_222222_256x240.png 2 https://www.obejor.com.ng/catalog/view/theme/journal2/lib/jquery.ui/jquery-ui-slider.min.css
+/hp-elitebook-840-g4-1ge45utaba-intel-core-i7-7500u-8gb-ram-256-hard-drive 1 -
+/Apple%20MacBook%20Pro%20%22Core%20i7%22%202.7%20Touch%20Bar%20-%208th%20Gen%20Intel%20Core%20i7-8559U%20up%20to%204.50GHz,%2016GB%20LPDDR3,%20512GB%20SSD,%2013.3%22%20Retina%20True%20Tone%20Display%20-%20Space%20Gray%20A1989%20MR9Q2LL/A%20BTO/CTO%20Mid-20 1 -
+/Apple-iPhone-X-64GB-3GB-5.88inches-2716mAh%20battery 1 -
+/pisen-dual-usb-ipad-charger-ts-c069-24a-uk-standard 1 -
+/https://www.obejor.com.ng/catalog/view/javascript/purpletree/common.js 4 http://www.obejor.com.ng/samsung
+/gionee-a1-5.5inches-4gb-ram-32gb-rom-dual-sim-gold-4010-mah-battery 1 -
+/apple-iphone-11-64gb-rom-4gb-ram-6-1-inch-3000mah-5000mah-12mp-tripple-12mp-rear-camera-red 1 -
+/catalog/view/theme/journal2/lib/hover-intent/jquery.hoverintent.min.js 1 -
+/fexda-bl-18bt-battery-for-tecno-p6 1 -
+/Itel%20A33,%20Android%208.1,5.0%20Screen,Finger%20Print%20Sensor,16GB%20ROM%20+%201GB%20ROM,2200mAh%20Battery,2.0MP%20Selfie5.0MP%20Rear%20Camera-Black%20&%20Gold 2 -
+/Samsung%20GALAXY%20A80(6.7'',Andriod%209.0%7bpie%7d,8GB/128GB,MAIN%20CAMERA:TRIPLE 1 -
+/product/search-09-century20stabilizer2000va&description=true 1 -
+/Lenovo%20ThinkPad%20T570%2015.6%20inches%20Core%E2%84%A2%20i7%20Processor%207500U%20(8GB%20Ram%20&%20256GB%20Hard%20Drive) 2 -
+/mini-8800-stereo-bluetooth-headset 71 -
+/LG 1 -
+/fexda-bl-18ai-itel-battery1800mah-capacity 1 -
+/.well-known/assetlinks.json 1 -
+/catalog/view/theme/journal2/lib/jquery.ui/images/ui-bg_glass_100_fdf5ce_1x400.png 2 https://www.obejor.com.ng/catalog/view/theme/journal2/lib/jquery.ui/jquery-ui-slider.min.css
+/Infinix%20Hot%207%20(X624B)%2032GB%20+%202GB%20RAM 3 -
+/image/cache/catalog/mobo%203.jpg 2 -
+/carousel-1077819713-0 1 -
+/Dell%20Xps%209360%20Laptop,%2013.3 3 -
+/Oraimo%20OCD-D101%20Twin%20Head%20Micro%20&%20Lighting%20Cable%20-%202A%20-%20Black 1 -
+/vivo-y15-2019-6.35-hd-4gb-ram-64gb-rom-front-camera-16mp-triple-rear-3cameraS-13-8-2mp-dual-sim-5000mah 3 -
+/Kenwood%20Digital%20Wireless%20Walkie%20Talkie%20NX-220/NX-320 2 -
+/Samsung%20Galaxy%20S9 1 -
+/product/search09century20stabilizer%202000va&description=true 1 -
+/catalog/view/theme/journal2/lib/jquery.ui/images/ui-bg_glass_100_f6f6f6_1x400.png 2 https://www.obejor.com.ng/catalog/view/theme/journal2/lib/jquery.ui/jquery-ui-slider.min.css
+/Zealot 1 -
+/Infinix%20Note%205%20Stylus%20(X605)%2064GB%20+%204GB%20RAM 1 -
+/Portable%20Travel%20Iron%20%20DMWD%20Portable%20Handheld%20Electric%20Steam%20Brush%20Clothes%20Mini%20Portable%20Travel%20Iron%20Garment%20Steamer,clothes%20steamer 1 -
+/huawei-y6-2019-5.7-inches-2gb-ram32gb-rom-android-8.0-oreo-13-mp-8-mp-dual-sim-4g-3000-mah-battery 1 -
+/samsung/https://www.obejor.com.ng/catalog/view/javascript/purpletree/common.js 2 http://www.obejor.com.ng/samsung/samsung-galaxy-a30-6.4-inch-4gb-ram-64gb-rom-android-9.0-pie-16mp-5mp-16mp-4g-lte-dual-sim-smartphone
+/%20Apple%20Macbook%20Pro%2013''%20Corei7%203.5GHZ%20Silver(2017)%20256GB%20-%2016GB%20RAM 3 -
+/img/y90-face-img1-md.png 1 https://www.obejor.com.ng/obejorstore_backend/
+/samsung-u-flex-headphones-eo-bg950cbegae 9 -
+/samsung%2049 4 -
+/HP-EliteBook-830 1 -
+/KTS652A%20BLUETOOTH%20WIRELESS%20SPEAKER 1 -
+/samsung/https://www.obejor.com.ng/image/catalog/Obejor/sponsors/air2_235x215.png 2 http://www.obejor.com.ng/samsung/samsung-galaxy-a30-6.4-inch-4gb-ram-64gb-rom-android-9.0-pie-16mp-5mp-16mp-4g-lte-dual-sim-smartphone
+/catalog/view/theme/journal2/lib/jquery.ui/images/ui-bg_gloss-wave_35_f6a828_500x100.png 2 https://www.obejor.com.ng/catalog/view/theme/journal2/lib/jquery.ui/jquery-ui-slider.min.css
+/activities.php 1 -
+/dell-latitude-e-7470-core-i7-6600u-8-gb-256-gb-ssd 1 -
+/dasdasd 1 -
+/samsung/https://www.obejor.com.ng/image/catalog/Obejor/sponsors/Glo_button.png 2 http://www.obejor.com.ng/samsung/samsung-galaxy-a30-6.4-inch-4gb-ram-64gb-rom-android-9.0-pie-16mp-5mp-16mp-4g-lte-dual-sim-smartphone
+/HP-Laptop-ProBook-450-G3-(W0S82UT 1 -
+/Samsung%20Galaxy%20S9+%20(128GB) 6 -
+/htc-10-evo-5.5-inch-3gb-32gb-160mp-camera-fingerprint-smartphone-andriod-70-3200-mah-battery 1 -
+/knockies_-_3-in-1_qi_fast_wireless_charging_station_compactable_with_iphone,_samsug_s10_series_2105_1 2 -
+/%20fexda-bl-25bt-battery-for-tecno-phone-t465-t5282800mah-capacity 1 -
+/hp-elitebook-x360-1030-g2-intel-core-i5-4gb-ram-256gb-ssd 2 -
+/catalog/view/theme/journal2/lib/jquery.ui/images/ui-icons_ef8c08_256x240.png 2 https://www.obejor.com.ng/catalog/view/theme/journal2/lib/jquery.ui/jquery-ui-slider.min.css
+/Mega%20Racer%2035in%20/%20880mm%20JDM%20Style%20Sun/Moon%20Roof%20Sunroof%20Moonroof%20Smoke%20Rain%20Shield%20Vent%20Wind%20Deflector%20Windflector%20Visor 1 -
+/home/obejorng/public_html/image/catalog/iphones/apple-iphone-xr-61-3gb-ram-256gb-rom-ios.jpg 13 https://www.obejor.com.ng/obejorstore_backend/index.php
+/sandisk-16gb-memory-adapter-1745-1 3 -
+/emerson-liebert-ps1000rt3-230-psi-line-interactive-ups-1000va/900w 1 -
+/gionee-p8m-5oinch-android-70-nougat-2mp-selfie-camara-5mp-rear-camara-1gb-ram8gb-rom-4000mah-battery 1 -
+/JeCar%20Fuel%20Door%20Cover%20Locking%20Gas%20Cap%20Cover%20for%202007-2018%20Jeep%20Wrangler%20JK%20&%20Unlimited 2 -
+/lava-z92-6.22-inches-android-8.1-oreo-3gb-ram-32gb-rom-3260-mah-battery 3 -
+/Itel%20A55%206.0%22%20Screen%20(1GB%20+%2016GB%20ROM),%20Android%E2%84%A2%209%20Pie,%208+8MP%20Dual%20Camera,%20Fingerprint%20&%20Face%20ID,%203000mAh 2 -
+/dell-inspiron-15-5000-5570-intel-core-i7-8550u-12gb-ddr4-1tb-hdd-156-full-hd-touchscreen-led-silver-laptop-2019 1 -
+/product/search-09-century20stabilizer-2000va&description=true 1 -
+/apple-iphone-11-smartphone-6-1-inch-4gb-ram-128gb-rom-12mp-12mp-dual-camera-4g-3046-mah-battery 2 -
+/Panasonic%20HC-WXF991K%204K%20Cinema-Like%20Camcorder,%2020X%20Leica%20DICOMAR%20Lens,1/2.3%22%20BSI%20Sensor%205-Axis%20Hybrid%20O.I.S,%20HDR%20Mode%20EVF,WiFi,Multi%20Scene%20Twin%20Camera. 1 -
+/Gionee%20S10%20Lite%205.2%20Inch%20HD%204GB%20RAM%2032GB%20ROM%2016MP%20+%2013MP%20Android%207.1 1 -
+/samsung/https://www.obejor.com.ng/image/catalog/Obejor/sponsors/HP_logo_630x630.png 2 http://www.obejor.com.ng/samsung/samsung-galaxy-a30-6.4-inch-4gb-ram-64gb-rom-android-9.0-pie-16mp-5mp-16mp-4g-lte-dual-sim-smartphone
+/huawei-media-pad-t3-10-inches-android-60-tablet-2gb-ram-16gb-rom-4800mah-battery 2 -
+/MINI%20X%20THERMAL%20PRINTER 1 -
+/wp-login.php 1 http://www.obejor.com.ng/wp-login.php
+/Infinix%20Hot%207%20Pro%20(X625B)%2032GB%20+%203GB%20RAM 2 -
+/catalog/view/theme/journal2/lib/jquery.ui/images/ui-bg_flat_10_000000_40x100.png 2 https://www.obejor.com.ng/catalog/view/theme/journal2/lib/jquery.ui/jquery-ui-slider.min.css
+/apple-airpods-wireless-earphone-headphones 39 -
+/gionee-f205-lite-5.47-hd-ips-display-16rom-1gb-ram-8mp-5mp-selfie-camera-android-81-os 1 -
+/LG%20HBS910%20Wireless%20Headphone%20Bluetooth 1 -
+/battery-for-galaxy-s4-siv-gt-i9500 1 -
+/itel%20A32F%20Android%208.1,%208GB%20ROM+1GB%20RAM,%20Figerprint,%20Dual%20SIM%20Smartphone 3 -
+/Lisle%2081810%205%22%20-%205/8%22%20Carbide%20Scraper 2 -
+/Lisle%2022930%203/8%22%20Low%20Profile%20Disconnect 2 -
+/catalog/view/theme/journal2/lib/jquery.ui/images/ui-bg_highlight-soft_100_eeeeee_1x100.png 2 https://www.obejor.com.ng/catalog/view/theme/journal2/lib/jquery.ui/jquery-ui-slider.min.css
+/vivo%20y90%202GB%2016GB 2 -
+/catalog/view/theme/journal2/lib/jquery.ui/images/ui-bg_highlight-soft_75_ffe45c_1x100.png 2 https://www.obejor.com.ng/catalog/view/theme/journal2/lib/jquery.ui/jquery-ui-slider.min.css
+/Lenovo%20Wired%20Keyboard%20&%20Mouse%20Combo 1 -
+/product/search-09-century20stabilizer%202000va&description=true 1 -
+/dell-inspiron-15-intel-core-i3-7130u-8gb-ram-1tb-15-5558 1 -
+/infinix-hot7-x624-6-2-inch-android-V8.1-Oreo-16gb-rom-1gb-ram-13mp-8mp-dual-sim-face-unlock-3g-smartphone-midnight-black-4000mah-battery 2 -
+/robots.txt 247 -
+/Infinix%20Hot%206%20(X606)%2016GB%20+%201GB%20RAM 4 -
+/catalog/view/theme/journal2/lib/jquery.ui/images/ui-icons_ffffff_256x240.png 2 https://www.obejor.com.ng/catalog/view/theme/journal2/lib/jquery.ui/jquery-ui-slider.min.css
+/infinix-hot7-pro-x625b-62-inch-hd-3gb32gb-rom-android-9-pie-13mp-2mp-13mp-2mp-dual-sim-4g-smartphone-4000mah-battery 3 -
+/dell-xps-9360-laptop13,3inches-8th-gen-intel-core-i7-8550-16gb-ram-512-gb-ssd-windows-10 1 -
+/https://www.obejor.com.ng/image/catalog/Obejor/sponsors/air2_235x215.png 4 http://www.obejor.com.ng/samsung
+/apple_ipad_pro_12.9_inch_wi-fi_+_4g_-256gb_-_(2nd_generation_mid_2017)_1774_1 1 -
+/itel-bl-19ci-3000mah-battery 1 -
+/fexda-gionee-pioneer-p6-battery 2 -
+/Msi%20NOTEBOOK%20TRUE%20GAMING%228Th%20Gen%20Intel%20Corei7,2.8GHz,2TB%20HDD+256GB%20SSD,16GB,Windows%2010%20Pro 2 -
+/img/y90-wideangle-after-md.jpg 1 https://www.obejor.com.ng/obejorstore_backend/
+/Samsung%20Galaxy%20S10+ 2 -
+/Childrens'%20Home%20School%20Multipurpose%20Activities%20Chair%20/Table%20Set 2 -
+/CITAN%202017%20ONWARDS%20STAINLESS%20STEEL%20GEAR%20BOX%20&%20CASTER%20PROTECTION%20SHERIFF 1 -
+/APPLE%20iWATCH%20SERIES%204%22%20MTUJ2LL/A%2040MM%20GPS 1 -
+/itel-1408-phone-battery-bl-30pi3000mah-capacity 1 -
+/apple-iphone-8-plus-64gb-3gb-5.5inch--2691-mah-battery 1 -
+/infinix-hot-6x-x623-6.2-inch-hd-ips-lcd-13mp-2mp-4000mah-2gb-ram-16gb-rom-android-8.1-oreo-midnight-black 1 -
+/SAMSUNG%20J7 1 -
+/Kenwood%20Transceiver%20Walkie%20Talkie%20Mobile%20Car%20CB%20Radio%20NX820/720 1 -
+/catalog/view/theme/journal2/lib/jquery.ui/images/ui-icons_ffd27a_256x240.png 2 https://www.obejor.com.ng/catalog/view/theme/journal2/lib/jquery.ui/jquery-ui-slider.min.css
+/index.php 95 -
+/fexda-bl-20fx-battery-for-infinix-hot-x507 2 -
+/https://www.obejor.com.ng/image/catalog/Obejor/sponsors/HP_logo_630x630.png 4 http://www.obejor.com.ng/samsung
+/samsung/https://www.obejor.com.ng/image/catalog/Obejor/sponsors/MTN_Group_logo.png 2 http://www.obejor.com.ng/samsung/samsung-galaxy-a30-6.4-inch-4gb-ram-64gb-rom-android-9.0-pie-16mp-5mp-16mp-4g-lte-dual-sim-smartphone
+/LG%20Electronics%20Tone%20Infinim%20HBS-900%20Bluetooth%20Wireless%20Stereo%20Headset 1 -
+/catalog/view/theme/journal2/lib/jquery.ui/images/ui-icons_228ef1_256x240.png 2 https://www.obejor.com.ng/catalog/view/theme/journal2/lib/jquery.ui/jquery-ui-slider.min.css
+/better-sound-s207-bluetooth-wireless-speaker 2 -
+/OPPO%20CPH1923%20A1K%202/32GB%20SMART%20PHONE 1 -
+/Infinix%20Hot%207%20(X624)%2016GB%20+%201GB%20RAM 7 -
+/Itel%20it5625%20Phone%20with%20Triple%20Sim%20Card-8MB%20ROM%20+%208MB%20RAM-2.8%22%20Display-2500MAH%20Battery 1 -
+/i9s-apple-wireless-airpods 44 -
+/hp-250-g7-3qm21ea-core-i3-15.6-4gb-ram-500gb-hdd-1381-1 1 -
+/Samsung%20Galaxy%20S9+%20(64GB) 1 -
+/Itel%20P33%20PLUS%206.0%22%20Android%208.1,%2016GB+1GB%20RAM,%205000mAh 2 -
+/apple-iphone-11-smartphone-6-1-inch-4gb-ram-256gb-rom-12mp-12mp-dual-camera-4g-3046-mah-battery 1 -
+/Tecno%20Phantom%208-6GB%20RAM-64GB%20ROM12MP%20-13MP%20+%2020MP-%20Android%207.0Nougat%204G%20Smartphone 1 -
+/product/search=%20%09century%20stabilizer%202000va&description=true 1 -
+/Samsung%20Galaxy%20A80%206.7 1 -
+/google-pixel-3 1 -
+/Samsung%20Galaxy%20S%208+%20(4%20GB%20RAM/64%20GB%20ROM)%2012MP+8MP,%20%204G%20LTE%20%203500MAH%20Battery 1 -
+/catalog/view/theme/journal2/lib/jquery.ui/images/ui-bg_diagonals-thick_18_b81900_40x40.png 2 https://www.obejor.com.ng/catalog/view/theme/journal2/lib/jquery.ui/jquery-ui-slider.min.css
+/img/y90-cpu-img1-md.png 1 https://www.obejor.com.ng/obejorstore_backend/
+/Children's%20Watch 1 -
+/wcsstore/HPStorefrontAssetStore/img/li.gif 3 https://www.obejor.com.ng/obejorstore_backend/
+/IPELY%20Universal%20Car%20Back%20Seat%20Hook%20for%20Bag%20Purse,Cloth%20&%20Grocery%20(Beige%20-Set%20of%202) 1 -
+/workout-machinesmini-stepper-machine-workout-step-trainer 3 -
+/Lenovo%20ThinkPad%20T480%20%2014.0%20inches%20(8GB%20RAM%20&%20256%20GB%20Hard%20Drive) 2 -
+/hp-elitebook-folio-1040-g3-core-i7-6600u-8gb-ram-256gb-ssd-eb011199-v2w21ua 1 -
+/dell-xps-15inch-9560-7th-gen-intel-corei7-2.8ghz-512gb-ssd-16gb-ram 1 -
+/ocmultivendor/ 1 https://www.obejor.com.ng/
+/fexda-fexda-bl-30bx-battery-for-infinix-phone 1 -
+/Oraimo%20OEB-E35S%20Wireless%20Bluetooth%20Headphones/%20Earphones 12 -
+/catalog/view/theme/journal2/lib/jquery.ui/images/ui-bg_diagonals-thick_20_666666_40x40.png 2 https://www.obejor.com.ng/catalog/view/theme/journal2/lib/jquery.ui/jquery-ui-slider.min.css
+/Itel%20A14%20MAX%20-%20Android%208.1%20-%204%22%20Screen%20-%20512MB%20RAM,%2016GB%20ROM%20-%20Dual%20Sim%20+%20Camera 1 -
+/dell-inspiron-5379-13-5000-2-in-1-133-8-gb-ram-1-tb-hard-drive 1 -
+/HTC%20U11%20Life%205.2%20Inch%204G%20LTE%20Android%20Mobile%20Phone%203GB%20RAM+32GB%20ROM%20Smartphone%203000%20mAh%20battery 1 -
+/ASUS%20ROG%20ZEPHYRUS%20M%20GM501%20ULTRA%20SLIM%20GAMING(16%20GB%20/%201TB)%20Window%2010%20Home 2 -
+/%20s103-ear-hook-headset-wireless-bluetooth-earphone 2 -
+/https://www.obejor.com.ng/image/catalog/Obejor/sponsors/Glo_button.png 4 http://www.obejor.com.ng/samsung
+/%20Lava%20Iris%2051,%208GB%20+%201GB%205.0%22%20HD%20IPS%20Dual%20SIM%208GB%20ROM,%201GB%20RAM%20Android%208.1%20Oreo 2 -
+/apple-ipad-air2019 1 -
+/Microsoft%20Surface%20Pro%206%20CORE%20I5%20128GB%208GB%20Multi-Touch%2012.3'' 2 -
+/samsung-bluetooth-headset-level-u-pro-2106-1 9 -
+/product/search-09-century-stabilizer-2000va&description=true 1 -
+/Apple-iPhone 1 -
+/KISONLI%20R3%20BLUETOOTH%20WIRELESS%20SPEAKER 1 -
+/fexda-battery-for-gionee-phone-p5w 1 -
+/obejor.com 28 -
+/img/y90-wideangle-before-md.jpg 1 https://www.obejor.com.ng/obejorstore_backend/
+/apple-iphone-11-pro-128gb-4gb-ram-5-8-inches-3110-mah-battery 1 -
+/catalog/view/theme/journal2/lib/rs-plugin/assets/transparent.png 1 https://www.obejor.com.ng/catalog/view/theme/journal2/lib/rs-plugin/css/settings.css
+/%20fexda-bl-36ai-battery-for-itel-phone-it1508 1 -
+/https://www.obejor.com.ng/image/catalog/Obejor/sponsors/MTN_Group_logo.png 4 http://www.obejor.com.ng/samsung
+/image/cache/catalog/HpLaptop1/HP%20EliteBook%20X360%201030%20G2%20%E2%80%93%2013.3%20%E2%80%93%20Core%20i7%202.9GHz%201EN91EA 3 https://www.obejor.com.ng/obejorstore_backend/index.php
+/Apple%20Certified%20Homepod%20Wireless%20Smart%20Speaker%20With%20Siri%20-%20White%20&%20Black 1 -
+/index.php%3Froute%3Dproduct/category%26path%3D254_285_289 1 -
+/Lava%20Z81-5.72%20Hd+,%2016GB%20ROM%20+%202GB%20RAM%20,%2013MP%20+%2013MP%20,%20Face%20Unlock,%20Fingerprint,%204G%20LTE,%203000MAH 3 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 1423
+197.210.28.16 3791 8218 80187504 20190921171942
+197.210.44.147 3547 9623 96957617 20190919171746
+197.210.64.77 3058 7324 72724685 20190920170731
+197.210.44.164 2850 7711 74200779 20190923174428
+197.210.64.91 2749 6681 68010210 20190924171539
+197.210.64.90 2018 6065 62346542 20190927171513
+197.210.64.104 1669 6963 79005720 20190927104949
+197.210.65.156 1657 7105 85816271 20190925172107
+197.210.64.74 1577 5042 53961946 20190930172107
+197.210.60.68 1108 4427 51116716 20190928172412
+197.210.44.221 931 2436 25892107 20190922151402
+41.58.211.93 595 2323 49777241 20190930160827
+41.58.53.60 378 1504 19961904 20190926162713
+197.210.64.56 277 692 7691240 20190925092325
+197.210.44.65 271 444 2494649 20190922212205
+197.210.62.20 226 463 4235584 20190921194144
+41.203.73.182 213 673 9021266 20190928153318
+41.58.192.37 190 824 13315349 20190925155842
+41.203.78.164 188 2515 34850840 20190930210132
+41.58.223.51 179 632 7310711 20190924153528
+130.255.161.242 144 2857 33473806 20190930155336
+41.203.73.179 143 923 12819552 20190929193235
+197.210.47.210 135 300 2983081 20190921210044
+41.203.78.167 134 2235 33884671 20190930210452
+41.58.75.39 125 588 7957108 20190923153621
+105.112.104.185 7 171 3272025 20190928052628
+66.220.149.37 0 1 9668 
+195.201.220.9 12 262 3292898 20190927010601
+197.210.55.47 0 1 4818 
+173.252.87.6 3 95 1206037 20190927110814
+105.112.42.77 11 136 1965888 20190928064405
+105.112.29.166 4 184 2423988 20190927124240
+102.134.113.97 14 202 2975431 20190928102242
+173.252.127.39 3 54 948172 20190927112909
+105.112.66.129 26 34 307647 20190929080035
+94.130.67.180 4 4 68378 20190923145822
+54.89.3.29 1 1 226117 20190924143143
+41.190.2.246 1 24 281880 20190929160620
+197.210.53.37 4 11 133409 20190930174732
+197.210.226.93 3 51 550288 20190928201848
+31.13.127.13 0 43 850295 
+197.210.57.229 4 129 1667544 20190930152539
+104.222.43.28 1 1 540742 20190920000508
+88.99.195.200 1 1 23505 20190923145156
+197.210.52.210 0 1 20568 
+197.210.226.165 1 1 28463 20190930082634
+105.112.58.210 1 1 25569 20190929211113
+197.210.55.60 2 86 1118531 20190929102021
+197.210.57.7 15 106 1389526 20190927124134
+197.210.226.120 5 92 1465415 20190922173702
+99.232.21.119 3 3 94129 20190923150026
+205.237.91.211 1 1 18334 20190927230835
+168.253.116.154 4 192 2768375 20190929181449
+197.210.58.90 3 66 1004575 20190927221417
+69.171.251.47 2 29 386781 20190927113955
+66.249.81.70 5 202 2951064 20190929193101
+105.112.44.8 10 194 2601059 20190927231046
+66.249.83.72 1 11 122163 20190919191635
+173.252.95.32 9 168 3024982 20190927110811
+114.4.222.197 0 1 17530 
+197.210.227.134 3 182 2660829 20190928205509
+105.112.45.109 6 116 1796765 20190929191513
+197.210.8.73 16 159 2403808 20190924101129
+105.112.98.186 12 66 1008650 20190930093845
+173.252.95.21 7 249 3692688 20190927110017
+197.210.54.43 1 21 389052 20190930152731
+34.73.90.1 33 33 553060 20190930182428
+197.210.58.130 0 53 647854 
+105.112.105.254 2 3 322195 20190930211451
+41.184.237.185 4 162 2209740 20190927124255
+197.210.227.6 7 147 2049083 20190930215333
+197.210.62.45 11 162 2600299 20190929201930
+41.203.78.128 4 146 2769857 20190920135301
+105.112.96.122 6 149 2536308 20190929055909
+197.210.47.219 6 144 2248339 20190929114452
+173.252.95.43 5 200 3936056 20190927114257
+197.210.58.11 2 2 38418 20190929132212
+38.99.62.94 1 1 43861 20190930160810
+173.252.127.23 4 112 1609580 20190924154810
+66.102.6.108 0 1 26903 
+23.239.180.97 0 1 2403 
+14.120.123.191 4 4 172375 20190926064629
+105.112.30.20 4 4 43906 20190929181733
+69.164.206.42 5 233 4268068 20190919152854
+197.210.57.99 8 146 2208631 20190928122236
+105.112.26.73 1 3 41735 20190928112540
+104.222.43.192 0 1 2403 
+197.210.54.189 0 27 362704 
+82.145.221.32 28 653 10409966 20190919203815
+23.239.180.244 0 1 2403 
+173.252.95.46 4 95 2364711 20190927124238
+74.208.169.168 28 202 3388248 20190923085833
+105.112.43.201 3 60 520987 20190927195257
+173.252.87.18 4 52 1023758 20190927113547
+105.112.112.85 16 513 6206386 20190928213325
+41.190.2.179 8 95 1441014 20190928181935
+197.210.52.197 1 16 450659 20190929125252
+197.210.54.32 1 1 30460 20190927191957
+197.210.57.75 4 66 1198554 20190929141909
+197.210.58.206 0 17 150743 
+197.210.226.30 2 110 2290278 20190928205501
+52.34.116.43 1 1 43132 20190926123159
+195.201.143.124 4 78 894107 20190925135307
+173.252.95.24 7 202 3291104 20190927112901
+197.210.47.168 47 252 3715890 20190930023826
+197.210.29.194 6 154 2359902 20190929095146
+23.226.211.143 0 1 2403 
+31.13.115.2 8 227 3810539 20190927112858
+197.210.28.26 5 103 1156274 20190925045514
+105.112.24.125 6 135 2151859 20190929163251
+105.112.28.193 1 1 24063 20190927124144
+66.220.149.48 4 100 1550337 20190927111330
+197.210.44.79 16 433 6796436 20190927172015
+50.225.77.6 16 161 2413626 20190923212110
+197.210.54.93 1 6 125540 20190927151308
+197.210.57.5 1 25 284183 20190927171140
+105.112.28.67 6 142 2175625 20190930061158
+197.210.62.22 10 108 1520363 20190923193055
+197.210.227.16 2 77 1249637 20190930115405
+38.100.21.12 1 1 26571 20190930174541
+197.210.64.92 4 184 2423981 20190927124136
+197.210.58.193 1 101 2266425 20190930084947
+105.112.113.81 22 197 3050843 20190930072204
+66.102.6.72 27 986 16830388 20190930134137
+197.210.174.213 13 33 305121 20190930182441
+197.210.226.147 4 46 924137 20190930030658
+129.205.113.94 24 297 4463123 20190930212319
+66.102.6.168 0 1 9681 
+173.252.87.12 1 2 2076 20190923152850
+105.112.47.183 15 209 3093232 20190928215505
+46.101.94.163 5 570 14466685 20190930114526
+144.76.94.115 2 2 0 20190923152513
+66.102.9.21 3 97 1040418 20190930091823
+173.252.95.47 1 36 639322 20190927112901
+197.210.46.14 0 39 825791 
+105.112.56.226 6 149 2536305 20190930062613
+105.112.29.161 4 40 315680 20190929213037
+82.145.221.247 12 179 2702918 20190930103651
+197.210.60.87 2 38 270390 20190930145325
+105.112.28.49 11 172 2811899 20190929183023
+197.210.57.84 0 33 361545 
+69.171.251.32 0 31 895604 
+197.210.57.166 2 42 969108 20190920090642
+31.13.127.21 3 141 2768581 20190930124502
+192.42.116.14 1 1 390294 20190930184843
+106.202.31.148 13 228 3241753 20190929094847
+31.13.127.4 1 10 201890 20190923152726
+165.227.53.74 1 1 26205 20190925055332
+197.210.58.55 5 58 999703 20190920091846
+105.112.32.238 2 37 267578 20190928200702
+197.210.52.107 0 17 176635 
+41.190.2.14 1 1 30211 20190930180322
+197.210.226.218 0 22 277587 
+197.210.54.244 1 75 1160912 20190928125730
+197.210.226.76 1 48 760718 20190928075030
+197.210.58.66 1 36 545289 20190930152540
+82.145.222.16 7 185 3429569 20190930075335
+197.210.52.27 1 41 516675 20190930015123
+105.112.106.108 6 167 2587794 20190930001648
+41.190.2.130 32 311 5160028 20190925182522
+159.69.210.53 4 88 1122344 20190927164625
+82.145.222.146 8 198 3573548 20190928183138
+66.220.149.2 4 52 1362426 20190923152853
+66.220.149.42 3 101 1571136 20190929070415
+197.210.52.143 0 16 214805 
+41.190.2.199 4 165 2245241 20190928175607
+197.210.227.41 2 52 429870 20190928111849
+31.13.127.6 0 3 39268 
+197.210.58.201 5 62 822508 20190930234145
+105.112.51.41 1 1 29884 20190929095552
+88.99.195.197 1 1 42692 20190923145157
+105.112.47.179 15 392 7181233 20190928191606
+66.249.83.92 30 921 14555520 20190930220856
+41.190.2.61 14 206 3012263 20190930204600
+197.210.46.11 3 154 2562156 20190930110557
+129.205.112.131 12 326 5158586 20190929080024
+66.220.149.36 0 35 327975 
+197.210.55.46 8 80 1201334 20190928182126
+41.184.180.160 5 267 4675939 20190930110951
+197.210.63.21 9 217 4037290 20190925113119
+64.233.172.8 0 1 4717 
+66.249.80.37 2 116 1648398 20190928010848
+197.210.54.163 0 26 452095 
+105.112.106.87 4 170 2294387 20190927124233
+69.171.251.24 1 2 66362 20190923152053
+41.190.12.52 18 187 3031685 20190929104730
+197.210.47.132 6 161 2900493 20190929220320
+192.232.16.6 4 127 1940824 20190924192429
+31.13.127.8 3 58 1100574 20190923152733
+64.233.172.142 0 2 5247 
+197.210.52.234 5 110 1336535 20190927194925
+31.13.115.22 10 307 4496894 20190930210352
+82.145.222.116 9 188 2858503 20190927171418
+197.210.52.228 9 74 1123180 20190928194518
+141.0.12.150 15 310 4340110 20190929133551
+105.112.44.180 12 338 5251625 20190921002554
+197.210.58.5 10 175 2852799 20190929182946
+197.210.53.25 4 23 400131 20190920004435
+105.112.11.131 22 326 4908027 20190929065712
+105.112.58.113 6 168 2492311 20190929192826
+197.210.226.132 4 12 138035 20190929165705
+69.171.251.46 1 2 53962 20190927110839
+197.210.227.11 4 80 1514389 20190929025350
+197.210.227.246 6 146 2269232 20190930212318
+105.112.96.61 6 177 2622615 20190930193103
+41.58.200.72 4 185 2618997 20190927124132
+197.210.226.210 3 46 747963 20190930205606
+197.210.226.47 4 36 460492 20190929124836
+69.171.251.43 6 66 857243 20190927113957
+195.201.88.204 4 84 1023883 20190929105930
+107.167.107.225 26 550 9122441 20190930121654
+197.210.57.67 3 29 551604 20190930201927
+197.210.53.165 0 8 70363 
+197.210.55.24 2 6 127844 20190921180332
+66.220.149.25 0 14 307513 
+17.218.103.146 6 139 2418156 20190923202217
+173.252.127.35 2 38 520434 20190927112343
+197.210.58.114 13 59 986215 20190928152452
+173.252.95.38 2 101 1915780 20190927103140
+197.210.174.224 4 66 946910 20190929211358
+197.210.47.12 1 22 130403 20190928072428
+105.112.120.131 6 149 2536306 20190929215349
+3.86.250.173 1 1 240199 20190923212127
+94.130.167.113 1 1 24208 20190923150733
+173.252.87.41 0 18 345857 
+197.210.57.165 17 168 2663229 20190930205119
+31.13.127.16 2 83 1585176 20190920103727
+197.210.174.215 17 247 3130346 20190928132619
+66.249.83.75 1 22 134421 20190919191644
+69.171.251.1 3 180 2398694 20190927113522
+66.102.8.134 20 472 7230537 20190930200350
+197.149.65.90 1 1 29884 20190929105126
+66.220.149.40 3 64 739421 20190927112343
+197.210.55.126 7 69 978093 20190929095252
+197.210.28.6 4 201 3646199 20190926224230
+41.190.14.125 2 70 848819 20190928173807
+129.205.113.84 59 758 11334763 20190929193540
+54.224.230.57 1 1 542929 20190923155026
+197.211.57.152 38 212 3371037 20190930215028
+41.58.250.28 97 1193 17226531 20190920110626
+173.252.87.3 2 4 134999 20190927113446
+212.129.11.42 4 229 3578947 20190924173025
+3.94.105.75 1 1 540314 20190923150822
+197.210.53.40 2 53 1453206 20190930015123
+197.210.52.138 7 178 2763334 20190929104127
+141.0.13.80 18 287 4107948 20190928194605
+69.171.251.8 0 22 719268 
+197.210.65.160 1 12 80561 20190927124248
+41.203.95.66 6 153 2323207 20190930104659
+197.210.55.1 1 34 625069 20190927195723
+129.205.113.87 36 349 4714746 20190930214744
+197.210.55.199 3 3 37068 20190920125715
+66.249.80.40 4 127 1847522 20190930134131
+69.171.251.30 0 16 290638 
+197.210.55.120 2 73 1230241 20190929132017
+197.210.52.73 2 5 67068 20190930105330
+41.190.14.39 4 202 3788851 20190921153140
+105.112.99.43 8 271 4759497 20190930084834
+173.252.127.52 2 67 1463191 20190927113546
+173.252.127.1 2 3 53770 20190927114319
+129.205.112.129 7 275 4785177 20190930195837
+171.13.14.28 0 1 3256 
+107.20.86.208 1 1 542789 20190923151728
+105.112.40.6 40 98 1603270 20190921023523
+197.210.53.171 2 26 205538 20190929071924
+173.252.87.10 0 15 334598 
+197.210.53.152 1 1 27715 20190930094557
+104.3.180.143 4 95 1965813 20190930192920
+105.112.23.130 17 219 3020832 20190928203010
+173.252.127.30 4 114 1914587 20190927110854
+197.210.226.171 0 1 20187 
+197.210.55.181 1 14 72876 20190927124219
+197.210.227.130 3 77 1201555 20190929093053
+31.13.115.3 7 156 2479916 20190928190336
+105.112.55.115 4 39 482271 20190928125658
+17.234.248.115 6 269 4774211 20190923193305
+69.171.251.15 2 68 1202170 20190927103151
+111.7.100.21 1 1 43286 20190927151308
+113.78.110.70 26 26 604844 20190928034144
+34.73.124.140 37 37 558315 20190930084315
+197.210.227.49 10 185 3134436 20190927232535
+197.210.57.2 0 22 410082 
+197.210.45.140 9 170 2737548 20190930161609
+41.58.119.28 44 351 5961471 20190919134004
+197.210.227.212 5 148 1856459 20190928195945
+197.210.52.88 0 16 147016 
+173.252.87.35 0 11 214002 
+173.252.87.44 2 38 569683 20190930124507
+103.86.111.250 0 1 40384 
+41.190.30.10 6 154 2359904 20190929190128
+197.210.52.219 3 48 537435 20190930194833
+41.190.2.165 6 93 1398279 20190928202210
+105.112.56.90 6 177 2622279 20190929103839
+197.210.64.63 4 5 52920 20190929094613
+105.112.23.136 13 281 5125299 20190930154711
+173.252.127.36 0 3 30830 
+104.222.43.177 0 1 2403 
+173.252.127.4 2 60 1011065 20190927112341
+173.252.95.39 2 32 661172 20190927085654
+159.224.217.20 4 200 3608632 20190930121844
+169.239.192.245 10 226 3321034 20190929055128
+66.220.149.14 1 89 1120620 20190923152921
+105.112.55.95 10 196 2925026 20190930170150
+173.252.87.26 0 24 389009 
+105.112.56.14 7 101 1316318 20190929185247
+117.246.43.85 0 1 31566 
+105.112.20.211 6 177 2622613 20190930120400
+173.252.87.23 2 28 723837 20190927110814
+197.210.53.14 7 139 2155333 20190930204316
+197.210.47.41 1 1 27905 20190930001728
+105.112.46.156 12 376 4910574 20190929005247
+105.112.55.4 6 154 2359905 20190929084804
+197.210.52.82 0 57 771126 
+197.210.55.51 4 63 970490 20190923172129
+138.201.248.9 4 4 67147 20190923145619
+197.210.28.12 1 1 30196 20190930194549
+105.112.104.129 14 155 2333775 20190928052916
+54.225.104.196 0 3 26257 
+195.201.221.199 4 82 988964 20190929210526
+105.112.57.127 4 162 2211916 20190930044535
+197.210.54.235 3 6 63966 20190929202753
+105.112.106.142 10 158 2444751 20190929120204
+173.252.127.14 2 23 481843 20190930124512
+31.13.127.20 0 21 404315 
+105.112.122.157 6 149 2536306 20190929204543
+197.210.55.121 1 1 29881 20190930045712
+197.210.174.220 18 345 4817610 20190930135027
+197.210.227.161 0 1 3194 
+41.58.219.69 14 472 8323799 20190927123457
+64.233.172.38 0 1 4839 
+173.252.95.30 2 49 1089153 20190927114228
+35.233.215.201 1 1 0 20190923160318
+197.210.53.158 1 41 752413 20190929154543
+31.13.115.19 2 72 1137110 20190930210415
+62.210.172.215 1 1 545918 20190930153127
+197.210.226.214 2 37 410245 20190926134051
+69.171.251.51 0 1 44037 
+173.252.87.27 0 3 95742 
+197.210.57.123 7 57 927197 20190929182943
+88.99.195.202 1 1 25248 20190923145509
+107.178.196.201 1 1 26217 20190924004035
+197.210.57.254 6 14 231963 20190929132214
+173.252.95.8 6 141 2629273 20190928111519
+197.210.53.117 1 36 748545 20190929125252
+141.0.13.162 33 444 7135103 20190929215311
+197.211.57.158 16 356 5481205 20190929162023
+130.255.161.248 60 1175 13596413 20190930155336
+173.252.127.17 5 72 1652923 20190927112342
+139.59.4.194 3 64 501264 20190930184858
+173.252.87.19 7 242 4158376 20190927111944
+66.220.149.63 2 74 1435848 20190923152711
+197.210.58.2 1 27 380945 20190929152615
+31.13.115.14 4 109 1771784 20190927111441
+197.210.29.187 10 194 2853404 20190930130603
+197.210.174.228 7 116 1627838 20190930110555
+105.112.66.74 10 156 2342269 20190928154057
+105.112.50.14 1 8 52772 20190930212319
+197.210.53.66 1 43 812853 20190930204315
+197.210.53.144 0 8 91701 
+69.171.251.39 5 69 1005043 20190930124500
+66.249.88.48 28 936 14057988 20190930220845
+66.220.149.55 3 31 561557 20190927085654
+155.93.126.114 36 226 3214446 20190930135538
+105.112.45.133 3 62 889016 20190929124859
+173.252.127.44 2 24 565134 20190923152927
+197.210.55.118 4 91 1310330 20190930032640
+105.112.46.208 1 9 69540 20190927155247
+66.102.9.18 3 176 2809518 20190930091851
+35.230.84.240 1 1 0 20190922171331
+41.203.78.161 37 712 10662620 20190930123053
+197.210.58.183 0 54 758325 
+173.252.127.47 2 37 843202 20190924154807
+197.210.55.71 8 126 2091209 20190930152716
+197.210.28.156 6 154 2359903 20190927211032
+104.132.20.89 5 119 1427531 20190927150428
+197.210.53.161 3 62 872395 20190929071925
+69.171.251.54 0 43 909905 
+173.252.95.15 6 123 2669621 20190927114258
+185.26.180.198 8 199 2889464 20190929162252
+206.41.161.111 1 1 23074 20190927230835
+195.201.220.154 12 243 2901142 20190927165208
+66.220.149.7 1 44 702612 20190923152707
+173.252.127.31 0 4 79539 
+105.112.47.161 1 8 53979 20190928144945
+66.102.6.140 0 1 10285 
+31.13.115.25 7 158 2945016 20190927114113
+197.210.52.232 0 10 205188 
+31.13.127.25 2 107 1747071 20190927135734
+107.178.196.199 1 1 42434 20190924001207
+105.112.122.2 10 170 2516635 20190928095500
+105.112.99.55 3 86 712058 20190927124333
+173.252.127.33 0 4 112808 
+173.252.95.42 4 144 2484848 20190927113524
+197.210.64.106 6 144 2248340 20190929070033
+82.145.220.27 9 199 2877899 20190930171651
+173.252.95.2 1 70 1476853 20190923152850
+197.210.8.0 9 164 2803704 20190924203343
+197.210.227.228 5 100 1527563 20190929111539
+105.112.28.181 6 154 2359903 20190928183354
+69.171.251.37 3 88 1333931 20190923152625
+197.210.47.72 6 93 1398279 20190928211403
+105.112.114.207 6 86 1345163 20190929190144
+197.210.52.115 1 14 222539 20190929104103
+34.231.30.197 2 2 542537 20190923145151
+105.112.11.142 10 169 2581285 20190929171249
+103.103.34.118 4 201 3697120 20190930162401
+173.252.87.17 0 23 325538 
+197.210.55.98 12 124 1637677 20190929060758
+206.16.134.20 1 1 42202 20190920183255
+197.210.58.181 4 81 1351053 20190929222640
+197.210.58.112 3 25 811592 20190927101844
+197.210.52.79 3 24 580283 20190930015122
+197.210.227.160 6 95 1482046 20190928205036
+88.99.144.159 2 2 15797 20190923150027
+66.249.80.38 3 113 1635282 20190930134136
+116.203.203.5 12 261 3286748 20190929110232
+105.112.29.112 1 13 83564 20190927230723
+197.210.55.221 1 18 161625 20190927124202
+66.220.149.47 0 1 55674 
+105.112.58.22 13 231 3281276 20190928032133
+66.102.8.136 8 410 6090276 20190930160927
+66.220.149.60 3 82 1185490 20190924143131
+206.41.161.234 1 1 28018 20190925221109
+105.112.23.60 21 47 621225 20190926143059
+197.210.58.15 11 81 1339335 20190930112109
+159.69.111.226 4 83 1009195 20190926153345
+31.13.127.14 1 10 225800 20190923152257
+197.52.171.195 2 45 324473 20190926082444
+105.112.20.122 10 164 2562082 20190930075509
+88.99.195.217 1 1 23419 20190923151623
+197.210.29.59 6 177 2622278 20190929151146
+197.210.62.41 29 472 7051155 20190930071605
+197.210.226.251 9 60 728773 20190930140139
+66.220.149.38 2 26 309209 20190930101308
+141.0.13.204 10 172 2555044 20190920085143
+197.210.226.12 3 80 1493024 20190929145831
+173.252.95.25 2 90 1864166 20190927102009
+105.112.41.163 17 105 1553232 20190930110023
+173.252.127.29 6 54 1033056 20190927114214
+197.210.47.182 1 10 79634 20190930174657
+105.112.57.251 17 224 3018356 20190930213730
+105.112.21.186 6 149 2536635 20190930142246
+105.112.21.154 7 155 2361201 20190930160544
+105.112.11.68 10 161 2333490 20190928180159
+197.210.45.241 2 2 48133 20190927125347
+197.210.227.220 4 4 32108 20190928202019
+197.210.226.127 4 39 716880 20190920005525
+129.205.113.92 7 69 1005802 20190929062544
+105.112.50.43 55 340 5372845 20190929213017
+34.83.170.230 1 1 0 20190923091816
+197.210.57.121 4 60 768374 20190920090848
+197.210.53.203 7 98 2065170 20190927173536
+197.210.44.210 12 97 2586625 20190930113914
+31.13.127.19 7 104 1376331 20190927114320
+69.171.251.48 5 90 1379404 20190927112902
+197.210.55.123 9 150 1941444 20190927124256
+31.13.115.20 3 165 2912215 20190923152318
+173.252.95.33 3 47 650497 20190927124235
+197.210.54.242 8 68 848287 20190930034041
+82.145.223.40 9 202 2702443 20190927124840
+197.210.57.74 1 65 951076 20190928184204
+160.152.12.139 6 167 2736813 20190928215101
+105.112.98.201 1 13 1558820 20190924151205
+197.210.58.199 5 65 839638 20190928122234
+173.252.95.36 0 35 644285 
+197.210.54.220 10 89 1359147 20190928100635
+18.209.92.82 2 2 86440 20190923193312
+107.167.107.192 10 176 2432193 20190920122101
+116.203.204.93 4 86 1095285 20190928144941
+197.210.53.185 1 24 157742 20190928182914
+197.210.8.62 1 1 15393 20190929103817
+45.59.126.38 16 126 1714415 20190923191335
+105.112.26.207 10 191 2809417 20190929054008
+173.252.87.29 1 61 882074 20190923152824
+41.79.67.23 1 1 28834 20190929090003
+41.58.54.2 99 424 4654375 20190924114328
+154.118.14.57 6 31 1311986 20190929190634
+197.210.58.195 1 13 122416 20190927221155
+173.252.87.20 1 34 708127 20190923162144
+185.234.218.192 2 2 86350 20190928174459
+54.184.28.8 1 1 542368 20190923154936
+105.112.57.198 9 153 2550635 20190929044133
+41.203.78.135 12 217 3826156 20190921050632
+116.203.200.200 12 251 2983611 20190925225105
+197.210.58.109 0 9 35717 
+66.249.81.72 8 189 3130256 20190929192637
+197.210.226.176 1 135 2062021 20190924165532
+66.220.149.32 1 31 542015 20190927085703
+105.112.105.26 6 177 2622278 20190930095244
+157.55.39.71 0 3 12196 
+104.131.221.156 1 1 0 20190930092808
+197.210.55.2 2 32 489552 20190927195720
+105.112.26.140 14 184 2734527 20190929185538
+197.210.61.14 14 174 2503213 20190930154027
+197.210.53.21 8 162 2321677 20190929112639
+197.210.226.148 7 61 1192708 20190926134102
+197.210.47.122 6 142 2175625 20190928134859
+196.220.240.227 4 165 2240573 20190927182325
+197.210.58.180 1 1 28790 20190930184936
+197.210.226.146 3 70 1082032 20190927124154
+105.112.44.5 11 162 2600303 20190929004744
+105.112.28.71 6 154 2400826 20190929162834
+105.112.44.170 21 194 2552067 20190927215937
+197.210.227.232 4 76 1094648 20190928145542
+41.220.75.71 4 164 2238171 20190927140446
+197.210.29.238 3 61 552649 20190928141820
+197.210.52.227 1 1 29884 20190929061548
+104.222.33.174 0 1 2403 
+197.210.58.71 4 54 777093 20190928184208
+66.249.81.69 4 189 2810117 20190925195443
+66.102.6.8 0 2 17814 
+69.171.251.42 2 67 1254365 20190923152848
+31.13.127.3 1 26 579990 20190923152132
+197.210.226.48 0 4 12823 
+69.171.251.2 1 54 714605 20190920114746
+180.191.114.166 5 202 3724747 20190930135000
+197.210.47.86 5 163 2233808 20190927124144
+197.210.29.50 4 184 2423979 20190927162226
+105.112.26.146 2 33 216647 20190928134216
+197.210.46.15 30 349 5655061 20190930060946
+173.252.127.25 1 19 320261 20190927103216
+197.210.45.41 6 140 2195444 20190927193126
+173.252.95.37 0 13 233337 
+82.145.221.221 12 264 5051451 20190930115348
+105.112.46.59 6 149 2536309 20190928181415
+69.171.251.36 1 1 26253 20190927110048
+47.30.185.124 0 1 40384 
+104.222.43.10 1 1 544182 20190928162851
+197.211.53.142 12 107 1278648 20190919195212
+197.210.55.165 1 14 190398 20190930200425
+173.252.87.13 8 129 2082210 20190930220352
+105.112.113.44 6 177 2622279 20190929073033
+64.233.172.200 0 2 45800 
+173.252.87.16 0 1 8897 
+197.210.227.154 3 89 1305145 20190927202709
+66.220.149.24 3 112 1998994 20190923152852
+34.219.83.134 1 1 541738 20190923155117
+105.112.45.200 6 146 2191606 20190930075120
+69.171.251.33 3 52 1568538 20190927113747
+41.215.163.17 4 97 1006311 20190928004216
+105.112.44.55 10 189 2854901 20190929183517
+197.210.54.175 10 136 2203515 20190930033911
+66.220.149.46 2 44 704011 20190927110017
+18.184.74.170 0 63 1319763 
+197.210.227.118 1 8 62167 20190929104257
+82.145.220.197 7 112 1336876 20190928052920
+197.210.53.230 1 9 135291 20190930015153
+144.121.197.122 93 610 7606081 20190925173809
+197.210.226.54 21 187 2643521 20190929165707
+185.26.180.168 9 201 2931665 20190929131007
+105.112.21.112 6 177 2622278 20190929121347
+31.13.103.3 0 1 12676 
+88.99.195.213 1 1 26005 20190923150058
+141.0.13.122 8 202 3055380 20190928155207
+66.102.6.138 0 3 32315 
+41.190.31.14 2 2 60391 20190930215934
+105.112.26.20 6 178 2682734 20190929063815
+69.171.251.25 3 28 204785 20190920114745
+94.130.167.87 1 1 23727 20190923150339
+197.210.55.33 2 22 521100 20190930161131
+197.255.54.86 33 267 4103983 20190930135424
+31.13.115.16 8 143 2196836 20190927110918
+173.252.127.42 1 5 72081 20190923152911
+105.112.113.69 4 145 2633196 20190930180441
+105.112.32.168 6 149 2536305 20190927222638
+69.171.251.40 1 2 28923 20190927113443
+141.0.13.160 8 201 2917315 20190928185212
+105.112.113.113 10 185 2748413 20190930150813
+173.252.127.20 2 43 587920 20190923152549
+66.220.149.1 1 31 376043 20190927112355
+105.112.51.86 17 364 5321637 20190929092533
+197.210.52.17 2 55 642775 20190927165411
+195.201.130.81 4 88 1104670 20190925012545
+66.220.149.8 1 34 624996 20190927211519
+197.210.53.120 0 24 251844 
+195.201.220.6 4 89 1139448 20190928040711
+197.210.52.87 6 25 548879 20190930172512
+197.210.58.185 2 32 789595 20190929152943
+54.196.64.198 1 1 225512 20190923210218
+197.210.58.196 0 6 70771 
+112.198.30.7 31 843 13303330 20190927162118
+31.13.127.22 2 67 959995 20190923152130
+197.210.29.204 6 178 2682731 20190930104837
+66.220.149.30 2 61 1430986 20190930101314
+31.13.115.8 0 32 537768 
+66.102.8.133 10 435 6915606 20190930181650
+173.252.127.26 2 34 285394 20190927114213
+197.210.54.161 2 111 1349575 20190927151237
+105.112.21.32 1 1 29884 20190928111209
+173.252.95.5 2 45 602553 20190927112857
+52.204.27.85 3 3 454431 20190923154732
+105.112.26.59 7 165 2247616 20190927124158
+173.252.87.31 3 27 366808 20190930124500
+105.112.40.52 1 1 26252 20190929081250
+88.99.195.207 1 1 43429 20190922162921
+41.203.73.181 60 951 13782348 20190930080543
+197.210.53.30 1 9 77820 20190928182854
+197.210.28.182 12 277 4383689 20190927171348
+173.252.87.22 4 133 1599571 20190927114249
+197.210.54.49 1 1 32187 20190930212959
+41.190.3.64 1 1 24071 20190927124154
+173.252.87.4 3 60 841258 20190927113751
+197.210.58.190 0 9 209066 
+31.13.115.6 7 156 2274171 20190927110848
+69.171.251.11 1 60 837253 20190923152815
+102.134.114.185 11 288 4654265 20190925203501
+197.210.57.236 4 26 456878 20190929132257
+197.210.174.191 13 217 3668481 20190928194546
+173.252.95.7 5 145 2047208 20190927111428
+82.145.220.184 9 201 2953268 20190930073941
+84.93.38.251 2 2 779234 20190930115229
+66.220.149.15 0 8 108976 
+202.83.54.155 4 129 1961258 20190925064436
+197.210.227.190 9 70 1291473 20190929165354
+173.252.127.5 1 29 485256 20190923152322
+197.210.28.213 14 171 2887587 20190928054241
+197.210.52.213 4 70 1305829 20190929154543
+197.210.52.137 1 32 525109 20190928085401
+105.112.58.128 7 179 2710448 20190929230307
+85.17.130.250 5 276 4986775 20190925112907
+41.190.2.58 19 154 2310611 20190921095328
+31.13.115.4 9 206 3072090 20190927113746
+173.252.87.9 0 1 24077 
+31.13.115.21 1 54 1349178 20190923152229
+197.210.29.29 1 1 0 20190928041701
+197.210.64.109 8 169 2451876 20190927230819
+105.112.11.97 16 225 4093448 20190930110746
+69.171.251.14 0 2 58008 
+197.210.52.72 2 57 1091099 20190928085400
+105.112.45.220 1 1 29885 20190929125734
+105.112.104.221 8 140 2178108 20190929093200
+188.166.63.71 2 2 778638 20190930115229
+197.210.58.133 2 54 658661 20190930213036
+197.210.57.32 6 102 1445969 20190929055605
+197.210.226.96 2 50 906697 20190928205053
+197.210.46.21 10 44 544000 20190929203500
+129.205.112.130 53 896 13568980 20190930202324
+213.49.248.111 4 198 3911696 20190930164420
+66.249.83.91 29 855 12988853 20190930220856
+173.252.87.45 0 3 161802 
+173.252.87.34 2 8 280979 20190927113809
+206.206.107.14 1 1 41307 20190919024609
+24.124.17.164 5 200 3001538 20190925150625
+197.210.54.176 4 68 1241372 20190929102020
+103.255.5.93 0 1 41274 
+197.210.55.90 2 60 906516 20190930181900
+41.190.2.204 11 221 3162591 20190930141034
+41.190.30.39 119 395 5437983 20190926110753
+197.210.53.74 7 164 2910288 20190929192900
+197.210.55.99 3 55 727606 20190927195724
+105.112.53.108 6 136 2131237 20190929214047
+105.112.23.62 6 178 2817298 20190930072430
+197.210.29.116 18 189 3063086 20190930091851
+171.13.14.14 1 2 48177 20190926082633
+197.210.29.177 8 100 1264589 20190929125346
+185.206.225.146 1 1 390230 20190930115229
+197.210.52.188 0 28 486380 
+197.210.57.196 1 20 159535 20190927174308
+173.252.95.11 1 30 272167 20190927114214
+105.112.56.62 6 149 2536306 20190928053400
+197.210.54.160 1 31 414791 20190930161130
+197.210.28.116 31 222 3599306 20190927010949
+94.130.141.165 3 3 93919 20190923152416
+69.171.251.5 3 86 1205799 20190930201639
+82.145.223.92 8 226 4234444 20190930153951
+197.210.55.176 5 31 391730 20190929183853
+31.13.127.2 4 121 1575876 20190930124502
+104.132.247.82 20 320 4149772 20190926061604
+41.203.78.165 55 834 11993418 20190930184506
+65.155.30.101 5 274 5184174 20190925112926
+197.210.226.249 0 16 192208 
+197.210.57.38 3 35 557498 20190930112144
+41.203.73.175 1 18 113852 20190925045837
+197.210.227.97 5 79 1324048 20190928171942
+105.112.46.204 12 210 3151433 20190930205451
+173.252.127.48 4 71 930383 20190927112343
+173.252.87.50 4 57 1803063 20190927112412
+197.210.57.129 1 1 26761 20190929141505
+197.210.226.121 4 46 763675 20190929145831
+197.210.57.203 7 76 1101654 20190930112111
+104.222.33.50 0 1 2403 
+105.112.97.165 4 35 508338 20190929210208
+171.13.14.25 0 2 11006 
+197.210.54.166 2 53 626064 20190930113853
+173.252.95.40 0 2 19894 
+197.210.52.78 9 70 1074751 20190929061532
+197.210.55.5 1 1 29864 20190928195958
+105.112.11.93 8 179 2920799 20190929161718
+66.102.6.74 20 799 12575485 20190930091820
+197.210.58.69 0 18 381319 
+105.112.27.203 1 1 29863 20190929200748
+197.210.227.150 1 19 114628 20190930124700
+173.252.127.21 4 73 818206 20190927114321
+34.209.73.241 1 1 42854 20190926060755
+197.210.54.200 1 1 26253 20190929201957
+197.210.52.83 4 87 1133505 20190929125255
+197.210.28.255 61 373 6402664 20190923135830
+197.211.57.154 4 58 1206756 20190930214430
+154.117.121.216 11 146 2297519 20190929093950
+129.205.113.82 22 327 4687343 20190930015243
+41.60.253.190 5 270 4624245 20190930085119
+220.181.77.162 14 388 7927174 20190929041509
+197.210.57.60 7 32 466633 20190929000124
+105.112.74.27 10 181 2666184 20190929101132
+173.252.95.14 1 48 667675 20190924135835
+197.210.227.156 0 41 724807 
+69.171.251.55 0 1 25128 
+66.102.6.76 11 486 8250671 20190930125442
+129.205.114.24 4 130 2035639 20190928201152
+64.233.172.37 0 3 23504 
+41.190.2.196 6 136 2132254 20190929234735
+197.210.52.86 0 16 77635 
+66.220.149.39 2 74 1292020 20190927110015
+197.210.54.171 2 58 845349 20190929183748
+197.210.54.81 1 37 357858 20190927124205
+173.252.87.28 2 87 1978605 20190930124501
+197.210.54.206 0 27 576386 
+159.69.202.254 4 79 905388 20190925071926
+31.13.115.13 1 65 1304844 20190927112858
+197.210.53.54 5 19 841832 20190929190441
+173.252.127.18 1 3 148144 20190927112422
+141.0.13.114 7 166 2992391 20190930142056
+69.171.251.7 4 159 2454832 20190930124500
+66.220.149.54 4 84 1003322 20190927111335
+104.132.247.67 6 130 1957089 20190926090255
+197.210.58.21 4 39 499105 20190929132356
+69.171.251.49 8 81 1270428 20190927114223
+197.210.58.110 9 108 1955802 20190924042249
+105.112.50.9 1 1 29864 20190929140055
+116.203.206.78 12 267 3492452 20190927094401
+173.252.95.23 2 140 2049692 20190928111510
+41.78.82.102 6 154 2401155 20190930162317
+197.210.29.173 20 222 3221544 20190929200134
+69.171.251.19 3 47 488207 20190927113745
+35.243.148.138 29 29 555509 20190930085220
+171.13.14.51 0 12 103266 
+197.210.174.222 15 185 3008084 20190929131929
+197.211.53.243 1 1 26965 20190928131741
+105.112.11.255 10 185 2703021 20190929180033
+105.112.46.231 6 121 1710874 20190928182654
+197.210.65.149 2 61 608968 20190930073613
+197.210.55.228 2 37 527178 20190928125741
+173.252.87.39 0 12 246329 
+157.55.39.56 0 2 5297 
+173.252.95.26 3 118 1648375 20190927124235
+31.13.127.9 5 89 1550673 20190930124502
+58.145.188.236 6 201 3657828 20190930112323
+197.210.58.116 3 28 271751 20190930132705
+197.210.52.230 4 68 785432 20190928183412
+197.210.227.120 9 226 3204036 20190930030655
+197.210.46.17 17 223 3474079 20190930181653
+197.210.60.84 6 73 969905 20190929210304
+104.222.43.169 1 1 540445 20190920003624
+197.210.57.87 2 57 574321 20190930201923
+197.210.63.27 4 200 3540788 20190930113117
+197.210.29.230 3 3 30786 20190930205155
+66.220.149.28 0 3 57214 
+197.210.53.119 0 38 611714 
+197.210.62.42 6 153 2323208 20190929071606
+82.145.223.57 7 207 2694269 20190927181144
+88.99.195.239 1 1 42732 20190923091845
+168.253.112.119 6 149 2536633 20190930120407
+173.252.127.19 0 27 453949 
+183.54.234.108 6 7 67691 20190925025231
+209.0.146.19 1 1 25933 20190926174437
+197.210.227.36 2 3 46698 20190930213454
+107.167.108.210 8 214 3088363 20190927225805
+141.0.12.246 8 151 2372806 20190930120802
+197.210.52.189 2 17 436211 20190929061218
+17.234.238.60 1 1 43320 20190923190926
+197.210.226.16 1 12 93634 20190928051752
+173.252.127.53 3 48 1073954 20190927112344
+197.210.54.197 2 72 1458586 20190930211121
+159.69.206.91 12 257 3234999 20190926153125
+173.252.95.10 0 1 16232 
+197.210.58.122 1 33 559053 20190930152537
+129.205.113.85 12 318 4614504 20190930081803
+41.190.2.235 6 139 2141389 20190930214551
+154.118.7.226 18 211 2650173 20190927125327
+197.210.227.225 1 1 24065 20190927124947
+197.210.53.153 4 43 701136 20190929190441
+173.252.95.3 0 1 57717 
+66.249.83.74 1 30 309423 20190919191642
+197.210.64.79 6 177 2622614 20190930214858
+197.210.57.128 1 40 580471 20190929152602
+82.145.222.55 8 114 1252677 20190927174922
+69.171.251.27 0 43 551639 
+105.112.113.220 10 193 3063029 20190929123207
+105.112.39.150 5 79 1219327 20190927201213
+105.112.28.255 1 1 28044 20190930115132
+66.249.88.52 31 875 15372180 20190930220850
+66.102.6.6 0 1 13321 
+173.252.127.49 0 14 306023 
+66.220.149.50 1 36 640087 20190923152933
+105.112.50.232 4 152 2129609 20190927124230
+197.210.54.23 4 151 2126237 20190930181903
+105.112.20.181 6 87 1101920 20190930131915
+197.210.64.95 4 48 610876 20190928072837
+168.167.80.123 1 1 547032 20190930234829
+197.211.57.153 8 194 2748962 20190930200242
+173.252.95.41 3 78 933798 20190927111432
+197.210.58.146 4 80 1080474 20190929134237
+197.210.53.149 2 73 1023624 20190928194440
+105.112.55.229 10 162 2440643 20190929083841
+197.210.58.58 2 52 681208 20190930113539
+105.112.39.187 5 275 4899652 20190925140420
+105.112.112.94 4 63 611771 20190929165759
+173.252.87.15 5 89 1199209 20190927111943
+197.210.57.78 8 94 1535831 20190930070400
+198.98.52.120 1 3 41735 20190930001003
+197.210.62.37 6 178 2682734 20190927220449
+197.210.45.135 1 5 48394 20190929074538
+41.190.14.48 1 1 43279 20190925121226
+157.55.39.177 0 1 1922 
+69.171.251.44 3 64 930735 20190927170900
+66.102.6.202 0 2 7817 
+197.210.57.110 4 72 1388658 20190927221159
+66.220.149.59 1 39 872680 20190927111330
+197.210.55.23 1 1 12850 20190927233215
+173.252.127.45 0 1 290 
+31.13.115.24 6 121 2496933 20190927111454
+65.154.226.126 10 515 9181362 20190925212043
+197.210.45.212 34 227 3725683 20190922071722
+66.102.6.106 0 1 50984 
+105.112.26.30 9 212 3127171 20190930091352
+197.210.226.28 26 238 3655669 20190929064330
+31.13.115.15 7 175 2779521 20190923152555
+105.112.57.46 0 1 136014 
+105.112.21.16 14 196 3185463 20190929140641
+129.205.113.89 2 51 420344 20190921120648
+159.69.150.172 4 72 805199 20190926082914
+66.220.149.9 0 1 38081 
+197.210.55.197 3 51 393176 20190930200428
+69.171.251.26 0 34 496557 
+197.210.52.97 5 116 1920916 20190929154538
+197.210.58.207 7 43 475273 20190920091733
+197.210.55.222 0 45 679324 
+66.220.149.45 3 60 855322 20190927112455
+154.118.37.92 6 171 2744046 20190929213852
+41.190.2.77 63 258 3959928 20190929234308
+173.252.95.19 2 63 1025523 20190927183548
+69.171.251.23 3 79 1022645 20190927103147
+197.210.46.20 31 421 7306489 20190930182500
+159.69.215.194 4 84 1012089 20190925223219
+197.210.61.12 18 317 5170590 20190929151203
+105.112.40.203 28 224 3018836 20190921012439
+23.226.211.96 1 1 543332 20190925234652
+168.235.194.43 8 383 5688915 20190930211926
+197.210.44.175 10 203 3178970 20190929055908
+173.252.87.1 0 26 345608 
+197.210.57.140 6 42 736401 20190929222643
+197.210.55.80 1 51 868447 20190930123118
+185.206.225.149 1 1 388663 20190930114606
+94.130.167.109 3 3 74694 20190923151405
+197.210.54.234 1 60 706061 20190930195906
+197.210.45.42 7 150 2551699 20190927220537
+173.252.127.15 0 2 9063 
+31.13.127.10 2 24 815597 20190923152346
+31.13.115.17 4 123 2583114 20190927091010
+41.190.30.156 5 6 125133 20190927124236
+69.171.251.3 1 53 853309 20190930201642
+173.252.95.27 4 109 1741400 20190927124235
+197.210.58.164 4 64 1262105 20190930052045
+105.112.58.0 6 177 2622278 20190930084555
+197.210.58.64 1 36 637431 20190930201914
+35.162.209.159 2 2 0 20190923234334
+173.252.87.8 1 2 38761 20190927112521
+197.210.55.10 3 4 46295 20190923141642
+197.210.227.31 0 6 48034 
+182.46.235.93 27 27 629123 20190927095637
+41.217.27.1 1 1 32584 20190930212959
+197.210.57.86 4 61 848189 20190929055607
+105.112.53.85 6 146 2476114 20190928200914
+66.249.93.70 38 1002 16995286 20190930154256
+66.220.149.31 0 33 576518 
+197.210.46.16 21 285 4977368 20190929203338
+207.46.13.122 0 8 62249 
+173.252.87.30 1 19 333088 20190923152844
+206.41.161.179 1 1 26576 20190925221109
+197.210.53.22 0 9 201196 
+105.112.27.16 6 83 1003032 20190929060916
+41.190.12.73 1 1 25570 20190929194045
+197.210.46.13 1 55 778701 20190927210538
+66.220.149.4 0 1 16232 
+41.203.73.180 37 590 8830250 20190930173307
+141.0.12.14 1 1 29860 20190929200724
+129.205.112.133 27 475 7187286 20190930174847
+197.210.226.175 12 218 3290150 20190930115404
+197.210.63.23 4 202 3889881 20190920160014
+197.210.44.48 1 3 294284 20190926174420
+197.210.54.113 5 52 956216 20190929183849
+107.167.107.10 8 203 3057232 20190927215443
+69.171.251.10 0 56 1086084 
+66.220.149.22 2 66 878469 20190923152704
+31.13.127.7 4 103 1603320 20190928113100
+173.252.127.3 1 2 33045 20190927112412
+173.252.127.46 2 92 2369172 20190923152602
+105.112.40.195 11 538 9559214 20190920032324
+168.235.194.68 1 1 12853 20190930211213
+105.112.46.85 6 177 2622612 20190930155617
+197.210.44.170 14 309 4653427 20190928134656
+171.13.14.50 0 7 98871 
+65.154.226.100 5 244 4627409 20190925113155
+197.210.53.16 4 111 1807071 20190930124039
+105.112.120.140 7 100 1338715 20190930195634
+197.210.58.238 6 50 731484 20190928122240
+197.210.57.95 4 48 1157746 20190920090700
+173.252.87.24 2 44 489324 20190927110812
+197.210.174.192 4 66 1002401 20190930101713
+104.222.33.173 1 1 543673 20190927155413
+197.210.53.146 6 40 512384 20190929061535
+105.112.30.248 5 5 162229 20190930185911
+105.112.50.134 6 136 2132256 20190928115644
+197.210.29.71 103 975 11385481 20190926084306
+173.252.127.6 7 99 1555042 20190927113549
+197.210.58.192 9 107 1488976 20190930111540
+205.201.132.14 30 30 419099 20190921031839
+197.210.54.249 8 103 1350855 20190930211221
+66.220.149.16 0 1 2804 
+197.210.8.86 8 141 2056379 20190928113559
+173.252.127.40 5 61 766089 20190927114213
+105.112.26.189 6 154 2359904 20190928212626
+197.210.8.234 6 142 2175957 20190930212334
+173.252.127.22 1 9 100801 20190930124509
+197.210.52.186 0 3 131435 
+173.252.95.18 1 38 832829 20190927183550
+173.252.87.46 1 1 29884 20190927111453
+197.210.226.111 0 84 1128500 
+195.201.219.237 4 92 1237029 20190927093811
+173.252.87.43 0 4 117366 
+31.13.115.1 1 100 1124638 20190928190332
+197.210.54.73 3 3 35841 20190920125727
+41.203.73.177 41 471 7517590 20190930051651
+197.210.64.64 20 101 1489532 20190919171126
+41.190.6.196 4 164 2242838 20190930055124
+82.145.221.56 5 186 2473350 20190928045856
+197.210.174.217 9 241 3430274 20190929170035
+31.13.115.5 1 3 63518 20190923152627
+195.201.142.92 12 254 3128427 20190930060836
+173.252.87.21 0 9 115588 
+197.210.226.143 5 36 719656 20190929093120
+154.120.102.118 1 1 27717 20190928155637
+107.178.196.196 4 4 116013 20190924004606
+41.190.14.134 1 23 133834 20190929102846
+31.13.127.23 3 44 672436 20190923152030
+116.203.209.249 12 260 3269797 20190928201845
+69.171.251.12 0 1 48738 
+197.210.58.119 0 15 200410 
+23.226.211.15 0 1 2403 
+105.112.41.83 10 381 5886067 20190921150534
+66.220.149.20 2 44 668234 20190923152931
+173.252.79.14 0 1 2778 
+197.210.64.87 6 167 2736814 20190928174239
+195.201.245.31 4 4 40693 20190923151651
+104.222.33.32 0 1 2403 
+173.252.127.16 2 62 1154384 20190930210444
+105.112.51.85 6 139 2141392 20190930232338
+35.196.100.107 39 39 1106697 20190930182429
+54.221.199.147 1 3 46968 20190923193259
+159.69.204.46 4 83 1009384 20190929020211
+197.210.53.20 0 59 791933 
+116.203.105.155 12 256 3165873 20190929210816
+82.145.222.33 5 208 2374695 20190928052119
+105.112.30.48 11 175 3316652 20190929123631
+34.67.82.157 5 268 4984738 20190930122317
+129.205.114.30 8 114 1374103 20190930144841
+197.210.8.46 1 17 113893 20190928104057
+105.112.23.174 6 134 2374991 20190930134851
+82.145.220.193 8 199 2909227 20190929062128
+105.112.120.146 60 419 5351781 20190930004919
+197.210.58.70 1 22 135414 20190930070357
+197.210.226.92 9 153 2403480 20190930140137
+197.210.8.231 7 171 2728096 20190930072711
+129.205.112.135 18 337 5082732 20190930070409
+197.210.44.161 6 135 2132772 20190929181226
+41.58.219.28 38 690 11449421 20190918154225
+173.252.127.10 0 27 332545 
+105.112.55.25 6 143 2239622 20190929180305
+173.252.87.100 5 179 2697736 20190930210415
+197.210.227.237 4 46 681197 20190930115404
+197.210.62.49 4 202 3770245 20190923080738
+197.210.57.145 0 21 266603 
+197.210.54.172 1 1 29883 20190929233741
+105.112.57.157 9 75 1081319 20190930064718
+173.252.127.28 4 46 706324 20190929070439
+197.210.45.103 14 202 2934460 20190930184703
+197.210.62.40 11 188 2745694 20190930163557
+31.13.115.12 6 210 2896971 20190927112859
+41.190.2.195 25 50 860847 20190929074822
+197.210.64.83 1 1 26754 20190929172628
+197.210.226.45 3 119 1695710 20190929025344
+14.143.166.97 6 187 2803459 20190927132339
+197.210.52.68 6 79 869985 20190929072003
+197.210.57.50 6 84 1284241 20190930132706
+41.190.3.246 2 37 275900 20190929160525
+41.190.30.13 6 79 1013830 20190929144859
+197.210.226.101 1 1 26762 20190928091101
+173.252.127.37 1 6 153715 20190923152029
+173.252.87.38 2 26 381395 20190926122405
+69.171.251.56 2 53 756999 20190927113524
+169.159.126.218 6 143 2239620 20190928185216
+62.157.177.83 17 242 4546150 20190926115438
+197.210.53.128 3 81 1039096 20190930204318
+69.171.251.53 3 65 1086292 20190927113745
+197.210.55.151 4 82 1278065 20190928163703
+197.210.57.238 1 10 58941 20190927174307
+197.210.52.235 4 88 1243782 20190928121321
+105.112.97.210 6 153 2323208 20190929185317
+197.210.58.95 2 76 1177225 20190927171146
+197.210.45.147 1 1 29865 20190928134332
+173.252.127.41 2 15 104930 20190927085721
+196.52.84.11 1 1 389351 20190930184842
+41.190.2.41 13 358 6431090 20190928211848
+73.68.129.32 17 415 6250952 20190924192744
+105.112.40.68 4 15 162370 20190921004917
+105.112.113.94 9 224 3307165 20190930095303
+105.112.46.118 6 177 2622279 20190929105712
+66.220.149.64 0 14 349356 
+197.210.60.25 10 195 2789560 20190929102109
+197.210.227.155 2 121 1824361 20190927124213
+80.248.10.64 31 240 3012343 20190928060405
+197.210.52.181 0 1 4178 
+171.13.14.49 0 8 38263 
+66.220.149.29 3 98 1529780 20190927112452
+197.210.58.115 2 102 1518181 20190930213036
+41.190.30.180 15 47 526436 20190928212933
+173.252.127.34 5 160 2417644 20190927113446
+197.210.58.198 1 26 548477 20190930213036
+41.203.78.155 8 80 922621 20190925195509
+197.210.227.65 0 9 66559 
+197.210.58.34 3 31 409082 20190930234003
+31.13.127.11 0 4 128416 
+197.210.53.17 3 16 182854 20190930194832
+139.59.107.152 2 39 305408 20190930184808
+54.244.4.84 1 1 544004 20190930172012
+41.203.78.166 73 947 13822909 20190930172243
+129.205.113.95 14 183 2766507 20190928205743
+173.252.127.11 4 98 1608240 20190927110851
+129.205.113.86 13 241 3057806 20190930200139
+41.138.91.180 5 145 2608825 20190930113801
+173.252.127.7 0 17 99868 
+41.190.30.239 14 188 3060131 20190927190138
+197.210.29.142 4 184 2423986 20190927124135
+41.203.78.163 86 641 9164033 20190930213433
+66.220.149.17 2 20 592360 20190924143131
+105.112.28.34 6 177 2622279 20190928133355
+197.210.227.35 0 23 142052 
+31.13.127.18 3 150 2483866 20190927135736
+105.112.26.244 14 157 2339472 20190930100032
+66.220.149.52 3 32 297507 20190927112343
+206.16.134.21 1 1 41286 20190918163310
+173.252.87.47 2 4 54241 20190927110051
+197.210.57.70 3 70 802821 20190930152539
+129.205.113.80 11 148 2280800 20190928072908
+197.210.55.138 4 47 877527 20190930113853
+197.210.54.77 4 62 862574 20190928182111
+197.210.226.149 8 152 2336691 20190930124704
+197.210.58.145 9 75 1236295 20190930083956
+197.210.61.19 42 816 12595655 20190930210945
+66.220.149.61 1 68 1009029 20190923152708
+197.210.47.203 6 74 930896 20190928093855
+41.58.73.248 4 162 2209739 20190927230727
+41.203.73.176 47 728 10392396 20190930155618
+170.251.105.72 21 516 8098767 20190924221850
+105.112.42.24 6 136 2132257 20190928052520
+34.238.131.111 1 1 543026 20190923155035
+173.252.95.12 1 33 860823 20190927112903
+105.112.57.123 6 98 1262796 20190928200506
+197.210.53.89 4 34 1024031 20190930124039
+41.203.93.115 8 8 88474 20190930140203
+41.58.27.235 5 55 500314 20190930002606
+197.210.226.78 2 33 266268 20190927124201
+105.112.122.5 14 285 3956011 20190927182309
+167.71.242.170 1 1 43270 20190930092815
+197.210.60.85 1 105 1652510 20190929210344
+173.252.127.9 0 2 356657 
+173.252.95.34 5 168 2655869 20190928111513
+173.252.95.45 0 28 504092 
+197.210.55.119 15 71 854872 20190928100715
+197.210.57.73 0 35 625317 
+105.112.40.92 12 28 505625 20190921014653
+185.26.180.126 9 198 2867473 20190929083352
+173.252.95.9 1 90 1563562 20190924085351
+197.210.58.132 3 123 2153377 20190930113547
+197.210.174.223 8 104 1467487 20190930060731
+105.112.104.76 6 177 2622278 20190928234617
+197.210.57.124 4 5 43012 20190920091035
+197.210.227.42 15 86 1479874 20190920005657
+69.171.251.28 0 2 53527 
+31.13.115.18 12 267 4015662 20190927114113
+66.102.6.200 0 4 75908 
+41.203.78.160 70 885 12701566 20190930165638
+197.210.53.228 3 27 229208 20190928182924
+197.210.57.127 0 27 560359 
+105.112.44.83 2 33 216981 20190930192046
+197.210.226.84 8 61 1267376 20190928145631
+173.252.127.13 0 41 649884 
+197.210.45.231 11 172 2579744 20190928050211
+173.252.87.7 5 125 1842909 20190927110854
+173.252.87.49 1 21 409408 20190927112925
+105.112.29.57 6 103 1387291 20190930185058
+209.0.146.82 1 1 23394 20190925231056
+88.99.145.42 3 3 72170 20190923152355
+82.145.221.22 6 110 1321325 20190928141751
+31.13.115.11 8 138 2660862 20190927110015
+116.203.93.92 4 96 1395288 20190928201727
+23.239.180.251 1 1 543795 20190926064024
+173.252.95.22 3 86 1280562 20190927183550
+105.112.58.183 1 1 29884 20190928125040
+197.210.55.149 3 59 858483 20190927231722
+197.210.55.192 3 79 924189 20190927233215
+70.32.0.122 2 2 1095463 20190930115230
+129.205.112.128 86 672 9366512 20190929162309
+197.210.226.205 1 69 1030732 20190929111539
+197.210.227.81 1 45 501963 20190930030700
+66.102.6.227 1 1 12853 20190930161207
+105.112.18.208 1 1 29882 20190927175823
+173.252.95.4 1 44 1094007 20190924135837
+141.0.13.47 6 164 2857597 20190930221632
+66.249.93.72 36 806 14130905 20190930154246
+82.145.221.102 7 187 2801652 20190929225630
+141.0.13.59 7 221 4066402 20190930130524
+41.190.30.186 6 177 2622280 20190930103307
+197.210.58.156 1 14 412734 20190930152539
+173.252.95.31 1 28 1024360 20190927114258
+105.112.16.130 23 418 5422871 20190926113602
+105.112.43.151 4 162 2209739 20190927175036
+195.201.228.214 4 79 905388 20190926024136
+197.210.174.214 4 66 1209947 20190926152014
+105.112.20.166 1 14 95636 20190927182931
+207.46.13.99 0 3 5962 
+130.255.162.108 52 1011 11735366 20190930155340
+197.210.47.144 9 124 1774133 20190921072129
+173.252.127.43 0 1 29611 
+197.210.46.18 10 45 615780 20190930181741
+197.210.57.56 12 192 3094112 20190930201907
+105.112.29.178 5 104 1119282 20190927124212
+66.220.149.27 3 53 927311 20190929070414
+197.210.55.224 4 59 1074319 20190929202749
+197.210.227.139 1 1 24557 20190927183114
+197.210.29.242 3 52 855723 20190924100749
+64.233.172.72 0 1 5142 
+197.210.226.220 2 2 36681 20190920005358
+116.203.19.157 12 248 2969130 20190928041306
+197.210.53.107 1 37 437216 20190929000149
+197.210.62.46 6 177 2622280 20190929173431
+197.210.52.205 0 22 501192 
+185.25.34.137 11 11 1755350 20190924195908
+93.159.230.28 1 1 41906 20190921073351
+159.69.110.97 18 525 7753788 20190930155331
+66.249.93.69 39 931 17766689 20190930154256
+105.112.50.3 1 1 29863 20190929154804
+41.58.247.48 1 7 467582 20190930100412
+197.210.58.150 11 95 1272038 20190930111540
+141.0.12.173 8 188 2857230 20190929225853
+197.210.57.53 3 74 786776 20190928152619
+31.13.127.12 4 142 2358424 20190923085058
+197.211.57.159 29 252 3516715 20190930062256
+197.210.227.217 16 184 2707344 20190929025355
+197.210.53.91 4 81 1228501 20190930172414
+41.203.78.132 29 282 4694577 20190922212434
+94.130.167.117 1 1 23333 20190923151105
+105.112.99.177 1 1 24063 20190927124203
+105.112.120.171 6 178 2838162 20190928045006
+171.13.14.29 0 1 3402 
+173.252.95.28 2 77 1232101 20190927111427
+197.210.57.215 0 3 25559 
+197.210.44.133 6 154 2359903 20190929190314
+159.69.150.128 4 83 1009421 20190928093659
+129.205.114.25 1 1 29863 20190930060718
+80.248.0.34 6 135 2151857 20190929122114
+197.210.52.123 5 110 1656677 20190929000159
+66.220.149.35 0 8 123039 
+161.69.99.11 2 2 85176 20190930083708
+197.210.44.60 6 174 2561159 20190929191955
+197.210.54.149 7 129 1884412 20190930211145
+206.41.161.32 1 1 29215 20190923215714
+197.210.53.155 1 1 26762 20190928201527
+121.244.87.250 4 127 1861507 20190924221729
+197.210.45.173 9 225 4058790 20190919092333
+157.245.215.131 5 264 4536208 20190925022929
+69.171.251.9 0 1 11554 
+105.112.112.122 6 87 1101593 20190928113619
+107.167.108.152 7 111 1404121 20190927215433
+40.77.167.21 1 9 113257 20190928144537
+197.210.57.57 5 74 1017789 20190929134446
+66.249.83.93 42 958 15612172 20190930220855
+176.110.134.2 10 10 2916347 20190930124033
+82.145.223.111 6 157 2989928 20190928070207
+197.210.46.12 26 346 6063524 20190930200218
+105.112.26.193 1 1 29883 20190928200023
+31.13.115.23 6 91 1225634 20190927114115
+66.220.149.23 0 16 342892 
+197.210.58.6 0 8 73395 
+105.112.120.124 6 154 2359904 20190929223459
+197.210.174.229 6 116 2011985 20190929170057
+197.210.63.22 1 1 26486 20190927172250
+197.210.45.69 60 310 4026704 20190920192900
+69.171.251.34 3 54 611781 20190923152816
+31.13.127.5 1 33 764969 20190930124503
+69.171.251.45 1 35 796044 20190927113955
+197.210.55.102 0 19 370389 
+173.252.87.40 1 1 32199 20190923152749
+197.210.54.251 2 68 1026024 20190927151236
+197.210.57.77 0 30 347667 
+49.150.184.48 0 1 17530 
+185.93.2.93 1 1 547905 20190930184842
+31.13.127.1 4 64 893415 20190923152320
+66.220.149.41 0 4 60633 
+197.210.55.31 5 90 1140744 20190930123123
+105.112.104.126 6 178 2682732 20190928052721
+197.210.52.139 3 143 2058500 20190927124402
+197.210.227.54 3 78 1364192 20190930135851
+209.234.253.176 10 159 2650074 20190928112036
+171.13.14.46 1 3 46318 20190926073230
+197.210.28.169 1 1 30195 20190930210804
+64.233.172.146 1 3 44293 20190930125437
+66.249.88.50 38 934 13073574 20190930225422
+197.210.44.129 3 61 554797 20190928155420
+66.220.149.3 1 49 1184482 20190930101311
+105.112.108.208 4 97 1006311 20190927124320
+197.210.45.32 6 135 2152169 20190930214850
+197.210.55.198 3 93 2255327 20190930195924
+105.112.98.122 4 167 2515107 20190929215300
+51.38.48.186 4 4 174846 20190930164927
+197.210.226.116 4 52 921606 20190929064338
+82.145.222.68 1 1 24059 20190927124206
+129.205.112.132 79 559 7059557 20190929220210
+197.210.55.115 1 2 29728 20190921180321
+197.210.64.107 6 6 41439 20190927070110
+185.26.180.180 12 292 4548753 20190927175250
+104.222.33.171 1 1 542897 20190928112537
+31.13.103.5 1 1 22326 20190923152052
+69.171.251.31 4 90 1879489 20190930201639
+105.112.44.243 4 132 2001281 20190927184138
+105.112.27.187 105 807 11004905 20190929194020
+105.112.99.122 6 110 1624229 20190929065615
+69.171.251.22 6 130 2138087 20190923152819
+66.220.149.10 0 37 895898 
+165.227.163.166 1 1 548234 20190930184842
+41.190.30.164 6 146 2191939 20190930211519
+197.210.226.247 5 5 53726 20190928201609
+197.210.58.65 4 58 992574 20190929152615
+173.252.87.11 2 34 659746 20190927110919
+197.210.58.208 1 2 32535 20190929194226
+197.210.226.215 35 186 2331636 20190928202059
+116.203.209.206 12 249 2956864 20190926025034
+69.171.251.4 4 157 3100259 20190927112859
+105.112.74.235 6 89 1132417 20190930142206
+197.210.226.224 1 56 858840 20190929064337
+31.13.115.7 5 143 2754899 20190928190338
+173.252.87.36 4 112 1984624 20190927113754
+41.203.73.183 13 406 6214274 20190930164200
+195.201.88.217 12 253 3141775 20190928094302
+197.210.46.10 24 511 7569863 20190929211409
+89.36.221.196 1 1 26225 20190923165544
+173.252.95.29 8 140 1703060 20190927113524
+197.210.63.20 33 320 4673437 20190927221341
+217.182.175.162 20 20 0 20190923225014
+105.112.58.144 1 1 30195 20190930213154
+197.210.174.210 3 69 663207 20190930113309
+173.252.127.50 5 141 2136223 20190929174456
+197.211.57.156 11 157 3116147 20190928163659
+69.171.251.16 0 1 4789 
+197.210.226.196 4 89 1514621 20190928145502
+141.0.13.68 12 193 2952596 20190930053059
+35.196.204.24 2 2 87810 20190930175951
+104.132.247.66 4 128 1943227 20190925152849
+197.156.230.172 17 315 4023912 20190927125139
+173.252.87.33 0 2 18304 
+105.112.42.37 9 304 4676324 20190930153523
+197.210.57.94 6 166 2630444 20190927221417
+154.117.122.204 7 87 1233094 20190929153449
+205.237.91.130 1 1 22096 20190927230834
+35.227.92.85 29 29 1099823 20190930084315
+159.69.203.190 4 84 1012089 20190924163243
+197.210.52.103 0 27 296691 
+64.233.172.4 0 1 5568 
+197.210.55.83 1 1 27718 20190928210716
+41.203.78.130 38 555 9320404 20190921111340
+31.13.115.10 0 9 318939 
+31.13.127.17 5 105 2235860 20190923152709
+129.205.113.93 12 148 1756035 20190930191512
+197.210.226.129 20 122 1595748 20190928201302
+41.190.3.218 1 1 29863 20190929200103
+3.80.139.86 1 1 43316 20190924062130
+195.201.218.150 4 82 989001 20190927224353
+105.112.30.60 6 178 2682734 20190928152433
+197.210.53.184 0 17 196560 
+95.130.97.156 0 1 44860 
+197.210.44.51 6 139 2141060 20190929040512
+41.190.2.6 8 181 2779482 20190928205335
+105.112.66.78 3 35 248935 20190930114016
+173.252.87.25 3 30 822917 20190926122405
+69.171.251.20 1 3 85383 20190923152156
+197.210.55.174 1 9 86052 20190929113105
+66.220.149.12 1 84 1238063 20190927110017
+105.112.104.250 6 153 2323210 20190927172416
+115.110.204.145 12 299 4443011 20190927125121
+205.237.91.81 1 1 43264 20190923073310
+204.187.14.77 6 271 4991461 20190927120003
+3.82.213.62 1 1 244529 20190925170843
+173.252.127.2 2 3 74580 20190927113816
+66.220.149.57 1 29 463123 20190929070414
+197.210.52.170 1 30 600107 20190929071615
+141.0.12.233 8 200 2912226 20190929071152
+45.215.246.10 0 1 35289 
+197.210.44.157 4 97 1006318 20190927124224
+105.112.96.203 10 178 2698367 20190928061823
+104.131.216.238 1 1 43237 20190930092811
+31.13.127.15 0 3 57684 
+197.210.58.89 3 77 1302369 20190929134256
+67.207.84.216 2 2 86702 20190930092815
+173.252.127.32 1 33 324426 20190927112904
+105.112.32.121 1 1 29863 20190929153538
+31.13.127.24 6 67 870003 20190927114259
+197.210.52.117 0 11 131316 
+197.210.52.233 0 9 172518 
+82.145.220.105 22 200 2663289 20190928002422
+141.0.13.64 15 329 5150801 20190928151833
+173.252.95.17 3 99 1579279 20190927110814
+159.69.206.29 12 262 3217802 20190925192608
+45.33.15.94 6 223 3681227 20190921212215
+197.210.174.216 38 332 4746671 20190930105845
+197.210.53.162 8 87 1299522 20190930172515
+35.243.130.152 2 2 87297 20190930175851
+197.210.45.199 2 7 81382 20190929131400
+195.201.131.44 4 81 927202 20190925181306
+94.130.167.123 1 1 26222 20190923151853
+173.252.87.42 5 63 1314750 20190927113416
+197.210.53.132 3 3 35989 20190922204600
+197.210.57.91 5 87 1716917 20190930234112
+197.210.65.150 6 177 2622279 20190928195508
+41.203.73.178 10 187 2512936 20190930052241
+34.212.27.197 3 3 0 20190923193746
+41.58.217.57 18 170 2914052 20190923101328
+105.112.18.246 44 581 8796090 20190925055742
+173.252.87.2 4 86 1150021 20190927111946
+23.239.180.29 1 1 543878 20190924214350
+197.210.53.18 2 14 305106 20190930194831
+104.222.33.209 1 1 544096 20190926010156
+66.102.9.15 7 187 3917559 20190930091852
+41.217.54.76 6 154 2359904 20190928142032
+108.56.238.152 46 452 7091173 20190927052505
+105.112.18.104 5 201 3845448 20190921193144
+105.112.120.128 10 194 2852749 20190928172551
+66.220.149.18 0 24 435659 
+141.0.12.250 24 504 8424206 20190929224700
+82.145.220.154 8 179 3302872 20190928100320
+173.252.127.8 6 234 4034798 20190927112909
+41.203.78.162 68 1271 19082173 20190930230203
+105.112.106.237 4 132 2001283 20190927185059
+155.93.110.138 6 93 1213462 20190928121412
+197.210.57.107 6 113 1640889 20190930205117
+66.220.149.53 0 2 5194 
+197.210.53.208 1 1 28464 20190928182912
+197.210.53.65 2 27 423647 20190929112608
+105.112.27.27 47 246 3982527 20190929075506
+82.145.222.47 7 119 1463090 20190928201812
+197.210.227.102 3 93 1393426 20190930205606
+173.252.87.48 3 38 527924 20190930124500
+31.13.115.26 5 150 2533080 20190927111702
+197.210.227.174 3 49 688315 20190927195533
+173.252.95.16 4 45 664081 20190927183614
+168.235.194.252 1 80 1282020 20190930143140
+64.233.172.227 0 3 10306 
+54.221.198.105 0 3 56546 
+141.0.13.112 52 994 16724876 20190929063240
+173.252.127.51 9 181 2348252 20190927113547
+105.112.120.36 6 153 2357501 20190929100645
+171.13.14.52 1 16 105569 20190926073237
+197.210.55.141 5 69 917726 20190930032638
+197.210.58.41 1 1 29884 20190927183030
+173.252.95.13 0 1 36407 
+69.171.251.29 1 26 673081 20190923152322
+206.41.162.79 2 2 49646 20190925221108
+197.210.58.210 2 16 165352 20190930205114
+197.210.58.194 1 92 1257689 20190927124134
+5.178.76.206 4 4 929036 20190925171025
+197.210.64.82 22 443 6992494 20190927202347
+197.210.53.249 1 74 1379811 20190927173529
+35.230.51.166 1 1 0 20190923155602
+173.252.127.38 1 3 59227 20190927114243
+197.210.54.255 11 160 2546001 20190928163701
+197.210.60.189 1 1 15393 20190928054613
+105.112.29.194 1 1 29865 20190928145051
+173.252.87.37 3 36 910182 20190927113438
+173.252.127.27 3 175 3421789 20190926212702
+66.220.149.6 2 46 650148 20190927112441
+197.210.52.67 3 33 503151 20190928194401
+141.0.12.12 10 295 5361758 20190919194248
+197.210.54.86 1 28 203287 20190927124221
+69.171.251.52 3 47 483540 20190927113955
+17.235.75.48 6 138 2417442 20190923193656
+197.210.57.237 1 2 3366 20190930234146
+107.191.101.219 1 1 41262 20190919024609
+195.201.216.213 12 258 3203503 20190928145646
+206.41.162.102 1 1 22553 20190925221108
+41.190.30.54 1 1 28463 20190927212944
+105.112.55.247 6 216 3090721 20190929193454
+197.210.55.204 1 68 1013718 20190930152712
+69.171.251.17 0 1 45193 
+64.233.172.70 1 1 33029 20190930161204
+197.210.53.127 4 27 486575 20190929072001
+31.13.115.9 5 110 1716519 20190927113742
+197.242.119.78 22 362 5725316 20190927124343
+41.190.12.100 1 1 24064 20190927124430
+197.210.58.240 0 23 190300 
+105.112.17.246 3 57 454769 20190930220324
+35.230.67.52 1 1 0 20190923163429
+105.112.11.10 6 153 2323211 20190929090925
+197.210.52.81 0 8 102475 
+197.210.55.243 2 49 854831 20190923172129
+173.252.95.20 1 2 31351 20190923152842
+197.210.57.89 1 14 160679 20190930132656
+197.210.58.197 4 87 1627699 20190927221158
+82.145.220.74 13 202 2904451 20190928191502
+105.112.21.159 6 177 2622279 20190929082121
+173.252.127.24 2 77 1285964 20190930124513
+159.69.206.122 4 86 1095059 20190927010244
+197.210.53.76 0 25 381884 
+116.203.116.222 2 2 86608 20190930090034
+197.210.46.19 21 265 3540464 20190929203327
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 13
+20190918 39 691 11490707 2
+20190919 3718 12292 140036570 24
+20190920 3382 12034 150645437 45
+20190921 4377 11949 136540691 27
+20190922 1292 3841 45164702 14
+20190923 3481 15955 213212264 177
+20190924 3241 11913 148575064 64
+20190925 2707 16621 223936033 75
+20190926 2470 13781 175008238 64
+20190927 3670 36926 523168008 382
+20190928 2837 32542 465832694 268
+20190929 2458 35911 542555472 317
+20190930 4117 44904 714356563 407
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+30s-2mn 205
+1h+ 40
+30mn-1h 40
+5mn-15mn 108
+0s-30s 1294
+15mn-30mn 43
+2mn-5mn 136
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 753
+/obejorstore_backend/index.php 16704 53419835 5 16
+/index.php 15460 111881033 696 1044
+/catalog/view/theme/journal2/css/icons/fonts/journal-icons.woff 972 215336728 78 300
+/catalog/view/javascript/font-awesome/fonts/fontawesome-webfont.woff2 788 60724920 64 123
+/ 518 38804080 249 121
+/samsung-galaxy-a50-6.4-inch-4gb-128gb-rom-android-9-pie-25mp-5mp-8mp-25mp-dual-sim-4000mah-4g-smartphone-ja2019 342 10111158 240 49
+/samsung-galaxy-a20-6.4-inch-infintiy-v-3gb32gb-rom-android-9.0-pie-13mp-5mp-8mp-dual-sim-4g-fingerprint-smartphone-blue 162 4966929 96 10
+/samsung-galaxy-a70-6.7-inch-s-amoled-6gb-128gb-rom-android-9.0-pie-32mp-8mp-5mp-32mp-dual-sim-4g-fingerprint 123 3327945 73 14
+/samsung-galaxy-a10-6.2-2gb-ram-32gb-rom-android-pie-rear13mpf19-front-5mp-f20-blue 122 3656696 76 25
+/mobile/getfeaturedproducts.php 83 819651 0 0
+/catalog/view/javascript/font-awesome/fonts/fontawesome-webfont.woff 81 7939944 2 10
+/mobile/gethomepage.php 80 3259161 0 0
+/samsung-galaxy-note-10-6.3-inch-8gb-ram-256gb-rom 78 2107596 40 10
+/mobile/getorderhistory.php 58 12928 0 0
+/mobile/getorder.php 56 33706 0 1
+/samsung-galaxy-a2-core-5-inch-hd-1gb16gb-rom-andorid-9.0-pie-5mp-5mp-dual-sim-2600mah-blue 54 1573152 26 5
+/samsung-galaxy-tab-a-10.1-2016-with-s-pen-p585-10.1-inch-16gb-3gb-4g-lte 49 1261613 27 9
+/mobile/getcategories.php 49 971667 0 0
+/obejorstore_backend/ 45 51507 10 0
+/samsung-galaxy-tab-e-sm-t561-tablet-9.6-inch-wifi-3g 45 1258850 23 9
+/zealot-zealot-s1-official-bluetooth-speaker-with-warranty-earphone-power-bank-flash-light-tf-card-with-fm 44 1215423 15 11
+/mobile/loginuser.php 43 80617 0 0
+/Samsung-Galaxy-Tab-S4-10.5%E2%80%9D(64GB,4GB)-13MP-Rear-With-Flash-8MP-Selfie-7300mAh-4G-LTE 42 1203737 27 11
+/obejorstore_backend/view/javascript/font-awesome/fonts/fontawesome-webfont.woff2 37 2777760 1 0
+/catalog/view/theme/journal2/lib/lightgallery/fonts/lg.woff 37 142416 1 13
+/apple-airpods-2-wireless-earbuds-latest-generation 1 24398 1 0
+/Fashion%20Men%20Denim%20Jeans%20Ripped%20Pants%20Cotton%20Slim%20Stretchable 1 25253 0 0
+/fexda-bl-25bt-battery-for-tecno-phone-t465-t5282800mah-capacity 2 52335 0 0
+/infinix-note-5-x604-6.0-inches-screen-android-8.1oreo-32gb-rom-3gb-ramdual-sim-blue-4500-mah-battery 1 29985 0 0
+/infinix-zero5-x603-5.98-inches-fhd-android-7.0-nougat-6gb-ram-64gb-rom-12mp-13mp-dual-16mp-camara-dual-sim-4g-lite-smartphone-4350-mah-battery 3 86839 0 0
+/zero-laptop-power-bank-charger-15000mah-bonus-mini-power-bank 5 132015 0 0
+/Apple-MacBook-Pro-15 2 59554 0 0
+/fexda-bl-21bi-battery-for-itel-phone-it1503-it2052200mah 1 25583 0 0
+/fexda-fexda-bl-30bx-battery-for-infinix-phone 1 25667 0 0
+/dell-xps-15inch-9560-7th-gen-intel-corei7-2.8ghz-512gb-ssd-16gb-ram 1 26835 0 0
+/samsung-galaxy-grand-prime-5-inch-qhd-1gb%20-%208gb-rom-8mp-5mp-dual-sim-smartphone 2 52614 0 0
+/catalog/view/javascript/bootstrap/fonts/glyphicons-halflings-regular.ttf 2 47024 0 0
+/google-pixel-3 1 24975 0 0
+/better-sound-s207-portable-bluetooth-wireless-speaker 2 51718 0 0
+/apple-iphone-11-smartphone-6-1-inch-4gb-ram-256gb-rom-12mp-12mp-dual-camera-4g-3046-mah-battery 4 106515 0 0
+/Apple%20IMac%2027'%20-%20Intel%20Core%20I5%20,(Silver) 1 32223 0 0
+/Samsung-Galaxy-Note-10 3 85833 0 0
+/catalog/view/javascript/purpletree/bootstrap/fonts/glyphicons-halflings-regular.ttf 1 23512 0 0
+/hp-probook-450-g5-15.6-inch-notebook-computer-intel-core-i5-8250u-3.4ghz-processor-8gb-ram-500gb-hdd-2st09ut-1377-1 2 56860 0 0
+/apple-ipad-6th-generation-5000mah-97-wifi-only 1 28501 0 0
+/catalog/view/theme/journal2/lib/rs-plugin/font/revicons.woff 1 7536 0 0
+/apple-iphone-6s-64gb-rom-2gb-ram-12mp-5mp-4.7-inch-with-fingerprint-1715mah-battery 1 30118 0 0
+/Samsung%20Galaxy%20J1%20ace 1 28286 0 0
+/mobile/getbanners.php 31 5797 0 0
+/%20shoes,%20wedge%20cover%20shoes,Ladies%20Wedge%20Cover%20Shoe%20-%20Black 1 24604 0 0
+/dell-vostro-15-3568-15.6inches-core-i3-6100u-6th-gen-4gb-ram-1tb-win-10-cam-bt 1 27597 0 0
+/dell-latitude-e54807th-gen-14.0inches-intel-core-i5-256gb-8gbram-windows-10-pro 2 55166 0 0
+/apple-iphone-8-64gb-rom-2gb-ram-4.7-inch-12mp-7mp-camara-1821-mah-battery 1 33304 0 0
+/genuine-mopar-5038041aa-filter 3 72567 0 0
+/dell-ac-adapter-power-charger-for-dell-latitude 1 24071 0 0
+/htc-u12-life-64gb-rom-4gb-ram-6.0-inches-android-8.1-oreo-3600-mah-single-sim-nano-sim 2 55415 0 0
+/dell-alienware-17r5-core-i7-2.2ghz-1tb-plus-256ssd-16gb-8gb-nvidiaaw17r5-7811blk-pus 1 28275 0 0
+/gionee-s11-lite-5.7-inchs-hd-4gb-ram-32gb-rom-android-7.1-nougat-13mp-2mp-16mp-hybrid-dual-sim-4g-lte-fingerprint-id-smartphone-3030mAh-battery 1 27611 0 0
+/hp-255-g7-amd-15.6-4gb-ram-500gb-6uj64ea-graphics-dual-core-window-10-pre-loaded-laptop-bag 1 28034 0 0
+/terms 12 281922 0 1
+/blackberry-motion-5.5inch-32-gb-4-gb-ram-4000-mah-battery 1 26693 0 0
+/dell-xps-13inch-9365-2-in-1-7th-gen-intel-corei7-1.3ghz-512gb-ssd16gb-ramwindows-10 2 56232 0 0
+/samsung-bluetooth-headset-level-u-pro-2106-1 1 25435 0 0
+/hp-15-rb006nia-notebook-156-intel-celeron-500gb-hdd-4gb-ram-windows-10-dos 1 29702 0 0
+/havit-multi-function-21-usb-speaker-with-bluetooth-function-sk-590bt-black 1 24908 0 0
+/a4tech-ichat-earphone 1 23923 0 0
+/hp-spectre-13-3sd73av-1-8th-gen-intelr-coretm-i5-quad-core-8gb-ram-256gb-ssd-backlit-keyboard-windows-10 1 31104 0 0
+/hfq6s-multifunctional-bluetooth-speaker 1 25662 0 0
+/better-sound-s812-portable-wireless-speaker 19 614523 8 2
+/fineblue-hd986-bluetooth-headset 1 23707 0 0
+/samsung-galaxy-a80-6.7-dual-sim-128-gb-rom-8-gb-camera-48.0-mp-80-mp-3700mah-4g-lte-fit-band 3 80382 0 0
+/dual-usb-charger-24us-standard-ts-c068 2 52934 0 0
+/accsiss/activities.php 25 11149 0 1
+/samsung-galaxy-a30-6.4-inch-4gb-ram-64gb-rom-android-9.0-pie-16mp-5mp-16mp-4g-lte-dual-sim-smartphone 12 374699 0 0
+/dell-hpm-4g-latitude-3580-156-fhd-laptop-intel-core-i7-7500u-8gb-ddr4-256gb-hard-drive-windows-10-pro 1 27990 0 0
+/acdelco-12f20l-professional-locking-fuel-tank-cap 2 49507 0 0
+/dell-inspiron-15-intel-core-i3-7130u-8gb-ram-1tb-15-5558 1 30399 0 0
+/%20fexda-BL-f32066a-battery-for-tecno-phone-W1-1800mah-capacity 2 52257 0 0
+/N20%20BLUETOOTH%20WIRELESS%20MINI%20SPEAKER 2 49640 1 0
+/nestle-milo-tin-1kg-x-6 1 23523 1 0
+/apple-iphone-xs-256gb 2 64902 0 0
+/samsung-galaxy-m20-6.3-3gb-32gb-rom-android-8.1-oreo-13mp-5mp-8mp-dual-sim-4g-smartphone-charcoal-black 2 54854 0 0
+/JBL%20PRX-725%2015%22%20Dual%20Two%20Way%20Powered%20Loudspeaker 1 24799 0 0
+/gionee-f205-lite-5.47-hd-ips-display-16rom-1gb-ram-8mp-5mp-selfie-camera-android-81-os 1 28384 0 0
+/Drawer%20Filing%20Cabinet%20Metal,%20Four%20Drawer%20Filing%20Cabinet%20Metal 1 24029 0 0
+/apple-airpods-wireless-earphone-headphones 5 564596 2 1
+/samsung-galaxy-tab-s3-sm-t825-9.7-inch-32gb-4gb-4g-lte-black-with-s-pen 2 58571 0 0
+/samsung-galaxy-j7-pro 1 26745 0 0
+/appleipadmini4 2 54677 0 0
+/hp-4500-office-jet-printer 1 25797 0 0
+/infinix-hot8-x650c-6.52-inches-13mp-2mp-qvga-ai-triple-camera-with-quad-flash-light-android-9.0-dual-sim-4g-smart-phone-2gb-ram-32gb-rom-5000mah-battery 11 314766 2 1
+/huawei-p30-pro-6.47-inches-8gb-ram-256gb-rom-android-9.0-40mp-20mp-8mp-dual-sim-black-4200mah-battery 2 59207 0 0
+/obejorstore_backend/view/journal2/tpl/directives/j-opt-image.html 1 93 0 0
+/Samsung%20Galaxy%20Tab%20S4%2010.5 1 30687 0 0
+/samsung-galaxy-a7-android-6.0.1-marshmallow-3-gb-ram-32-internal-memory 1 28515 0 0
+/sony-ps3-console-250gb-with-fifa19 1 23216 0 0
+/obejorstore_backend/view/journal2/tpl/directives/j-opt-shadow.html 3 333 0 0
+/%20Slippers,%20Fang%20Kenneth%20Women%20Block%20Heel%20Mule,%20heel%20slippers. 1 25279 0 0
+/LG%20Electronics%20Tone%20Infinim%20HBS-900%20Bluetooth%20Wireless%20Stereo%20Headset 18 355751 5 4
+/catalog/view/javascript/purpletree/bootstrap/fonts/glyphicons-halflings-regular.woff2 1 18028 0 0
+/apple-iphone-xs-max-64gb-rom-4gb-ram65-inches-single-sim-nano-sim-or-dual-sim-nano-sim-dual-stand-by-3174mAh-battery 1 30309 0 0
+/blackberry-keyone-4.5inch-android-7.1-nougat-32gb-rom-3gb-ram-3500-mah-battery 2 55134 0 0
+/htc-10-evo-55-3gb-32gb-160mp-camera-andriod-70-3200-mah-battery-fingerprint-smartphone 1 27699 0 0
+/2-in-1-wireless-headphone-earphones 21 685050 7 5
+/apple-ipad5-5th-generation-32gb-wifi 1 27972 0 0
+/samsung-galaxy-j5-pro-5.2-2gb-ram-16gb-rom-13mp-13mp-smartphone 2 53863 0 0
+/cray-incraydible-black-evolution-round-neck-t-shirt-white 1 24869 0 0
+/fexda-bl-28at-battery-for-tecno-y2-2800mah-capacity 3 73917 0 0
+/itel%205080%20Triple%20SIM%20Card,%20Bright%20Torch,%20Internet,%20Wireless%20FM%20Feature%20Phone 1 27652 0 0
+/image/cache/catalog/l8io 2 25055 0 0
+/LNS169%20BLUETOOTH%20WIRELESS%20SPEAKER 15 334345 6 4
+/blackberry-dtek50-5.2-inches-android-6.0-13-mp-8mp-hybrid-dual-sim-16gb-rom-3gb-ram-2610-mah-battery 2 55699 0 0
+/gionee-f205-lite-5.47-hd-ips-display-16rom-1gb-ram-8mp-5mp-selfie-camera-android-8.1-2670mAh-battery 1 28311 0 0
+/Nokia%205 1 29715 0 0
+/catalog/view/javascript/font-awesome/fonts/fontawesome-webfont.eot 9 886374 0 2
+/%20Suspender,Fashion%20Kids%20Adjustable%20Suspenders,Suspenders 1 24055 0 0
+/obejorstore_backend/view/journal2/tpl/directives/menu-item.html 4 3204 0 0
+/bongo-drum 1 24073 0 0
+/apple-iphone-11-pro-max-12mp-tof-3d-camera-ios-13-6.5-inch-64gb-rom-4gb-ram-grey-3969mAh-battery 1 27118 0 0
+/mobile/getproductdetails.php 3 8312 0 0
+/Off%20shoulder%20blouse,%20sleeve%20striped%20blouse,off%20Shoulder%20Balloon%20Sleeve%20Striped%20Blouse%20-%20Green 1 22566 0 1
+/Nokia%202 1 28849 0 0
+/apple-iphone-8-256gb-rom-2gb-ram-4.7-inch-12mp-7mp-retina-hd-display-1821-mah-battery 2 67272 0 0
+/Men's%20Denim%20Jeans 1 25231 0 0
+/tecno-t661-ultra-slim-99mm-dual-sim-24ips-screen-1200mah-battery-java-1000-phone-storage-16mb-rom-8mb-ramblack 1 27434 0 0
+/360-Degree-Wireless-IP-Camera-Bulb-Light-CCTV-WIFI-Camera-w16gb%20 3 75936 0 0
+/infinix-smart-3-plus-x627-6.2-inches-android-9.0-pie-dual-sim-4g-lite-3gb-ram-32gb-rom-3500mah-battery 1 29290 0 0
+/samsung-gear-iconx 2 51323 0 0
+/apple-iphone-6s-32gb-rom-2gb-ram-4.7-inches-12mp-5mp-with-facetime-1715-mah-battery 2 62732 0 0
+/infinix-hot-6x-x623-6.2-inch-hd-ips-lcd-13mp-2mp-2gb-ram-16gb-rom-android-8.1-oreo-4000-mAh-battery 1 30765 0 0
+/apple-iphone-xs-max-4gb-ram-64gb-rom-ios-12-12mp-12mp-7mp-dual-sim-3174-mah-battery-gold 1 30577 0 0
+/TRANSCEND-DVD-WRITER 1 24548 0 0
+/fexda-bl-18at-battery-for-tecno-m5-s3-1800mah-capacity 3 79140 0 0
+/apc-backup-ups-1400va 1 26647 0 0
+/gionee-p8m-5.0inch-android-7.0-nougat-2mp-selfie-camara-5mp-rear-camara-1gb-ram8gb-rom-4000mah-battery 1 25530 0 0
+/SAMSUNG%20GALAXY%20NOTE%209%20(512GB) 1 30000 0 0
+/vivo-y90-32gb-rom-2gb-ram-4030mah-battery-622inch-hd 6 164656 0 0
+/image/cache/catalog/kipnklo[pkmlpkjk 2 5510 0 0
+/pisen-power-bank-2c-ts-d210-10000mah 1 27026 0 0
+/stp-cleaning-engine-degreasing-wipes-30-count-18568 1 23604 0 0
+/motorola-moto-z-android-601-55-inches32gb-4-gb-ram-non-removable-li-ion-2600-mah-battery 1 25085 0 1
+/gionee-a1-lite-5.3-inches-3gb-ram-32gb-rom-android-7.0-4000-mah-battery 1 28281 0 0
+/sumec-firman-generator-spg-2200-18kva-100-percente-copper 1 24019 0 0
+/gionee-s8s-32gb-rom-3gb-ram-5.86-inch-android-9.0-pie-rear-13mp-af-5mp-ff-selfie-8map-ff-3000mah-non-removable-battery 1 27283 0 0
+/Xiaomi-Redmi-7-6.26-Hd-3gbRam-%2064gbRom-%20Android%209.0-Network-4g 3 78955 0 0
+/apple-iphone-7-32gb-rom-2gb-ram-4.7-inches-1960mah-battery 1 33243 0 0
+/xtreme-jbl-portable-wireless-bluetooth-speaker-hig-quality 3 77154 1 0
+/dell-xps-15-9560-7th-gen-intel-corei7-2-8ghz-256gb-ssd8gb-ram-15-6-inch 3 85992 0 0
+/fexda-bl-18ai-itel-battery1800mah-capacity 1 25604 0 0
+/huawei-gr5-mini-5.2-inch-fhd-ips-capacitive-touch-screen-2gb-ram-16gb-rom-3000mah-battery 2 58027 0 0
+/apple-iphone-xs-512gb-rom-4gb-ram-5.8-inches-2658mah-battery 2 65171 0 0
+/Samsung%20Galaxy%20A7%20(2017) 1 30246 0 0
+/gionee-a1-5.5inches-4gb-ram-32gb-rom-dual-sim-gold-4010mah-battery 1 28367 0 0
+/apple-iphone-xs-max-256gb-4-gb-rambatter-3174mah 2 59122 1 0
+/pillow-vita-pillow 1 24269 0 0
+/blackberry-priv-5.4-inches-android-5.1.1-lollipop-3gb-ram-32gb-rom-18mp-mobile-phone-3410-mah-battery 2 58350 0 0
+/apple-iphone-11-smartphone-6-1-inch-4gb-ram-128gb-rom-12mp-12mp-dual-camera-4g-3046-mah-battery 3 80861 0 0
+/Dell%20Latitude%20E%207470%20Core%20i7-6600U%208%20GB%20256%20GB%20SSD 1 27952 0 0
+/zealot-b19-cool-lcd-colorful-screen-wireless-headphones 5 99938 2 0
+/obejorstore_backend/view/journal2/tpl/directives/j-opt-font.html 4 500 0 0
+/obejorstore_backend/view/journal2/tpl/directives/j-opt-text-lang.html 5 875 0 0
+/gionee-p8m-5oinch-android-70-nougat-2mp-selfie-camara-5mp-rear-camara-1gb-ram8gb-rom-4000mah-battery 1 27560 0 0
+/samsung-galaxy-tab-a-8.0-with-s-pen-3gb-ram-32gb-rom-android-9.0-4200mah-2019 1 25673 0 0
+/hp-elitebook-850-g4-intel-core-i7-500gb-hdd-8gb-ram-windows-10-pro 1 29334 0 0
+/tecno 2 54085 0 0
+/samsung-u-flex-headphones-eo-bg950cbegae 1 26400 0 0
+/HP-EliteBook-830 1 28845 0 0
+/catalog/view/javascript/purpletree/bootstrap/fonts/glyphicons-halflings-regular.woff 1 23424 0 0
+/%20fexda-bl-25bt-battery-for-tecno-phone-t465-t5282800mah-capacity 1 25881 0 0
+/asus-rog-zephyrus-gm501 1 27505 0 0
+/P%20250%20G6-(3VJ17EA)-%20Intel%20Celeron%20Dual%20Core-1.6GHz%204GB,500GB%20HDD,15.6-Inch%20Windows%2010%20Pro 4 115463 0 0
+/infinix-hot7-x624-6.2-inch-android-V8.1-Oreo-16gb-rom-1gb-ram-13mp-8mp-dual-sim-face-unlock-3g-smartphone-midnight-black-4000mah-battery 1 31654 0 0
+/gionee-f205-dual-sim-5.45-hd-ips-display-16gb-rom-2gb-ram-8mp-5mp-selfie-camera-android-70-os-2670mah-battery-4g-lte-black-gold 1 28492 0 0
+/htc-u11-plus-u11-6-inch-qhd-6gb-ram128gb-rom-android-8.0-oreo-12mp-8mp-dual-sim-4g-smartphone-3930-mah-battery 1 28311 0 0
+/oppo-cph1923-a1k-2-32gb-smart-phone 1 27381 0 0
+/%20S103%20Ear-hook%20Headset%20Wireless%20Bluetooth%20Earphone 2 46135 1 0
+/Men%20Crystal%20Shirt%20Cuff%20Links 1 23394 1 1
+/zealot-b20-wireless-bluetooth-headphones 1 25621 0 0
+/Lava%20Champion%20C1%202.4%22%20QVGA%20Display%20Dual%20SIM%201000%20MAh%20Camera%20With%20Flash%20Torchlight%20Phone 1 25995 0 0
+/infinix-hot-7-x624b-6.2-inch-32gb-rom-2gb-ram-13mp-8mp-dual-sim-face-unlock-3g-smartphone-midnight-black-4000mah-battery 1 30847 0 0
+/obejorstore_backend/view/journal2/tpl/directives/image-select-lang.html 2 480 0 0
+/fexda-bl-25jt-battery-for-tecno-wx3-2500mah-capacity 1 26097 0 0
+/Capsule%20Style%20Portable%20Umbrella%20-%20Multicolour,%20Umbrella 1 24524 0 0
+/apple-iphone-xr-3gb-ram-256gb-rom-dual-sim-6.1inch-12-mp-7mp-camara-2942-mah-battery 2 62004 0 0
+/obejorstore_backend/view/journal2/tpl/directives/switch.html 6 486 0 0
+/apple-iphone-8-plus 1 32295 0 0
+/pisen-power-bank-ts-d220-10000mah-led-display-universal-usb-mobile 1 28274 0 0
+/Dell%20OptiPlex%203050%20MiniTower%20Desktop-Intel%20Core%20I5- 1 28555 0 0
+/Fashion%20Big%20Vintage%20Earrings%20For%20Women_%20Red%20Color 1 24112 0 0
+/catalog/view/theme/journal2/lib/lightgallery/fonts/lg.ttf 2 4502 0 1
+/apple-iphone-x-256gb-rom-3gb-ram-5.8-inch-super-amoled-ios-11.1.1-12mp-12mp-7mp-4g-lte-2716-mah-battery 1 36264 0 0
+/gionee-p5-mini-45-inches-android-50-lollipop-5mp-2mp-dual-sim-3g-smartphone-8gb-rom-1gb-ram-1800-mah-battery 1 27552 0 0
+/obejorstore_backend/view/journal2/tpl/directives/ckeditor.html 2 496 0 0
+/htc-u11-plus-6-inch-qhd-6gb-ram128gb-rom-android-8.0-oreo-12mp-8mp-dual-sim-4g-smartphone-3930-mah-battery 1 28569 0 0
+/Apple%20IPAD%20PRO%20-%2012.9%e2%80%9d%20-%20256GB%20-%20WIFI%20ONLY%20-%202018 1 28835 0 0
+/hp-deskjet-2620-all-in-one-wireless-inkjet-printer 2 53146 0 0
+/hp-elitebook-820-g4-core-i7-7500u-8gb-256gb-ssd-125-inch-windows-10-professional 1 29011 0 0
+/dell-latitude-5490-core-i7-8650u-1.9ghz-16gb-512gb-ssd-ac-bt-fr-wc-4c-14-fhd-w10p64 2 59212 0 0
+/26pcs-letters-kids-wooden-alphabet 1 24094 0 0
+/ocmultivendor/sellerorder 1 20376 0 0
+/huawei-p9-plus-5.5-inches-64gb-rom-4gb-ram-android-6-non-removable-li-po-3400-mah-battery 1 28233 0 0
+/beats-by-dre-powerbeats-pro-wireless 1 24201 0 0
+/apple-ipad-6th-generation-32gb-wifi-5000mah-97 1 28354 0 0
+/microsoft-surface-pro-6-core-i5-128gb-8gb-multi-touch-12.3'' 2 62502 0 0
+/nokia-3-1 4 104837 0 0
+/Apple%20iPhone%20XR%20(3%20GB%20RAM,%20128%20GB%20ROM) 2 61580 0 0
+/symantec-endpoint-protection-small-business 1 25734 0 0
+/apple-iphone-7-128gb-4.7inch-1960-mah-battery 1 31922 0 0
+/huawei-y6-2019-6.09-inches-2gb-ram32gb-rom-android-8.0-oreo-13-mp-8-mp-dual-sim-4g-3000-mah-battery 1 28654 0 0
+/firman-diesel-generator-84kva-100-copper-coil-sdg12000se 1 23865 0 0
+/Alpaca%20Ankle%20Double%20Strap%20Block%20Heel%20Sandal%20-%20Brown 1 25516 0 0
+/fexda-bl-18ai-itel-battery-1800mah-capacity 2 51013 0 0
+/fexda-bl-20fx-battery-for-infinix-hot-x5072000mah-capacity 2 52252 0 0
+/fero-royale-y2-lite-55-inch-2gb16gb-rom-android-70-nougat-13mp-13mp-dual-sim-3g-smartphone-gold-2107-1 1 23465 1 0
+/Canon%20EOS%205D%20Mark%20IV%2030.4%20MP%20Digital%20SLR%20Camera%20(Black 3 76577 0 0
+/Infinix-Hot-8 1 29009 0 0
+/Nokia%20106 1 23511 0 0
+/Apple-iPhone-7-Plus 1 31977 0 0
+/samsung-galaxy-m20-6.3-4gb-64gb-rom-android-8.1-oreo-13mp-5mp-8mp-dual-sim-4g-smartphone-charcoal-black 1 26923 0 0
+/workout-machinesmini-stepper-machine-workout-step-trainer 1 25759 0 0
+/fexda-bl-36ai-battery-for-itel-phone-it15083000mah 2 51447 0 0
+/about_us 23 601116 0 0
+/techno-phantom-9-android-9.0pie-6.39inches-dual-sim-128-gb-6-gb-ram-3500-mah-battery 2 57870 0 0
+/samsung-galaxy-c7-pro-64gb-4gb 3 79205 0 0
+/dell-inspiron-5379-13-5000-2-in-1-133-8-gb-ram-1-tb-hard-drive 1 30822 0 0
+/%20Lava%20Champion%20N1%201.8%22%20QVGA%20Display%20Dual%20SIM%201000%20MAh%20FM%20Camera%20Torchlight%20Phone 1 24542 0 0
+/dell-latitude-e7470-intel-core-i7-2-6-ghz-6600u-14-inch-8gb-256gb-ssd-windows-10-pro 2 57866 0 0
+/catalog/view/javascript/bootstrap/fonts/glyphicons-halflings-regular.woff 2 46848 0 0
+/huawei-mate-10-pro-5.9-inches-android-8.0-oreo-up-gradable-to-android-9.0-pie-dual-sim-4gb-ram-64gb-rom-4000-mah-battery 1 31265 0 0
+/drawer%20filing%20cabinet%20metal,%20four%20drawer%20filing%20cabinet%20metal 4 47417 0 0
+/%20pisen-easy-power-iv-10000mah-meatball-ts-d151 1 26670 0 0
+/mobile/getcost.php 2 266 0 0
+/huawei-ascend-mate7-6.0-inches-android-4.4.2-kitkat-up-gradable-to-60-32gb-rom-3gb-ram-4100-mah-battery 4 117152 0 0
+/apple-macbook-pro-15.4-mp942ll-a-intel-core-i7-512ssd-16gb-2.6ghz-macos 1 27606 0 0
+/hp-proone-400-g3-20-inch-all-in-one-pc-7th-generation-intelr-core-i5-4gb-ram-500g 2 52900 0 0
+/philips-flite-hyprlite-wireless-bluetooth-earbuds-black-shb4205bk-27-b06y6gm2b8 1 22856 0 0
+/apple-iphone-xs-max-6.5-inches-single-sim-4gb-ram-256gb-rom-3174-mah-battery 1 30803 0 0
+/image/cache/catalog/YOIL 1 20536 0 0
+/hp-elitebook-840-g4-core-i5-7200u-250ghz-500gb-hdd-4gb-ram-14-inch 1 30683 0 0
+/BETTER%20SOUND%20S207%20BLUETOOTH%20WIRELESS%20SPEAKER 3 74108 0 0
+/Canon%20EOS%205D 2 50368 0 0
+/apple-iphone-6s-64gb-rom-2gb-ram-12mp-5mp-4.7-inch-with-fingerprint-1715-mah-battery 2 59707 0 0
+/hp-240-g6-4bd02ea-14-intel-core-i5-8gb-1tb-hdd-intel-hd-graphics-620-win-10-pro 4 110842 0 0
+/ocmultivendor/dashboardicons 2 39210 0 0
+/htc-10-evo-5.5-inch-3gb-32gb-160mp-camera-fingerprint-smartphone-andriod-7.0-3200-mah-battery 2 55205 0 0
+/apple-certified-homepod-wireless-smart-speaker-with-siri-white-black 1 24726 0 0
+/Samsung-Galaxy-M10-Dual-SIM-16GB-2GB-RAM-4G-LTE 5 135327 0 0
+/apple-iphone-x-5.8-inch-super-retina-display-dual-12mp-camara-ios-11-3gb-ram-64gb-rom-2716-mah-battery 1 36812 0 0
+/fexda-bl-18bt-battery-for-tecno-p6-2100mah 2 52414 0 0
+/expert-pdf-9-personal-computer 1 22814 0 0
+/infinix-smart-2-hd-x609-6-inch-hd-1gb-16gb-rom-android-8.1-oreo-8mp-8mp-dual-sim-face-fingerprint-unlock-3g-smartphone-3050-mah-battery 1 30093 0 0
+/%20nestle-milo-tea-nestle-milo-champion-tea-500gnestle-milo 1 23223 0 0
+/samsung-galaxy-m30-64gb-rom-4gb-ram-android-8.1oreo-13mp-5mp-5mp-16mp-5000-mah-battery-fingerprint-4g-lte-smartphone 3 85497 1 0
+/Samsung%20Galaxy%20J7%20Pro 1 28931 0 0
+/Critter%20Spray%20Products%2022032%20118SG%20Siphon%20Gun 1 22422 0 0
+/samsung/samsung-galaxy-a9-2018-63-inch-samoled-6gb-128gb-romandroid-8.0-oreo-quad-rear-cameras-24mp-5mp-10mp-8mp-24mp-4g-lte-dual-sim-smartphone 1 27047 0 0
+/tecno-pop-2-power-b1p-5.5inch-16gb-rom1gb-ram8mp-front-camera-with-flash-5mp-back-camera-with-flashbattery-4000mah 1 30571 0 0
+/obejorstore_backend/view/journal2/tpl/directives/icon-select.html 3 672 0 0
+/infinix-hot7-pro-x625b-62-inch-hd-3gb32gb-rom-android-9-pie-13mp-2mp-13mp-2mp-dual-sim-4g-smartphone-4000mah-battery 3 92486 0 0
+/infinix-hot7-x624-6-2-inch-android-V8.1-Oreo-16gb-rom-1gb-ram-13mp-8mp-dual-sim-face-unlock-3g-smartphone-midnight-black-4000mah-battery 1 30882 0 0
+/hp-240-g6-4bd02ea-intel-core-i5-4gb-500gb-hdd-intel-hd-graphics-620-win-10-pro 1 27610 0 0
+/dell-latitude-e7270-12.5inch-intel-core-i5-6300u-2.4ghz-processor-8gb-ram-256gb-ssd-ultrabook-laptop-intel-hd-graphics-windows-10-pro 9 254577 0 0
+/infinix-zero-6-x620-6.2-fhd-android-8.1-Oreo-64gb-rom-6gb-ram-12mp-24mp-20mp-ai-assistant-sapphir-cyan-4500mah-battery 3 95151 0 0
+/apple-iphone-7-plus-256gb-rom-3gb-ram-5.5-inches-ios-10.0.1-dual-12-mp-2900-mah-battery 3 96408 0 0
+/hp-elitebook-1040-g4-intel-core-i7-7500u-27ghz-512gb-ssd-16gb-ram-14-touch-backlit-win-10-free-quick-heal-antivirus 1 31785 0 0
+/Alpaca%20Ankle%20Double%20Strap%20Block%20Heel%20Sandal%20-%20Blue 1 25485 0 0
+/delivery 21 421457 0 0
+/samsung-galaxy-j4-plus-16gb-2gb-ram-single-sim-4g-lte 2 55178 0 0
+/infinix-hot-7-x624-6-2-inch-16gb-rom-1gb-ram-13mp-8mp-4000mah-dual-sim-face-unlock-3g-smartphone-midnight-black 2 62005 0 0
+/apple-macbook13inch-intel-core%20i3-2017-256gb%20-ssd-8-gb-ram 1 24881 0 0
+/VIVO%20Y17%204GB%20128%20GB 1 28698 0 0
+/dell-latitude-5580-156-core-i5-7200u-8-gb-ram-256-gb-ssd 3 88832 0 0
+/Rust-Oleum%20Automotive 1 21938 0 0
+/vivo%20y90%202GB%2016GB 1 27464 0 0
+/infinix-note4-x572-5.7-inch-ips-lcd-16gb-rom-2gb-rom-android-7.0-nougat-13mp-8mp-dual-sim-4g-smartphone-4300mah-battery 1 29390 0 0
+/Capri%20Tools%20CP21024%20Portable%20Oil%20Drain%20Pan,%202%20gallon,%20Black 1 24341 0 0
+/Handbags,%20Ainvoev%20luxury%20Women%20handbags,Bags,Women%20Handbag,%20ladies%20bag,Ladies%20Handbag 1 25057 0 0
+/hp-250-g6-core-i3-3qm21ea-4gb-500gb-dvdrw-156-bt-cam-win-10 3 107061 0 0
+/dell-latitude-15-5590-core-i5-8250u 1 27164 0 0
+/samsung-galaxy-j7-sm-j700f-55-inch-1.5gb-16gb-rom-android-51-13mp-5mp-smartphone 3 90539 0 0
+/apple-macbook-pro-15-core-i7-touch-bar-16-gb-1-tb-grey 1 27690 0 0
+/apple%20imac%2027'%20-%20intel%20core%20i5%20,(silver) 4 64200 0 0
+/apple-ipad-pro-11-inch-1st-generation-4gb-ram-256gb-rom-wifi-cellular 1 32967 0 0
+/vivo%20y15%204GB%2064%20GB 1 26869 0 0
+/obejorstore_backend/view/journal2/tpl/directives/store-picker.html 2 434 0 0
+/infinix-hot7-x624-6-2-inch-android%20V8.1-Oreo-16gb-rom-1gb-ram-13mp-8mp-4000mah-dual-sim-face-unlock-3g-smartphone-midnight-black 1 30876 0 0
+/Brown%20Leather%20Belt 1 23786 0 0
+/Samsung%20Galaxy%20Tab%20A%207.0 3 83133 0 0
+/itel-1408-phone-battery-bl-30pi3000mah-capacity 1 25072 0 0
+/dell-latitude-e7280-12.0inches-intel-core-i7-xj6f5-256gb-ssd-8gb-ram 5 139352 0 0
+/sealight-9005-hb3-high-beam-9006-hb4-low-beam-led-headlight-bulbs-combo-package-csp-chips-6000lm-6000k 1 25104 0 0
+/Samsung%20Galaxy%20A3%20(2016) 1 32059 0 0
+/3D%20Fashion%20Celtic%20Home%20Shirt%202020, 1 25688 0 0
+/black-male-shoe 1 24346 0 0
+/amazon-fire-hd-6-8-gb-nternal-storage 1 27301 0 0
+/SAMSUNG%20J7 1 28223 0 0
+/htc-10-evo-5.5-inch-3gb-ram-32gb-rom-160mp-camera-andriod-7.0-3200-mah-battery-fingerprint-smartphone 1 27884 0 0
+/epson-powerlite-1960-multimedia-5000-lumen-projector 1 26459 0 0
+/apple-ipad-pro-129-inch-3rd-generation-64gb-4gb-wifi-cellular-2018 1 32818 0 0
+/apple-ipad-pro-129-inch-3rd-generation-256gb-4gb-wifi-cellular-2018 1 32095 0 0
+/HP-Elitebook-1040-G4-Intel-Core-I7 1 31183 0 0
+/dell-20-all-in-one-core-i3-4gb-ram-1tb-hdd-37ghz-195-freedos 1 27034 0 0
+/dell-precision-m3520-mobile-workstation-intel-core-i7-2.80ghz-8-gb-512gb-ssd2gb-dedicated-15inch 1 28930 0 0
+/Samsung%20Galaxy%20S9 2 60343 0 0
+/obejorstore_backend/view/journal2/tpl/directives/j-opt-text.html 3 396 0 0
+/HP%20Elitebook%201040%20G4%20Intel%20Core%20I7 1 30883 0 0
+/apple-iphone-xs-max-6.5-inches-64gbrom-4gbram-dual-sim3174-mah-battery 2 62323 0 0
+/%20Shoes,%20Men's%20CLASSIC%20MODERN%20WORK%20DRESS%20BOOTS. 1 24230 0 0
+/lava-z92-6.22-inches-android-8.1-oreo-3gb-ram-32gb-rom-3260mah-battery 4 107638 2 1
+/pisen-power-bank-10000mah-led-display-universal-usb-mobile 1 28243 0 0
+/hp-255-g6-amd-14-ghz-1-mb-cache-2-cores156500-gb-hard-drive-4gb-ram 1 27835 0 0
+/apple-ipad-pro-129-256gb-9720-mah-battery-wifi-only-2018 1 28964 0 0
+/vivo-y15-2019-6.35-hd-4gb-ram-64gb-rom-front-camera-16mp-triple-rear-3cameraS-13-8-2mp-dual-sim-5000mah 4 109182 0 0
+/huawei-media-pad-t3-7-inches-android-6.0-tablet-1gb-ram-8gb-rom-3100mah-battery 1 24518 0 0
+/obejorstore_backend/view/journal2/tpl/directives/j-opt-icon.html 1 100 0 0
+/hp-elitebook-x360-1030-g2-133-core-i7-29ghz-1en91eaabu-16-gb-ram-512-gb-ssd 3 82686 0 0
+/hp-pavilion-x360-intel-core-i3 9 514192 2 0
+/dell-inspiron-156-touch-screen-intel-core-i5-8gb-ram-2tb-hdd-blacki3567-5664blk 1 31116 0 0
+/Portable%20Travel%20Iron%20%20DMWD%20Portable%20Handheld%20Electric%20Steam%20Brush%20Clothes%20Mini%20Portable%20Travel%20Iron%20Garment%20Steamer,clothes%20steamer 1 24040 0 0
+/huawei-y6-2019-5.7-inches-2gb-ram32gb-rom-android-8.0-oreo-13-mp-8-mp-dual-sim-4g-3000-mah-battery 1 28572 0 0
+/battery-for-galaxy-s4-siv-gt-i9500-4.35-v-2600-mah 8 208955 0 0
+/image/catalog/l8io 1 8656 0 0
+/gionee-a1-5.5inches-4gb-ram-32gb-rom-dual-sim-gold-4010-mah-battery 2 56905 0 0
+/ocmultivendor/sellerproduct 1 22923 0 0
+/Itel%20P33 1 27675 0 0
+/apple-iphone-xs-max-6.5-inches-dual-sim-4gb-ram-256gb-rom-3174-mah-battery 1 30765 0 0
+/dell-alienware-15-r3-7th-gen-intel-corei7-7001slv 1 27795 0 0
+/hp-255-g6-amd-1,4ghz-1-mb-cache-2-cores156500-gb-hard-drive-4gb-ram 1 28146 0 0
+/apple-ipad-6th-generation-32gb-97-wifi-cellular-4g-lte 1 28545 0 0
+/apple-ipad-pro-97-wifi-only-32gb-3000mah 1 27895 0 0
+/infinix-hot-8-16gb-rom-1gb-ram-6.52-inches-android%209.0-4g-lte-smartphone-5000-mah-battery 3 90526 0 1
+/hp-elitebook-745-g3-14-a10-pro-8700b-4-gb-ram-500-gb 2 61173 0 0
+/dell-latitude-5590-15-core-i5-8250u-4gb-ram-500gb-ssd-backlit-windows-10 2 53866 0 0
+/dell-xps-15-9560-7th-gen-intel-core-i7-2.8-ghz-256-gb-ssd8-gb-ram 2 58241 0 0
+/huawei-media-pad-t3-10-inches-android-60-tablet-2gb-ram-16gb-rom-4800mah-battery 1 27309 0 0
+/HP%20Probook%20470%20G4%20-%20Intel%20Core%20i7%2017.3inches%20(8%20GB%20RAM%20-%201%20TB%20HDD) 1 28014 0 0
+/fexda-samsung-galaxy-phone-grand-dous-i9082-battery 1 25438 0 0
+/apple-ipad-pro-11-inch-1st-generation-4gb-ram-64gb-rom-7812-mah-battery-wifi-cellular 1 32765 0 0
+/hp-pavilion-x360-core-i5-8250u-8gb-ram-1tb-hard-drive-14-touchscreen-windows-10-homecd0001nia 4 116034 0 0
+/LG%2043-Inch%20Full%20HD%20Digital%20LED%20TV 1 24677 0 0
+/catalog/view/theme/journal2/lib/lightgallery/fonts/lg.eot 4 9200 0 0
+/bilstein-24-158848-monotube-steering-damper-front-46mm 1 24921 0 0
+/htc-10-evo-5.5-inch-3gb-32gb-160mp-camera-fingerprint-smartphone-andriod-70-3200-mah-battery 1 27779 0 0
+/apple-macbook-pro-15-16gb-ram-256gb-ssd-intel-core-i7 1 27050 0 0
+/jbl-xtreme-2-portable-bluetooth-speaker 5 134753 0 0
+/Shoes,%20black%20shoes,%20leather%20shoes,%20Fashion%20Male%20Black%20Shoe. 1 23713 0 0
+/dell-latitude-e-7470-core-i7-6600u-8-gb-256-gb-ssd 1 28674 0 0
+/Apple%20Macbook%20Air%2013%e2%80%99%e2%80%99%20-%20512%20GB%20HDD,%2016%20GB%20RAM%20-%20Core%20I7 1 27868 0 0
+/wireless-mini-wi-fi-network-adapter 1 22456 1 0
+/prestone-radiator-flush-cleaner 1 24513 0 0
+/LG%2032mu59-b%2032-inch%20(31.5%e2%80%9d%20Diagonal)%20Uhd%204k%20Monitor 1 25860 0 0
+/samsung-galaxy-a3-2016-16-gb-1.5-gb-ram-4.7%20inches-dual-sim-2300-mah-battery 1 32955 0 0
+/obejorstore_backend/view/journal2/tpl/directives/icon-select-popup.html 1 1193 0 0
+/anti-aging-anti-wrinkle-korean-snail-cream 1 22889 0 0
+/apple-iphone-xs-256gb-rom-4gb-ram-5.8-inches-12-mp-f-1.8-12-mp-f-2.4-2658mah-battery 1 32726 0 0
+/%20Jumpsuits,Ladies%20Striped%20Jumpsuit%20-%20Belt%20-%20V%20neck 1 23953 0 0
+/infinix-hot-6x606-6.0-inches-hd-display-16gb-rom-1gb-ram-blush-gold-4000mah-battery 3 91958 0 0
+/fexda-bl-25ft-battery-for-tecno-phone-w3-2500mah-capacity 3 78423 0 0
+/Apple%20IPad%20Pro%2010.5%20Inch%2064GB%20ROM%204GB%20RAM-%20WiFi%20Only-%202017 1 29757 0 0
+/Zealot%20S1 8 206423 2 0
+/infinix-zero5-pro-x603b-5.98-inch-fhd-6gb-ram-128gb-rom-android-7.0-nougat-12mp-13mp-dual-16mp-4350-mah-battery 1 28593 0 0
+/hp-2620-desktop-computer-printer 1 27271 0 0
+/fexda-bl-18ct-battery-for-tecno-y3-y4-r5-and-j5 1 26257 0 0
+/htc-u11-life-5.2-inch-android-7.1-nougat-4g-lte-android-smart-phone-4gb-ram-64gb-rom-smartphone-3000-mah-battery 2 56448 0 0
+/apple-iphone-xs-max-6.5-inches-4gb-ram-512gb-rom-1-year-warranty-dual-sim-nano-sim-e-sim-3400mah-battery 3 92969 0 0
+/image/cache/catalog/ 24 192417 0 5
+/Samsung%20Galaxy%20A9%20(2018) 1 28762 0 0
+/dell-inspiron-17-5000-series-intel-corei7i5770-7432slv 1 30244 0 0
+/hp-elitebook-folio-1040-g3-core-i7-6600u-8gb-ram-128gb-ssd-v2w21ua 1 30940 0 0
+/Samsung%20Galaxy%20M10 1 29204 0 0
+/dell-latitude-e7480-14.0inches-intel-core-i5-8gb-ram-128-ssd-window-10 1 27747 0 0
+/Fashion%20Manchester%20United%20Away%20Shirt 1 25836 0 0
+/apple-iphone-7-256gb-rom-2gb-ram-4.7-inches-1960-mah-battery 2 67697 0 0
+/hp-250-g6-3qm21ea-core-i3-156-4gb-ram-500gb-hdd 1 35452 0 0
+/zealot-zealot-s9-official-wireless-bluetooth-speaker 5 120001 0 0
+/obejorstore_backend/view/journal2/tpl/directives/j-opt-color.html 6 750 0 0
+/samsung-level-u-pro-bluetooth-headset-12mm-speaker-drivers 2 51489 0 0
+/Huawei%20Y7%20Pro%202019 1 28263 0 0
+/huawei-nova-3i-6.3-inch-fhd-octa-core-4gb-ram-128gb-rom-android-8.1-oreo-16mp-2mp-24mp-2mp-dual-sim-4g-fingerprint-id-3340mah-smartphone 1 28382 0 0
+/samsung-galaxy-note-9-6gb-128gb-6.4-android-8.1-12mp-12mp-s-pen-with-remote-control-dual-sim-lte 1 30255 0 0
+/philips-gc1022-40-steam-iron 1 24735 0 0
+/Samsung%20Galaxy%20Tab%20A%2010.1%20with%20Pen%20(2016) 1 28224 0 0
+/apple-iphone-xs-max-6.5-inches-4gb-ram-64gb-rom-ios-12-12mp-12mp-7mp-dual-sim-gold-3174-mah-battery 2 62370 0 0
+/HP%20Envy%20X360%2015-cn0000nia%20Intel%20Core%20i5-8250U%20-%208GB%20RAM,%201TB%20HDD%20-%20Windows%2010%20-%20Silver%20(4MP29EA) 1 28272 0 0
+/Apple-iPhone-Xs-max 1 31169 0 0
+/apple-iphone-xr-single-sim-3gb-ram128-gb-rom-6.1inches-12mp-rear-camara-2942-mah-battery 2 62335 0 0
+/apc-smart-ups-c-3000va-rack-mount-lcd-230v-smc3000rmi2u 2 57601 0 0
+/apple-iphone-5s-1560-mah-battery 1 29243 0 0
+/hp-250-g7-notebook-pc-celeron-n4000-156-hd-4gb-ram-500gb-hdd-win-10-home 1 28412 0 0
+/gionee-f205-dual-sim-5.45-hd-ips-display-16gb-rom-2gb-ram-8mp-5mp-selfie-camera-android-7.0-os-2670mah-battery-4g-lte-black-gold 1 28409 0 0
+/%20Handbags%20,Fashion%20Ladies%20Trendy%20Flower%20Handbags. 1 25085 0 0
+/apple-iphone-11-pro-max-12mp-tof-3d-camera-6-5-inch-64gb-rom-4gb-ram-grey 2 53989 0 0
+/hp-240-g6-notebook-4la39la-intel-core-i3-7020u-8gb-ram-1tb-hdd 3 83293 0 0
+/dell-alienware-17-r4-i7-6700hq-16gb-1tb-plus-128gb-ssd-fhd-1080-gtx1070-8gb-vr-ready 1 28471 0 0
+/apple-13-macbook-pro-with-touch-bar 1 28379 0 0
+/hp-123-jsd-optical-wired-mouse 1 25540 0 0
+/apple-iphone-11-64gb-rom-4gb-ram-6-1-inch-3110mAh-battery-12mp-tripple-12mp-rear-camera-red 1 29942 0 0
+/huawei-y9-prime-2019-6.59-inch-4gb-rom-64gb-rom-android-9-16mp-pop-up-selfie-camera-4000-mah-4g-smartphone-emerald-green 2 57623 0 0
+/Huawei%20Y9%20(2019) 1 29795 0 0
+/apple-ipad-pro-129-512gb-wifi-9720-mah-battery 1 28594 0 0
+/apple 2 56345 0 0
+/itel-bl-19ci-battery 2 50651 0 0
+/ocmultivendor/sellerregister 8 1470697 0 0
+/mobile/removewishlist.php 2 70 0 0
+/hoes,%20Leather%20shoes,Brown%20Leather-Formal-Shoes,%20Formal%20Shoe,men%20shoe. 1 23853 0 0
+/apple-15-macbook-pro-with-touch-bar-intel-core-i7-2.6ghz-pro-555x-16gb-ram-256gb-ssd-silver 1 28136 0 0
+/Samsung%20Galaxy%20J4%20core 1 29624 0 0
+/gionee-p5-mini-4.5-inches-android-50-lollipop-5mp-2mp-dual-sim-3g-smartphone-8gb-rom-1gb-ram-1800-mah-battery 1 27763 0 0
+/hp-240-g6-4wv73esabu-intel-core-i5-8gb-1tb-hdd-intel-hd-graphics-620-win-10-pro 3 82654 0 0
+/fexda-bl-15fi-battery-for-itel-phone-a111500mah-capacity 1 27309 0 0
+/Tecno%20T350%20Dual%20Sim%20With%20Camera%20And%20Flash%20Light%20-%20RED 3 79522 0 0
+/catalog/view/theme/journal2/lib/rs-plugin/font/revicons.ttf 1 7407 0 0
+/image/cache/catalog/2 15 131991 0 3
+/obejorstore_backend/view/journal2/tpl/directives/j-opt-border.html 6 666 0 0
+/hp-color-laserjet-pro-mfp-m477fdn-printer 1 26972 0 0
+/asus-vivobook-flip-14inch-intel-corei7-tp410ua 1 28056 0 0
+/apple-iphone-11-smartphone-6.1-inch-4gb-ram-128gb-rom-12mp-12mp-dual-camera-4g-3110mah-battery 1 27608 0 0
+/canon%20eos%205d 4 48914 0 0
+/fexda-battery-for-gionee-phone-f103-2400mah-capacity 1 27368 0 0
+/apple-iphone-xs-max-6.5-inches-4gb-ram-256gb-rom-dual-sim-3174-mah-battery 4 120024 0 0
+/Dell%20Optiplex%203050-mt,%20Core%20I3 1 26887 0 0
+/JBL%20XTREME%20WIRELESS%20SPEAKER 5 125299 1 0
+/pisen-data-charging-cable-usb-type-c-2a-mu09-1000-mu14-1000 1 25399 1 0
+/apple-iphone-5s-16gbrom-1gbram-4.0inch-1560mah-battery 4 116083 0 0
+/dell-xps-15-9560-7th-gen-intel-corei7-2-8ghz-512gb-ssd-16gb-ram-156-inc-windows-10-pro 3 83963 0 0
+/%20s103-ear-hook-headset-wireless-bluetooth-earphone 17 572931 7 4
+/Smartwatch,%20Bluetooth%20Wrist%20Smartwatch 1 25454 0 0
+/pisen-power-adapter-1abritish-safety-standard-ts-uc037 1 25854 0 0
+/generic-150w-5500k-e27-photo-studio-bulb-video-light-photography-daylight-lamp-220v-white 1 24211 0 0
+/dell-alienware-15-r3-intel-core-i7-6700hq-2.6ghz-1tb-256gb-ssd-16gb-ram-6gb-nvidia-geforce 3 90330 0 0
+/samsung-galaxy-tab-a-2018-10.5-32gb-3gb-8mp-with-flash-5mp-quad-speakers-7300mah-4g-lte 1 25911 0 0
+/Jumpsuit,%20Play-suit,%20Beach%20Trousers%20Women%20Summer%20Sleeveless%20Flower%20Party%20Jumpsuit%20Play-suit%20Beach%20Trousers%20L-Black, 1 24892 0 0
+/samsung-galaxy-tab-a-10.1-2016-with-s-pen-p585-10.1-inch-16gb-3gb-4g-lte-black 2 54360 0 0
+/Samsung%202600mAh%20Battery%20G530%20Galaxy%20Grand%20Prime 1 27916 0 0
+/samsung-galaxy-j8-6-4-gb-ram-6-4-gb-rom-16mp-5mp-16mp-4g-lte-octa-core-3500mah-android-8.0-black 1 28788 0 0
+/fexda-bl-40bx-battery-for-infinix-phone-inbuilt4040mah 3 77568 0 0
+/hp-elitebook-820-g3-intel-core-i5-24ghz-12.5-hd-256gb-ssd-8gb-ram 1 30704 0 0
+/dell-xps-9360-laptop13,3inches-8th-gen-intel-core-i7-8550-16gb-ram-512-gb-ssd-windows-10 1 29201 0 0
+/Capri%20Tools%20Vacuum%20Brake%20Bleeder 1 24199 0 0
+/%20fexda-bl-40bx-battery-for-infinix-phone-inbuilt 1 25507 0 0
+/infinix-hot-6-pro-x608-6-inch-hd-2gb-ram-16gb-rom-android-8.0-oreo-13mp-2mp-5mp-dual-sim-4g-smartphone-4000-mah-battery 3 88983 0 0
+/obejorstore_backend/view/javascript/summernote/font/summernote.woff 23 183304 0 0
+/bryte-g7-tab 1 25749 0 0
+/htc-desire-10-pro-5.5-inch-octa-core-android-6.0-4g-lte-smart-phone-4gb-ram-64gb-rom-3000mah-battery 1 27812 0 0
+/infinix-hot-6-pro-x608-dual-sim-32gb-rom-2gb-ram-6-inches-display-android-8.0-oreo-face-id-13mp-2mp-5mp-4000-mah-battery 2 59950 0 0
+/gionee-p5-mini-4.5-inches-android-5.0-lollipop-5mp-2mp-dual-sim-3g-smartphone-8gb-rom-1gb-ram-1800mah-battery 1 27707 0 0
+/fexda-gionee-pioneer-p6-battery 1 25447 0 0
+/huawei-p10-lite-5.2-inches-64gb-rom-4gb-ram-android-7.0-non-removable-li-po-3000-mah-battery 2 55052 0 0
+/%20Skirts,%20black%20Side%20Ruffle%20Pencil%20Skirt 1 24414 0 0
+/brown-leather-belt 1 23978 0 0
+/Apple%20macbook%2012''%20256GB(2017)%20ROSE%20GOLD%20Touch%20Bar 1 29639 0 0
+/huawei-p20-5.8-inches-64gb-rom-4-gb-ramandroid-8.1-non-removable-li-po-3400-mah-battery 2 54528 1 1
+/htc-u-play-5.2-inches-android-6.0-32gb-rom-3gb-ram-2500-mah-battery 1 27537 0 0
+/huawei-p30-pro-6.47-inches-8gb-ram-128gb-rom-android-9.0-40mp-20mp-8mp-dual-sim-black-4200mah-battery 1 30048 0 0
+/huawei-nova-3i-4gb-ram-128gb-rom-6.3-inch-android-8.1-kirin-710-octa-core-4g-smartphone-3340mah-battery 1 30279 0 0
+/google-pixel-3a-4gb-ram-64gb-rom-5.5-inches-android-9.0-pie-4g-lte-smartphone-2915mah-battery 4 108524 0 0
+/Infinix%20Smart3%20Plus 1 29246 0 0
+/huawei-media-pad-t3-7-inches-android-6.0-tablet-2gb-ram-16gb-rom-3100mah-battery 3 81984 0 0
+/Lava%20Z50%20Android%20Oreo%20(Go%20edition)%204.5%20inches,Dual%20SIM%208GB%201GB%20RAM 1 27911 0 0
+/dell-inspiron-15-5000-5570-intel-core-i7-8550u-12gb-ddr4-1tb-hdd-156-full-hd-touchscreen-led-silver-laptop 1 29648 0 0
+/DELL%20LATITUDE%20E7490-INTEL%20CORE%20I7 1 27952 0 0
+/Samsung-Phones 2 52656 2 0
+/dell-hpm4g-latitude-3580-156-fhd-laptop-intel-core-i7-7500u-8gb-ddr4-500gb-hard-drive-windows-10-pro 1 27833 0 0
+/fexda-bl-18ct-battery-for-tecno-y3-y4-r5-and-j51800mah-capacity 3 79085 0 0
+/xiaomiredmi-k20-6gbRam-128gbRom-6.39inch-48mp-13mp-8mp-triple-camera-snapdragon-730-octa-core-dual-sim-18w-qc-4000mah 1 28403 0 0
+/hp-250-g7-3qm21ea-core-i3-15.6-4gb-ram-500gb-hdd-1381-1 1 25229 0 0
+/samsung-galaxy-s9-plus-s9-6.2-inch-6gb-128gb-rom-12mp-8mp-dual-sim-4g-smartphone 1 31428 0 0
+/motorola-dem300-long-range-powerful-mobile-radio-for-cars 1 28804 0 0
+/Chief%20Architect%20Premier%20X6 1 25820 0 0
+/bryte-kid-study-tab 2 51937 0 0
+/infinix-hot-6x-x623-6.2-inch-hd-ips-lcd-13mp-2mp-4000mah-2gb-ram-16gb-rom-android-8.1-oreo-midnight-black 1 30860 0 0
+/apple-iphone-8-plus-64gb-3gb-5.5inch--2691-mah-battery 1 33658 0 0
+/Samsung%2049%22%20Full%20HD%20Flat%20Smart%20TV%20J5200%20Series%205 1 26269 0 0
+/hp-elitebook-840-notebook-pc-t8tjg-intel-core-i5-4300u-1.9ghz-4gb-500gb-webcam-windows-10-professional 1 29403 0 0
+/nokia-21-55-inches-android-81-8-gb-1-gb-ram 1 26502 0 0
+/apple-iphone-11-pro-max-6-5-inch-4gb-256gb-single-sim-nano-sim-12mp-tripple-12mp-rear-camera-gold 3 89251 0 0
+/oraimo-necklace-oeb-e54d-bluetooth-earphone-80mah-battery 1 24005 0 0
+/fexda-bl-20fx-battery-for-infinix-hot-x507 1 25813 0 0
+/apple-iwatch-series-3-42mm-gps-cellular-space-grey-aluminum-sport-band-black 1 24963 0 0
+/fexda-i8190-battery-for-samsung-galaxy-phone-s3mini1500mah-capacity 1 23764 0 0
+/samsung-galaxy-earbuds 1 24135 1 0
+/tecno-camon-11-cf7k-62-inch-4gb-64gb-rom-dual-sim-4g-lte-smartphone-bordeaux-red 1 29101 0 0
+/motorola-moto-g5-android-7050-inches6-gb-2gb-ramremovable-li-ion-2800-mah-battery 1 25933 1 1
+/htc-u11-plus-u11-128gb-rom-6gb-ram-6-inch-qhd-android-8.0-oreo-12mp-8mp-dual-sim-4g-smartphone-3930mah-battery 2 57491 0 0
+/infinix-smart3-plus-x627-6.2-inches-android-9.0-pie-32gb-rom-2gb-ram-a-1triple-rear-camara-8mp-selfie-water-drop-display-dual-sim-4g-lite-3500mah-battery 4 112865 0 0
+/dell-hpm4g-latitude-3580-15-6-fhd-laptop-intel-core-i7-7500u-8gb-ddr4-500-gb-hdd-sata-hard-drive-windows-10-pro 1 30642 0 0
+/hp-elitebook-850-g5-156-intel-core-i7-8550u-processor-16gb-ram-512gb-ssd-backlit-keyboard-win-10-pro-64 4 123000 0 0
+/apple-iphone-8-plus-64gb-5-5inch-3gb-2691-mah-battery 2 66858 0 0
+/zealot-e1-wireless-bluetooth-headset 27 710842 9 6
+/infinix-note-4-pro-x571-5.7-13mp-8mp-camara-3gb-ram-32gb-rom-with-x-pen-4500mah-battery 1 30359 0 0
+/catalog/view/theme/journal2/lib/rs-plugin/font/revicons.eot 1 7469 0 0
+/Gionee%20P5%20Mini 1 27453 0 0
+/apple-macbook-pro-15-core-i7-with-touch-bar-16-gb-ram-512-gb-ssd-silver-mptv2 1 27435 0 0
+/Infinix%20Smart%203 1 29358 0 0
+/dell-p318s-3200-lumens-projector 12 268258 0 0
+/apple-iphone-xr-3gb-ram-256gb-rom-ios-12-12mp-7mp 2 61150 0 0
+/portable-travel-iron--dmwd-portable-handheld-electric-steam-brush-clothes-mini-portable-travel-iron-garment-steamer,clothes-steamer 1 24146 0 0
+/gionee-p8m-5.0inch-android-70-nougat-2mp-selfie-camara-5mp-rear-camara-1gb-ram8gb-rom-4000mah-battery 2 54978 0 0
+/apple-iphone-11-pro-max-6.5-inch-4gb-256gb-single-sim-nano-sim-12mp-tripple-12mp-rear-camera-gold-3969mAh-battery 1 29535 0 0
+/hp-240-g6-notebook-4la39la-intel-core-i3-7020u-4gb-ram-500gb-hdd 4 113207 0 0
+/apple-iphone-x-3gb-ram-64gb-rom-5.8-inch-super-retina-display-12mp-dual-camara-2716-mah-battery 1 36835 0 0
+/Microsoft%20Windows%2010%20Home%2064-bit%20Full%20Version%20Key%20Only 1 24958 1 0
+/%20shoes,%20black%20shoes,%20black%20leather%20shoes,Fashion%20Men's%20Formal%20Shoes%20-%20Black 1 23752 0 0
+/Samsung%20Galaxy%20Grand%20Prime 1 28016 0 0
+/Cray%20Incraydible%20%20Black%20Evolution%20Round%20Neck%20T-shirt%20-%20White 1 24445 0 0
+/apple-iphone-11-64gb-rom-4gb-ram-6-1-inch-3000mah-5000mah-12mp-tripple-12mp-rear-camera-red 6 168423 0 0
+/dell-latitude-e5480-intel-core-i5-500gb-hdd-4gb-ram-mfghd 1 27196 0 0
+/ampower-portable-solar-inverter-powerbank-generator 1 24952 0 0
+/image/catalog/ 1 21255 0 0
+/catalog/view/javascript/font-awesome/fonts/fontawesome-webfont.ttf 4 393588 0 1
+/obejorstore_backend/view/journal2/tpl/directives/image-select.html 4 728 0 0
+/Lava%20Z92%206.22%20inches,Android%208.1%20Oreo,3GB%20RAM,%2032GB%20ROM%20%203260%20mAh%20battery 3 80051 1 0
+/sandisk-16gb-memory-adapter-1745-1 1 24326 0 0
+/Hp-Pro-MT-A2200-AMD-Ryzen%e2%84%a2-3%202200G-Quad-Core-4GB-RAM-500GB-HDD-Microtower-Business-PC-Free-DOS-Desktop 1 26542 0 0
+/fexda-j100-battery-for-samsung-galaxy-phone-j1 1 25478 0 0
+/tecno-camon-11memory-6gb-ramprocessor-20ghz-octa-core-processor-mediatek-mt6762platform-android-81-oreo-hios-41 1 29693 0 0
+/obejorstore_backend/view/journal2/tpl/directives/j-opt-textarea-lang.html 3 537 0 0
+/vivo-y15-2019-6.35-hd-4gb-ram-64gb-rom-front-camera-16mp-triple-rear-3cameras-13-8-2mp-dual-sim-5000mah-battery 6 165560 0 0
+/jbl-charge-2-portable-wireless-bluetooth-speaker 5 128528 1 0
+/Fashion%20Polo%20T%20Shirt%20-%20Navy%20Blue 1 23842 0 0
+/fexda-bl-3hx-battery-for-infinix-phone2000mah-capacity 2 52137 0 0
+/tecno-t473-dual-sim-16mb-rom-8mb-ram-camera-bluetooth-28 1 27383 0 0
+/samsung-level-u-pro-bluetooth-headset 2 51353 0 0
+/bl-4e-battery-for-itel-phone1450mah-capacity 1 26050 0 0
+/Samsung-Galaxy-Note-9-6.4-Inch-8GB-RAM-512GB-ROM-Android-8.1-12MP-12MP-Single-SIM%20 1 30234 0 0
+/dell-inspiron-2-in-1-173-touch-screen-laptop-intel-core-i7-16gb-memory-nvidia-geforce-mx150-2tb-hard-drive 3 98602 0 0
+/knockies-3-in-1-qi-fast-wireless-charging-station-compactable-with-iphone-samsug-s10-series-7.5-10w 1 25348 0 0
+/century-stabilizer-2000va 1 25597 0 0
+/apple-iphone-xr-single-sim-3gb-ram-256gb-rom-6.1-inches-ios-12-12mp-7mp-2942mAh-battery 1 30645 0 0
+/oraimo-car-charger-cc-61dr-cd-d2cr-white 1 24462 0 0
+/Apple%20Macbook%20Air%2013.3'' 1 25871 0 0
+/knockies_-_3-in-1_qi_fast_wireless_charging_station_compactable_with_iphone,_samsug_s10_series_2105_1 1 25188 0 0
+/gionee-s8s-black-586-32gbrom-3gbram-13mp-camera-4g-lte-smartphone-with-3000mah 1 27214 0 0
+/hp-15-intel-core-i5-8gb-ram-2tb-hdd-window-10-home-touch-screen 2 61254 0 0
+/image/catalog/1wertyl 1 248798 0 0
+/galaxy-note10-led-wallet-cover-white 1 25833 0 0
+/%20Unisex%20Face%20Caps 1 23792 0 0
+/huawei-mate-8-6.0-inches-android-6.0-32gb-rom-3gb-ram-4000-mah-battery 3 88614 0 0
+/image/cache/catalog/1wertyl 18 405689 2 7
+/samsung-galaxy-j4-core-6.0-inch-1gb-ram16gb-rom-android-8.1-oreo-8mp-5mp-dual-sim-4g-lte-smartphone 3 85364 0 0
+/dell-latitude-3590-15.6inches-core-i7-8550u-8-gb-ram-500-gb-hdd 1 28849 0 0
+/image/cache/catalog/1%20 21 228763 2 1
+/infinix-note6-x610b-6.01amoled-4gb-ram-64gb-rom-android-9-pie16mp-8mp-2mp-triple-16mp-4000mah-battery-4g-lte-smartphone 2 63869 0 0
+/trousers-shortstrousers-shorts 1 25372 0 0
+/samsung-galaxy-a6-plus-2018-6-inch-3gb-ram-32gb-rom-android-8.0-oreo 3 92430 0 0
+/hp-laptop-255-g6-amd-e2-series-e2-9000e-1.5-ghz-4-gb-memory-500-gb-hdd-15.6-inch-windows-10-home-64-bit 1 25268 0 0
+/Ingenuity%20Convert%20Me%20To%20Swing%20To%20Seat 1 22701 0 0
+/hp-elitebook-840-g4-7th-gen-intel-corei7 3 88257 0 0
+/s103-ear-hook-headset-wireless-bluetooth-earphone 1 22085 0 0
+/fexda-bl-21bi-battery-for-itel-phone-it1503-it205 1 25328 0 0
+/catalog/view/theme/journal2/css/icons/fonts/journal-icons.ttf 16 1936736 0 5
+/samsung-galaxy-s10-plus-8gb-ram-128gb-rom-single-sim-smartphone-4g 3 99294 0 0
+/Lava%20Iris%2042%20Dual%20Sim%205.0%22%20HD%20IPS-%208GB,%201GB%20RAM,%203G%20-2000mAh%20battery 2 52517 0 0
+/apple-ipad-pro-105-64gb 1 25782 0 0
+/Itel%20A22 1 28408 1 1
+/fexda-bl-15at-battery-for-tecno-phones-1450mah-capacity 4 103578 0 0
+/Apple%20Watch%20Series%204%20-%2040mm%20-%20Gps%20&%20Cellular 1 25407 0 0
+/tecno-camon-11-pro-cf8-62-6gb-64gb-rom-android-81-oreo-16mp-5mp-24mp-smartphone 2 61335 0 0
+/huawei-y9-prime-2019-6.59-inch-4gb-rom-128gb-rom-android-9-16mp-pop-up-selfie-camera-4000-mah-4g-smartphone-emerald-green 4 118955 0 0
+/Cufflinks-fashion-exclusive-design-silver-plated-cufflinks-wedding-cufflinks-fashion-musical-note-design-cuff-links-high-quality 1 23819 0 0
+/HP-Pavilion-X360-14-Intel-Core-i5-8GB-RAM-1TB-HDD 3 80830 0 0
+/apple-imac-27-inch-all-in-one-desktop-computer-intel-core-i5-3.3ghz-processor-8gb-ram-2tb-ssd-amd-radeon-graphics-mac-os-sierra-mk482ll-a 2 65806 0 0
+/hp-15-intel-core-i3-4gb-ram-500gb-hdd-windows-10 2 54748 0 1
+/%20Lava%20Lava%20Champion%20A1%202.8%22%20Dual%20Sim%201.3mp%20Camera 1 26029 0 0
+/gionee-m6-5.5inch-android-v60-marathon-4gb-ram-64gb-rom-smart-phone-5000-mah-battery 2 54908 0 0
+/hp-elitebook-840-g4-1ge45utaba-intel-core-i7-7500u-8gb-ram-256-hard-drive 1 29626 0 0
+/bryte-g7-tab-kids-tab-3-lite-8gb-tablet-from-bryte-is-a-powerful-learning-and-entertainment-tool-for-kids 1 23759 0 0
+/redmi-7a-2gb-ram-32gb-rom-5.45-inch-miui-10.0-12mp-5mp-4g-smartphone-gem-blue 1 26308 0 0
+/money-counting-machine-money-counting-machine-with-automatic-counterfeit-note-director 1 22256 0 1
+/Samsung%20Galaxy%20A6 1 30220 0 0
+/dell-latitude-7490-8th-gen-intel-quad-core-i7-8650u-1.9ghz-512gb-ssd-16gb-ram-14inch-backlit-win-10-pro 2 55983 0 0
+/apple-ipad-pro-105-inch-256gb-rom-4gb-ram-wifi-only-2017 1 30129 0 0
+/image/cache/catalog/Google%20phones/8b%20 7 56707 0 0
+/samsung 10 274685 0 0
+/hp-elitebook-820-g3-intel-core-i5-24ghz-125-hd-256gb-ssd-8gb-ram-windows-10-pro-64 1 30709 0 0
+/dell-xps-15inch-9570intel-core-i7-2.8ghz-512gb16gb-ram-dell-xps-15-9570intel-core-i7-2.8ghz-512gb16gbram-xps9570-7001slv-pus 5 139901 0 0
+/dell-latitude-7390-black-13.3inches-fhd-core-i7-8650u-16gb-512gb-ssd-windows-10-pro 9 251111 0 0
+/fexda-bl-40ax-battery-for-infinix-phone-x551-inbuilt-4000mah-capacity 4 104262 0 0
+/tecno-t350-dual-sim-with-camera-and-flash-light 1 28032 0 0
+/infinix-s4-x626b-6-2-inches-full-hd-64gb-rom-6gb-ram-triple-camera-front-camera-32mp-battery-4000mah-nebula-blue 1 29182 0 0
+/Samsung%20Galaxy%20A50 1 31464 0 0
+/samsung-galaxy-note-9-clear-view-standing-cover-case 1 24455 0 0
+/Men%20Cool%20T%20Shirts,%20shirts 2 49636 0 0
+/Obejor.com%20Return%20Policy 11 238072 1 0
+/Samsung-Galaxy-Tab-S4-10.5%e2%80%9d(64GB,4GB)-13MP-Rear-With-Flash-8MP-Selfie-7300mAh-4G-LTE 3 87204 1 0
+/Infinix%20Hot%206X%20(X623)%2016GB 1 30552 0 0
+/vivo%20y90%202GB%2032GB 1 27279 0 0
+/%20fexda-BL-45at-battery-for-tecno-L6 1 26035 0 0
+/firman-firman-rd8910ex-rugged-line-petrol-generator-68kva-key-starter 1 25137 0 0
+/Jbl%20XTREME-2%20Portable%20Bluetooth%20Speaker 27 866032 10 5
+/SAMSUNG%20GALAXY%20NOTE-9 2 59859 0 0
+/samsung-galaxy-note-10-plus-6.8-inch-12gb-ram-256gb-rom-12mp-16mp-dual-sim-4300-mah-smartphone-aura-glow 2 57716 0 0
+/apple-iwatch-series-3-42mm-silvergreygold-aluminum-case 1 25711 0 0
+/Children's%20Watch 1 24259 0 0
+/huawei-y6-prime-2019-5.7-inches-2gb-ram32gb-rom-android-8.0-oreo-13-mp-8-mp-dual-sim-4g-3000-mah-battery 1 28633 0 0
+/apple-iphone-6 1 32886 0 0
+/huawei-y9-2019-6.5-inch-fhd-4gb-64gb-rom-android-8.1-oreo-16mp-2mp-13mp-2mp-4000mah-4g-dual-sim-4g-smartphone 2 59429 0 0
+/infinix-hot7-x624-6-2-inch-16gb-rom-1gb-ram-13mp-8mp-4000mah-dual-sim-face-unlock-3g-smartphone-midnight-black 1 30850 0 0
+/gionee-s10-lite-5.2-inch-hd-4gb-ram-32gb-rom-16mp-13mp-android-71-hybrid-dual-sim-4g-lte-smartphone-3100mah-battery 2 54147 0 0
+/apple-imac-27-intel-core-i5-silver 1 33282 0 0
+/pisen-dual-usb-ipad-charger-ts-c069-2.4a-uk-standard 1 27491 0 0
+/fexda-bl-15fi-battery-for-itel-phone-11500mah-capacity 1 27076 0 0
+/infinix-note-5-pro-stylus-x605-x-pen-6-inch-fhd-64gb-rom-4gb-ram-16mp-16mp-hybrid-dual-sim-4g-lte-4000mah-smartphone-bordeaux-red 1 28848 0 0
+/htc-10-evo-5.5-3gb-32gb-160mp-camera-andriod-7.0-3200-mah-battery-fingerprint-smartphone 1 27603 0 0
+/infinix-note-5-pro-stylus-x605-x-pen-6-inch-fhd-32gb-rom-4gb-ram-16mp-16mp-hybrid-dual-sim-4g-lte-4000mah-smartphone-bordeaux-red 1 29641 0 0
+/Infinix%20zero%206%20PRO 1 28574 0 0
+/fexda-i8190-battery-for-samsung-galaxy-phone-s3mini-1500mah-capacity 4 102633 0 0
+/catalog/view/javascript/bootstrap/fonts/glyphicons-halflings-regular.eot 4 80200 0 0
+/dell-latitude-5580-156-core-i5 3 89603 0 0
+/infinix-hot-6x-x623-dual-sim-6.2-inch-hd-android-8.1-oreo-3gb-ram-32gb-rom-4000-mah-battery 1 30245 0 0
+/hp-250-g6-notebook-intel-core-i3-2-0ghz-with-intel-graphics-4gb-ddr4l-500gb-win-10 3 81972 0 0
+/pisen-power-cube-ts-d22120000mah-power-bank 2 55272 0 0
+/apple-iphone-11-pro-128gb-4gb-ram-5-8-inches-3110-mah-battery 3 87552 0 0
+/North%20Luxury%20Top%20Brand%20Water%20Resistant%20Japanese%20Wrist%20Watch 1 23869 0 0
+/bluegate-55kva-24v-inverter 1 24467 0 0
+/infinix-hot-s3x-x622-6.2-hd-3gb-ram-32gb-rom-android-8.1-oreo-13mp-2mp-16mp-dual-sim-4g-milan-black-4000mah-battery 1 29736 0 0
+/huawei-y5-lite-2018-5.45-inches-16gb-rom-1gb-ram-non-removable-li-ion-3020-mah-battery 2 51601 0 0
+/dell-latitude-e54807th-gen-14.0inches-intel-core-i7-500gb-8gb-windows-10-pro 4 109954 0 0
+/HP-Elitebook-1040-G4-Intel-Corei7 1 31313 0 0
+/gionee-a1-lite-53-inches-3gb-ram-32gb-rom-android-70-4000-mah-battery 1 28374 0 0
+/blackberry-motion-5.5inch-Android-7.1-Nougat-32gb-rom-4gb-ram-4000mah-battery 2 54734 0 0
+/%20fexda-bl-36ai-battery-for-itel-phone-it1508 1 25463 0 0
+/%20Wist%20watch,female%20Watch 1 24018 0 0
+/Apple%20iPhone%208%20(64GB) 1 32499 0 0
+/samsung-galaxy-a7-2018-60-inches-android-8.0-oreo-64gb-rom-4gb-ram 1 27552 0 0
+/Microsoft%20Surface%20Pro%206%20CORE%20I5%20128GB%208GB%20Multi-Touch%2012.3'' 1 31208 0 0
+/apple-iphone-xr-128gbrom-3gbram-ios-12-12mp-7mp%20camera 1 30557 0 0
+/huawei-y7-2019-6.26-inch-13mp-2mp-16mp-4g-smartphone-android-8.1-3gb-ram-32gb-rom-4000-mah-battery 3 81961 0 0
+/infinix-smart-3hd-x609-6-inch-hd-1gb-16gb-rom-android-81-oreo-8mp-8mp-dual-sim-face-fingerprint-unlock-3g-smartphone-3050-mah-battery 2 59054 0 0
+/dell-xps-9360-laptop-13.3inches-8th-gen-intel-core-i7-8550u-16gb-ram-512-gb-ssd-windows-10 2 55284 0 0
+/oraimo-power-bank-20000mah-max-power-titan-opb-p201d 1 27123 0 0
+/career 12 353151 0 0
+/ocmultivendor/sellerlogin 8 147317 0 1
+/infinix-hot-s3-x573-5.65-inch-ips-3gb-ram-32gb-rom-android-8.0-oreo-13mp-20mp-4000mah-dual-sim-4g-lte-smartphone-sandstone-black 2 61547 0 0
+/battery-for-galaxy-s4-siv-gt-i9500 1 26002 0 0
+/%20Apple%20Macbook%20Pro%2013''%20%20Intel%20Corei5%20Gray%20(2017)%20128GB,8GB 1 26984 0 0
+/apple-macbook-pro-15-quad-core-i7-turbo-up-to-2tb-ssd-16gb-ram-warranty 1 27421 0 0
+/Samsung%20Galaxy%20J2%20Core 1 29056 0 0
+/nokia-7-1-android-90-584-inches-64-gb-4-gb-ram-non-removable-li-ion-3060-mah-battery 2 54562 0 0
+/motorola-moto-c-plus-dual-sim-android-70-16-gb1-gb-ram 1 26571 1 1
+/fexda-bl-15bi-battery-for-itel-phone-a14-2000mah-capacity 6 154161 0 0
+/philips-pq206-18-shaver-2h-f-box 1 22683 0 0
+/HP%20Color%20LaserJet%20Pro%20MFP%20M477fdw%20Printer 2 53828 0 0
+/infinix-hot-7-x624b-6-2-inch-32gb-rom-2gb-ram-13mp-8mp-4000mah-dual-sim-face-unlock-3g-smartphone-midnight-black 5 150059 0 0
+/apple-iphone-x-256gb-rom-3gb-ram-5.8-inch-super-amoled-ios-11-11-12mp-12mp-7mp-4g-lte-2716-mah-battery 1 35867 0 0
+/tecno-t401-triple-sim-cards-camera-bluetooth-internet-fm 1 27795 0 0
+/privacy 17 643653 1 1
+/lava%20z92%206.22%20inches,android%208.1%20oreo,3gb%20ram,%2032gb%20rom%20%203260%20mah%20battery 2 26568 0 0
+/apple-ipad-5-5thh-generation-32gb-wifi-cellular 1 27839 0 0
+/panasonic-hc-x1000-4k-hd-full-hd-video-camera-black 1 25810 0 0
+/better-sound-s207-bluetooth-wireless-speaker 2 51384 0 0
+/HTC%20U%20Play%205.2%20inches%20Android%206.0%2032GB%20ROM,%203GB%20RAM%202500%20mAh%20battery 1 27692 0 0
+/apple-iphone-8-plus-256gb-rom-3gb-ram-5.5-inches-2691-mah-battery 1 32676 0 0
+/hp-probook-470-g5-1lr90av-mb-8th-gen-intel-corei7-16gb-ddr4-ram-1tb 1 27335 0 0
+/huawei-mate-20-pro-6.39-inch-6gb-ram-128gb-rom-android-9.0-40mp-20mp-8mp-24mp-dual-nano-sim-4g-lte-smartphone-twilight-4200mah-battery 2 58168 0 0
+/i9s-apple-wireless-airpods 4 304578 0 0
+/huawei-mate20-pro-6.39-inch-6gb-ram-128gb-rom-android-9.0-40mp-20mp-8mp-24mp-4200-mah-battery 2 62171 0 0
+/Apple%20Macbook%20Air%20-%2013.3%22%20Retina%20Display%20-(%20Grey) 1 27729 0 0
+/Super%20Bass%20Mini%20Bluetooth%20Speaker%20-%20S2026 2 48607 1 0
+/tecno-camon-x-pro-ca8-6-inch-fhd-4gb-64gb-rom-android-8-1-oreo-16mp-24mp-dual-sim-4g-fingerprint-smartphone 1 26374 0 0
+/apple-iphone-xr-256gb-rom-3gb-ram-dual-sim-6.1-inches-12-mp-7-mp-2942-mah-battery 1 30299 0 0
+/zealot-halter-neck-style-wireless-stereo-headset-black 1 22937 0 0
+/infinix-note-5-pro-stylus-x605-x-pen-6-inch-fhd-infinity-32gb-rom-4gb-ram-16mp-16mp-hybrid-dual-sim-4g-lte-4000mah-smartphone-bordeaux-red 1 29830 0 0
+/htc-u11-life-5.2-inch-android-7.1-nougat-4g-lte-android-smart-phone-3gb-ram-32gb-rom-smartphone-3000-mah-battery 1 27823 0 0
+/fexda-bl-3hx-battery-for-infinix-phone-2000mah-capacity 1 25778 0 0
+/obejorstore_backend/view/journal2/tpl/directives/j-opt-items-per-row.html 3 348 0 0
+/hp-elitebook-850-g4-15.6-inch-notebook-windows-intel-core-i7-2.7-ghz-16gb-ram-512-gb-ssd-silver-1bs53utaba-windows-10-pro 1 29946 0 0
+/Cufflinks 2 47307 0 0
+/apple-iphone-7-plus-32gb-rom-3gb-ram-3d-touch-technology-5.5-inch-ios-10-smartphone-2900mAh-battery 1 35792 0 0
+/gionee-s10-lite-5.2-inch-hd-4gb-ram-32gb-rom-16mp-13mp-android-7.1-hybrid-dual-sim-4g-lte-smartphone-3100mah-battery 2 51901 0 0
+/%20kids-tricycle 1 24253 0 0
+/%20Apple%20Macbook%20(AI534%202016)%20256GB,%208GB%20RAM,%20Core%20M3 1 25817 0 0
+/asus-vivobook-156-intel-pentium-quad-core-500-gb-hdd-4-gb-ram-window-10 2 53436 0 0
+/cpanel 2 67806 1 1
+/Priv-BlackBerry-32GB-Smartphone 1 28517 0 0
+/gionee-s11-lite-global-version-4gb-ram-32gb-snapdragon-430-octa-4g-smartphone 1 27684 0 0
+/fexda-bl-15ci-battery-for-itel-phone-it1407 1 27117 0 0
+/oppo-cph1853-a3s-2-16gb-smart-phone 1 25953 0 0
+/fexda-bl-30bx-battery-for-infinix-phone-3000mah-capacity 3 77925 0 0
+/Dell%20OptiPlex%203050%20MiniTower%20Desktop%20-%20Intel%20Core%20I3-7100 2 55388 0 0
+/catalog/view/theme/journal2/css/icons/fonts/journal-icons.eot 7 847875 1 2
+/mini-8800-stereo-bluetooth-headset 26 1097629 19 8
+/dell-precision-m3520-intel-core-i7-2.80ghz-8gb-512gb-ssd 1 27988 0 0
+/obejorstore_backend/view/journal2/tpl/directives/j-opt-slider.html 1 140 0 0
+/%20Skirts,%20ladies%20stylish%20front%20drapery%20Skirt 1 24069 0 0
+/samsung/samsung-galaxy-a30-6.4-inch-4gb-ram-64gb-rom-android-9.0-pie-16mp-5mp-16mp-4g-lte-dual-sim-smartphone 2 62342 0 0
+/APC%201500va%20Smart%20Ups 1 27138 0 0
+/%20iChat%20Earphone%20A4Tech%2020hz%20frequency%201.8m%20cable%20length 1 22219 0 0
+/Samsung%20Galaxy%20S8 2 61311 0 0
+/apple-iphone-11-64gb-rom-4gb-ram-6.1-inch-3110mAh-battery-12mp-tripple-12mp-rear-camera-red 4 119746 0 0
+/apple-ipad-mini-3-wifi-cellular-1gb-ram-64gb-79-ios-81 1 28474 0 0
+/hp-elitebook-x360-1030-g2-intel-core-i5-4gb-ram-256gb-ssd 1 30382 0 0
+/mobo-bateria-portatil-5000mah-power-bank 2 46244 0 0
+/huawei-y5-prime-2018-5.45-inches-android-8.1-oreo-16gb-rom-2gb-ram-3020-mah-battery 2 53868 0 0
+/mobile/search.php 14 64568 0 0
+/vivo-y17-635-inch-4gb-ram-128gb-rom-front-camera-20mp-triple-rear-camera-13-8-2-mp-dual-sim 6 173706 0 0
+/Baby%20Cot%20with%20Rack 1 22226 0 0
+/hp-15-bs151nia-15-6-inch-notebook-laptop-intel-core-i3-5005u-2ghz-processor-4gb-ram-500gb-hdd-intel-hd-graphics-windows-10 4 113349 0 0
+/infinix-zero-6-pro-x620b-6.2-fhd-Android-8.1-Oreo-128gb-rom-6gb-ram-12mp-24mp-20mp-ai-assistant-sapphir-cyan-4500-mah-battery 2 57466 0 0
+/Suits,%20jackets,black%20women%20essential%20Suit%20Jacket 1 24106 0 0
+/Samsung%20Galaxy%20J5%20Pro 1 28661 0 0
+/infinix-s4-x626b-6.2-inches-full-hd-64gb-rom-6gb-ram-triple-camera-front-camera-32mp-battery-4000mah-nebula-blue 1 27112 0 0
+/solar-powered-car-ashtray-detachable-storage-box 1 25303 0 0
+/%20fexda-BL-18ai-battery-for-itel-phone1800mah-capacity 2 51805 0 0
+/public-address-system-with-usb-sd-card-reader 1 22158 0 0
+/pisen-color-power-pro-ts-d212-10000mah-power-bank-24a-fast-charger 1 27168 0 0
+/samsung-galaxy-s9-5.8-inch-qhd-4gb-64gb-rom-android-8.0-oreo-12mp-8mp-single-sim-4g-smartphone-midnight-black 3 89323 0 0
+/Samsung%20J5 1 28133 0 0
+/obejorstore_backend/view/journal2/tpl/directives/skin-manager.html 2 530 0 0
+/apple-iphone-8-plus-64gb-rom-3gb-ram-5.5-inch-2691-mah-battery 1 33664 0 0
+/huawei-mediapad-t3-10-inches-16gb-rom-2gb-ram-3g-wifi-4800mAh-battery 2 54536 0 0
+/dell-latitude-e7480-intel-core-i7-7600u-16gb-ram-512gb-ssd-ultrabook-business-laptop-hdmi-camera-wifi-thunderbolt-3-win-10-pro 1 27948 0 0
+/HFQ6S%20MULTIFUNCTIONAL%20BLUETOOTH%20SPEAKER 1 25678 0 0
+/huawei-mediapad-t3-10-inches-16gb-2gb-ram-3g-wifi-4800mAh-battery 1 28109 0 0
+/64gb-rom-ios-12-12mp-12mp-7mp-dual-sim-3174-mah-battery-gold 1 31063 0 0
+/infinix-hot7-x624b-6.2-inch-32gb-rom-2gb-ram-13mp-8mp-dual-sim-face-unlock-3g-smartphone-midnight-black-4000mah-battery 2 59590 0 0
+/obejorstore_backend/view/journal2/tpl/directives/search/search.html 4 256 0 0
+/gionee-s11-lite-5.7-inch-hd-18.9-full-screen-4gb-ram-32gb-rom-android-7.1-nougat-13mp-2mp-16mp-hybrid-dual-sim-4g-lte-fingerprint-id-smartphone-3030mAh-battery 1 27633 0 0
+/huawei-y7-pro-2019-6.26inch-smart-phone-tft-lcd-4gb-ram-64gb-rom-16mp-2-13mp-2mp-purple-blue-black-4000mah-battery 3 84663 0 0
+/Samsung-Galaxy-Note-9-6.4-Inch-8GB-RAM-512GB-ROM-Android-8.1-12MP-12MP-Single-SIM 1 27915 0 0
+/blackberry-dtek60-5.5-inches-android-6.0-32gb-rom-4gb-ram-3000mah-battery 2 55603 0 0
+/lenovo-thinkpad-x1-carbon-5-business-ultrabook14-inches-intel-core-i7-7600u-1tb-ssd-16gb-ram-fingerprint-reader-ac-wifi 1 31489 0 0
+/fexda-bl-25jt-battery-for-tecno-2500mah-capacity 1 25805 0 0
+/obejorstore_backend/view/journal2/tpl/directives/j-opt-background.html 6 678 0 0
+/infinix-smart-2hd-x609-6-inch-hd-1gb-16gb-rom-android-8.1-oreo-8mp-8mp-dual-sim-face-fingerprint-unlock-3g-smartphone-3050-mah-battery 1 30030 0 0
+/samsung-level-u-headset 1 26595 0 0
+/apple-macbook-pro-15-with-touch-bar-intel-core-i7-2.6ghz-pro-560x-32gb-ram-512gb-ssd-space-gray 1 29086 0 0
+/apple-iphone-11-pro-128gb-4gb-ram-5.8-inches-3110-mah-battery 1 29492 0 0
+/bl-5car-battery 3 75342 0 0
+/bl-5c-itel-battery 1 25709 0 0
+/samsung-gear-iconx-reviewed-to-buy-or-not-in-aug-2019-2104-1 1 24557 1 1
+/Samsung-Galaxy-S9-5.8-Inch-QHD-4GB,-64GB-ROM-Android-8.0-Oreo-12MP-8MP-Single-SIM-4G-Smartphone-Midnight-Black 1 30124 0 0
+/mobile/addcart.php 2 216 0 0
+/sandisk-16gb-memory-adapter-microsd 2 49313 0 0
+/samsung-galaxy-j2-j200h-4.7-inch-1gb-8gb-android-5mp-2mp-dual-sim-smartphone 2 54902 0 0
+/apple-iphone-xs-max-6.5-inches-single-sim-4gb-ram-512gb-rom-3174-mah-battery 2 62573 0 0
+/black-shoe 1 24436 0 0
+/Fashion%20Classic%20Ladies%20Handbag%20%e2%80%93%20Black%20With%20Design 1 25398 0 0
+/Apple-iPhone-XS 1 31760 0 0
+/2-in-1-wireless-headphone-earphones-twist-out-speaker-bluetooth-headset-hands-free-for-phone-ejyx988-3.7v-500mah 4 97839 1 1
+/%20Ties,fashion%20quality%20Suede%20Butterfly%20Male%20Bow%20Tie%20-%20Black 1 24103 0 0
+/samsung-galaxy-a80-6.7andriod-9.0pie8gb-128gbmain-cameratriple48mp-8mp-3dselfietriple-rotating-main-camera3700mah-4g 1 26894 0 0
+/catalog/view/javascript/purpletree/bootstrap/fonts/glyphicons-halflings-regular.eot 2 40100 0 0
+/blackberry-dtek50 1 27535 0 0
+/fexda-bl-19ci-battery-for-itel-phone-it5231-it5320-it6910 1 26664 0 0
+/hp-all-in-one-24-intel-core-i3 1 28137 0 0
+/apple-iphone-xs-max-4gb-ram-64gb-rom-ios-12-12mp-12mp-7mp 1 31184 0 0
+/fexda-n9000-battery-for-samsung-galaxy-phone-note-3 1 25328 0 0
+/Fashion%20Pirate%20Cap%20Chemotherapy%20Cap%20Silky%20Durag 1 24245 0 0
+/infinix-hot7-x624-6-2-inch-android-V8.1-Oreo-16gb-rom-1gb-ram-13mp-8mp-4000mah-dual-sim-face-unlock-3g-smartphone-midnight-black 1 30883 0 0
+/ben-10-watch-3d-childrens-watch-black-watch-ben-10-watch-wristwatch 1 24829 0 0
+/blackberry-key2-4.5-inches-android-8.1-oreo-64gb-rom-6gb-ram-3500mah-battery 2 55412 0 0
+/samsung-galaxy-a6-plus-2018-6-inch-3gb-ram-32gb-rom-android-8.0 3 101499 0 0
+END_SIDER

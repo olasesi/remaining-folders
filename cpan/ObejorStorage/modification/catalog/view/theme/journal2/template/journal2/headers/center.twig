@@ -1,0 +1,65 @@
+<header class="journal-header-center">
+  <div class="header">
+    <div class="journal-top-header j-min z-1"></div>
+    <div class="journal-menu-bg z-0"></div>
+    <div class="journal-center-bg j-100 z-0"></div>
+    <div id="header" class="journal-header z-2">
+      <div class="header-assets top-bar">
+        <div class="journal-links j-min xs-100 sm-100 md-50 lg-50 xl-50">
+          <div class="links">
+            <ul class="top-menu">
+              {{ journal2.settings.get('config_primary_menu') }}
+            </ul>
+          </div>
+        </div>
+        {% if language %}
+          <div class="journal-language j-min">
+            {{ language }}
+          </div>
+        {% endif %}
+        {% if currency %}
+          <div class="journal-currency j-min">
+            {{ currency }}
+          </div>
+        {% endif %}
+        <div class="journal-secondary j-min xs-100 sm-100 md-50 lg-50 xl-50">
+          <div class="links">
+            <ul class="top-menu">
+
+			{% if sellerlogged %}
+			<li><i class="fa fa-user fas fa user-o" aria-hidden="true"></i> <span><a href="{{ seller_panel_link }}">{{ text_seller_panel }}</a></span></li>
+			{% else %}
+			<li><a href="{{ seller_register_link }}"><i class="fa fa-user fas fa user-o" aria-hidden="true"></i><span class=""> {{ text_seller_register }}</span></a></li>
+			{% endif %}
+			{% if module_purpletree_multivendor_browse_sellers %}
+			<li><a href="{{ browse_seller_link }}"><i class="fa fa-users" aria-hidden="true"></i><span class=""> {{ text_browse_sellers }}</span></a></li>
+			{% endif %}
+			
+              {{ journal2.settings.get('config_secondary_menu') }}
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="header-assets">
+        <div class="journal-search j-min xs-100 sm-50 md-25 lg-25 xl-25">
+          {{ search }}
+        </div>
+        <div class="journal-logo j-100 xs-100 sm-100 md-50 lg-50 xl-50">
+          {% if logo %}
+            <div id="logo">
+              <a href="{{ home | replace('index.php?route=common/home', '') }}">
+                {{ staticCall('Journal2Utils', 'getLogo', [config]) }}
+              </a>
+            </div>
+          {% endif %}
+        </div>
+        <div class="journal-cart j-min xs-100 sm-50 md-25 lg-25 xl-25">
+          {{ cart }}
+        </div>
+      </div>
+      <div class="journal-menu j-min xs-100 sm-100 md-100 lg-100 xl-100">
+        {{ journal2.settings.get('config_mega_menu') }}
+      </div>
+    </div>
+  </div>
+</header>

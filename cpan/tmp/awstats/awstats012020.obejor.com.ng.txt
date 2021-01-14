@@ -1,0 +1,303 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202001 will be lost/reset.
+# Last config file used to build this data file was /home/obejorng/tmp/awstats/awstats.obejor.com.ng.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2010                
+POS_TIME 2680                
+POS_VISITOR 6286                
+POS_DAY 7652                
+POS_DOMAIN 3455                
+POS_LOGIN 3726                
+POS_ROBOT 3881                
+POS_WORMS 4013                
+POS_EMAILSENDER 4144                
+POS_EMAILRECEIVER 4287                
+POS_SESSION 8241                
+POS_SIDER 8419                
+POS_FILETYPES 4422                
+POS_DOWNLOADS 4509                
+POS_OS 4557                
+POS_BROWSER 4674                
+POS_SCREENSIZE 5005                
+POS_UNKNOWNREFERER 5079                
+POS_UNKNOWNREFERERBROWSER 5166                
+POS_ORIGIN 5248                
+POS_SEREFERRALS 5380                
+POS_PAGEREFS 5524                
+POS_SEARCHWORDS 5672                
+POS_KEYWORDS 5824                
+POS_MISC 2343                
+POS_ERRORS 5883                
+POS_CLUSTER 3582                
+POS_SIDER_404 5977                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200201000339 345 68552 13617296099563
+FirstTime 0
+LastTime 20200131082900
+LastUpdate 20200201121418 345 0 344 0 0
+TotalVisits 47                  
+TotalUnique 33                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 33                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavascriptDisabled 0 0 0
+RealPlayerSupport 0 0 0
+FlashSupport 0 0 0
+JavaEnabled 0 0 0
+TotalMisc 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+PDFSupport 0 0 0
+QuickTimeSupport 0 0 0
+DirectorSupport 0 0 0
+AddToFavourites 0 23 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 579 625 162396
+1 0 0 0 664 722 185750
+2 0 0 0 937 980 261663
+3 0 0 0 1468 1531 434855
+4 1 1 33879 1359 1437 393993
+5 1 1 33879 1701 1763 485183
+6 1 1 33879 988 1014 268543
+7 1 1 33879 800 854 225050
+8 5 5 169491 1141 1181 324431
+9 8 8 271176 870 934 244577
+10 8 8 271152 848 894 235372
+11 3 3 101709 793 869 225463
+12 3 3 101709 811 869 223795
+13 3 3 101661 713 785 202037
+14 8 8 271152 709 787 202428
+15 3 3 101685 826 890 233985
+16 3 3 101661 699 752 194846
+17 0 0 0 737 801 205413
+18 0 0 0 736 787 207101
+19 1 1 33879 779 870 223807
+20 0 0 0 755 820 211915
+21 0 0 0 710 746 195267
+22 1 1 33879 713 818 210680
+23 1 1 33879 735 767 199374
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 4
+ng 31 31 1050969
+id 15 15 508185
+us 4 4 135516
+cr 1 1 33879
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 1
+Unknown 51 1728549 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 4
+win8.1 7 7
+win10 25 25
+linuxandroid 4 4
+linux 15 15
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 13
+firefox67.0 6 6
+chrome79.0.3945.93 1 1
+chrome79.0.3945.88 1 1
+chrome78.0.3904.108 1 1
+firefox73.0 19 19
+chrome79.0.3945.117 1 1
+chrome79.0.3945.116 2 2
+chrome81.0.4021.2 7 7
+chrome81.0.4029.4 1 1
+firefox72.0 4 4
+chrome79.0.3945.130 1 1
+chrome81.0.4000.3 3 3
+chrome81.0.4033.2 4 4
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 51 51
+From1 0 0
+From2 0 0
+From3 0 0
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+302 22473 5952841
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 0
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 33
+102.134.114.185 15 15 508185 20200129155408
+41.58.246.227 2 2 67806 20200117134411
+41.58.207.234 2 2 67806 20200122110227
+66.249.93.116 2 2 67758 20200112165733
+41.58.218.61 2 2 67806 20200113102549
+41.58.210.133 1 1 33903 20200128092840
+41.58.87.138 1 1 33903 20200116111105
+197.210.44.204 1 1 33903 20200118160632
+41.58.89.149 1 1 33903 20200124085413
+197.210.44.16 1 1 33903 20200104153821
+41.58.111.126 1 1 33903 20200115112628
+197.210.65.96 1 1 33879 20200105145347
+41.58.110.90 1 1 33903 20200110125145
+41.58.90.139 1 1 33903 20200108100317
+41.58.202.122 1 1 33903 20200120121539
+197.210.64.49 1 1 33903 20200105142732
+41.58.252.167 1 1 33903 20200113143224
+197.210.65.198 1 1 33903 20200105150356
+66.249.81.138 1 1 33879 20200103103826
+197.210.44.238 1 1 33903 20200106091513
+41.58.115.124 1 1 33903 20200115093805
+197.210.64.168 1 1 33903 20200105145159
+197.210.60.161 1 1 33903 20200107092119
+197.210.29.130 1 1 33903 20200116125117
+190.112.223.123 1 1 33879 20200128041559
+66.249.93.118 1 1 33879 20200107091941
+41.58.119.61 1 1 33903 20200131082900
+41.58.195.214 1 1 33903 20200121083407
+41.58.98.138 1 1 33903 20200110091616
+197.210.64.243 1 1 33903 20200105142219
+41.58.88.184 1 1 33903 20200114144552
+197.210.44.175 1 1 33903 20200103084702
+41.58.210.66 1 1 33903 20200109105523
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 25
+20200103 3 3 101661 3
+20200104 1 1 33903 1
+20200105 6 6 203370 6
+20200106 2 2 67782 2
+20200107 2 2 67782 2
+20200108 1 1 33903 1
+20200109 1 1 33903 1
+20200110 3 3 101685 3
+20200112 3 3 101637 2
+20200113 4 4 135588 3
+20200114 1 1 33903 1
+20200115 2 2 67806 2
+20200116 3 3 101685 3
+20200117 2 2 67806 2
+20200118 3 3 101661 3
+20200119 1 1 33879 1
+20200120 1 1 33903 1
+20200121 2 2 67782 2
+20200122 2 2 67806 1
+20200123 2 2 67758 1
+20200124 1 1 33903 1
+20200126 1 1 33879 1
+20200128 2 2 67782 2
+20200129 1 1 33879 1
+20200131 1 1 33903 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+30s-2mn 1
+0s-30s 43
+5mn-15mn 2
+2mn-5mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 1
+/cpanel 51 1728549 47 47
+END_SIDER

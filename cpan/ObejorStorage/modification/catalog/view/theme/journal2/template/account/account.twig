@@ -1,0 +1,107 @@
+{{ header }}
+<div id="container" class="container j-container">
+  <ul class="breadcrumb">
+    {% for breadcrumb in breadcrumbs %}
+      <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="{{ breadcrumb.href }}" itemprop="url"><span itemprop="title">{{ breadcrumb.text }}</span></a></li>
+    {% endfor %}
+  </ul>
+
+			{% if error_warning %}
+			 <div class="alert alert-danger"><i class="fa fa-exclamation-circle"></i> {{ error_warning }}</div>
+			 {% endif %}
+			
+  {% if success %}
+    <div class="alert alert-success success"><i class="fa fa-check-circle"></i> {{ success }}</div>
+  {% endif %}
+  
+  
+  
+  <div class='row'>
+      
+      <div class='col-xs-6 col-lg-4'>
+          
+          
+          <nav class='acc-nav'>
+              
+          </nav>
+          
+          <div>
+          <h2 class="secondary-title">{{ text_my_account }}</h2>
+          <div class="content my-account">
+            <ul class="list-unstyled">
+              <li><a href="{{ edit }}">{{ text_edit }}</a></li>
+              <li><a href="{{ password }}">{{ text_password }}</a></li>
+              <li><a href="{{ address }}">{{ text_address }}</a></li>
+              <li><a href="{{ wishlist }}">{{ text_wishlist }}</a></li>
+            </ul>
+          </div>
+          <h2 class="secondary-title">{{ text_my_orders }}</h2>
+          <div class="content my-orders">
+            <ul class="list-unstyled">
+              <li><a href="{{ order }}">{{ text_order }}</a></li>
+              <li><a href="{{ download }}">{{ text_download }}</a></li>
+              {% if reward %}
+                <li><a href="{{ reward }}">{{ text_reward }}</a></li>
+              {% endif %}
+              <li><a href="{{ return }}">{{ text_return }}</a></li>
+              <li><a href="{{ transaction }}">{{ text_transaction }}</a></li>
+              <li><a href="{{ recurring }}">{{ text_recurring }}</a></li>
+            </ul>
+          </div>
+          <h2 class="secondary-title">{{ text_my_newsletter }}</h2>
+          <ul class="list-unstyled">
+            <li><a href="{{ newsletter }}">{{ text_newsletter }}</a></li>
+            
+          </ul>
+          </div>
+          
+      </div>
+      <section class='col-xs-12 col-sm-6 col-lg-8'>
+          <div class='well'>
+              <header><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+                  <h1>Account Overview</h1>
+              </header>
+              <div class='row'></div>
+          </div>
+      </section>
+  
+  </div>
+  
+  
+  
+  
+  
+</div>
+{{ footer }}
+<style>
+    .row-container {
+        padding-bottom: 32px;
+        padding-top: 32px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1184px;
+        
+    }
+    .left {
+        width: 280px;
+        padding-left: 8px;
+        padding-right: 8px;
+        box-sizing: border-box;
+        font-size: .875rem;
+
+    }
+    .right {
+        width: 872px;
+        padding-left: 8px;
+        padding-right: 8px;
+        display: block;
+        font-size: .875rem;
+        box-sizing:border-box;
+    }
+    .acc-nav {
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.05);
+    }
+</style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>

@@ -1,0 +1,57 @@
+<header class="journal-header-compact">
+  <div class="header">
+    <div id="header" class="journal-header">
+      <div class="journal-logo">
+        {% if logo %}
+          <div id="logo">
+            <a href="{{ home | replace('index.php?route=common/home', '') }}">
+              {{ staticCall('Journal2Utils', 'getLogo', [config]) }}
+            </a>
+          </div>
+        {% endif %}
+      </div>
+      <div class="journal-links">
+        <div class="links">
+          <ul class="top-menu">
+
+			{% if sellerlogged %} 
+			<li><a href="{{ seller_panel_link }}"><i class="fa fa-user fas fa user-o" aria-hidden="true"></i><span class=""> {{ text_seller_panel }}</span></a></li>
+			{% else %}
+			<li><a href="{{ seller_register_link }}"><i class="fa fa-user fas fa user-o" aria-hidden="true"></i><span class=""> {{ text_seller_register }}</span></a></li>
+			{% endif %}
+			{% if module_purpletree_multivendor_browse_sellers %}
+			<li><a href="{{ browse_seller_link }}"><i class="fa fa-users" aria-hidden="true"></i><span class=""> {{ text_browse_sellers }}</span></a></li>
+			{% endif %}
+			
+            {{ journal2.settings.get('config_primary_menu') }}
+            {{ journal2.settings.get('config_secondary_menu') }}
+          </ul>
+        </div>
+      </div>
+      <div class="journal-cart">
+        {{ cart }}
+      </div>
+      {{ if language or currency }}
+      <div class="lang-curr">
+        {% if language %}
+          <div class="journal-language">
+            {{ language }}
+          </div>
+        {% endif %}
+        {% if currency %}
+          <div class="journal-currency">
+            {{ currency }}
+          </div>
+        {% endif %}
+      </div>
+      {{ endif }}
+      <div class="divider"></div>
+      <div class="journal-menu">
+        {{ journal2.settings.get('config_mega_menu') }}
+      </div>
+      <div class="journal-search">
+        {{ search }}
+      </div>
+    </div>
+  </div>
+</header>

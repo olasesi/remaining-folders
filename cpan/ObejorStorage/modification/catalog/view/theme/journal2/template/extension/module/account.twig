@@ -1,0 +1,29 @@
+<div class="box oc-module">
+  <div class="list-group box-content">
+    <div class="list-group">
+      <ul class="box-category">
+        {% if not logged %}
+          <li><a href="{{ login }}" class="list-group-item">{{ text_login }}</a> <a href="{{ register }}" class="list-group-item">{{ text_register }}</a> <a href="{{ forgotten }}" class="list-group-item">{{ text_forgotten }}</a></li>
+        {% endif %}
+        <li><a href="{{ account }}" class="list-group-item">{{ text_account }}</a></li>
+        {% if logged %}
+          <li><a href="{{ edit }}" class="list-group-item">{{ text_edit }}</a> <a href="{{ password }}" class="list-group-item">{{ text_password }}</a></li>
+        {% endif %}
+
+			{% if sellercontact_module==1 and purpletree_module_status==1 %}
+			 
+				{% endif %}
+			
+
+			{% if sellercontact_module==1 and purpletree_module_status==1 %}
+			<li style="list-style:none"><a href="{{ sellercontact }}" class="list-group-item">{{  text_seller_contact1 }}</a> </li>
+				{% endif %}
+			
+        <li><a href="{{ address }}" class="list-group-item">{{ text_address }}</a> <a href="{{ wishlist }}" class="list-group-item">{{ text_wishlist }}</a> <a href="{{ order }}" class="list-group-item">{{ text_order }}</a> <a href="{{ download }}" class="list-group-item">{{ text_download }}</a><a href="{{ recurring }}" class="list-group-item">{{ text_recurring }}</a> <a href="{{ reward }}" class="list-group-item">{{ text_reward }}</a> <a href="{{ return }}" class="list-group-item">{{ text_return }}</a> <a href="{{ transaction }}" class="list-group-item">{{ text_transaction }}</a> <a href="{{ newsletter }}" class="list-group-item">{{ text_newsletter }}</a></li>
+        {% if logged %}
+          <li><a href="{{ logout }}" class="list-group-item">{{ text_logout }}</a></li>
+        {% endif %}
+      </ul>
+    </div>
+  </div>
+</div>

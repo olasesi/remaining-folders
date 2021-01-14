@@ -1,0 +1,994 @@
+{{ header }}
+<div id="container" class="container j-container">
+  <ul class="breadcrumb">
+    {% for breadcrumb in breadcrumbs %}
+      <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="{{ breadcrumb.href }}" itemprop="url"><span itemprop="title">{{ breadcrumb.text }}</span></a></li>
+    {% endfor %}
+  </ul>
+  <div class="row">{{ column_left }}{{ column_right }}
+    {% if column_left and column_right %}
+      {% set class = 'col-sm-6' %}
+    {% elseif column_left or column_right %}
+      {% set class = 'col-sm-9' %}
+    {% else %}
+      {% set class = 'col-sm-12' %}
+    {% endif %}
+    <div id="content" class="{{ class }} product-page-content" itemscope itemtype="http://schema.org/Product">
+      {% if journal2.settings.get('product_page_title_position', 'top') == 'top' %}
+        <!-- <h1 class="heading-title" itemprop="name">{{ heading_title }}</h1> -->
+        <h1 class="heading-title" itemprop="name"><span style="font-weight:bold;font-size:15px;">{{ manufacturer }}</span></h1>
+      {% endif %}
+      {{ content_top }}
+      <div class="row product-info {{ journal2.settings.get('split_ratio') }}">
+        <div class="left">
+          {% if thumb %}
+            <div class="image">
+              {% for label, name in labels %}
+                <span class="label-{{ label }}"><b>{{ name }}</b></span>
+              {% endfor %}
+              <a href="{{ popup }}" title="{{ heading_title }}"><img src="{{ thumb }}" title="{{ heading_title }}" alt="{{ heading_title }}" id="image" data-largeimg="{{ popup }}" itemprop="image"/></a>
+            </div>
+            {% if journal2.settings.get('product_page_gallery') %}
+              <div class="gallery-text"><span>{{ journal2.settings.get('product_page_gallery_text') }}</span></div>
+            {% endif %}
+          {% endif %}
+          {% if images %}
+            <div id="product-gallery" class="image-additional {{ journal2.settings.get('product_page_gallery_carousel') ? 'journal-carousel' : 'image-additional-grid' }}">
+              {% if journal2.settings.get('product_page_gallery_carousel') %}
+              <div class="swiper">
+                <div class="swiper-container" {% if journal2.settings.get('rtl') %} dir="rtl" {% endif %}>
+                  <div class="swiper-wrapper">
+                    {% endif %}
+                    {% if thumb %}
+                      <a class="swiper-slide" {% if journal2.settings.get('product_page_gallery_carousel') %} style="width: {{ 100 / journal2.settings.get('product_page_additional_width', 5) }}%" {% endif %} href="{{ popup_fixed ? popup_fixed : popup }}" title="{{ heading_title }}"><img src="{{ thumb_fixed ? thumb_fixed : thumb }}" title="{{ heading_title }}" alt="{{ heading_title }}"/></a>
+                    {% endif %}
+                    {% for image in images %}
+                      <a class="swiper-slide" {% if journal2.settings.get('product_page_gallery_carousel') %} style="width: {{ 100 / journal2.settings.get('product_page_additional_width', 5) }}%" {% endif %} href="{{ image.popup }}" title="{{ heading_title }}"><img src="{{ image.thumb }}" title="{{ heading_title }}" alt="{{ heading_title }}" itemprop="image"/></a>
+                    {% endfor %}
+                    {% if journal2.settings.get('product_page_gallery_carousel') %}
+                  </div>
+                </div>
+                {% if journal2.settings.get('product_page_gallery_carousel_arrows') != 'never' %}
+                <div class="swiper-button-next swiper-hidden"></div>
+                <div class="swiper-button-prev swiper-hidden"></div>
+                {% endif %}
+              </div>
+              {% endif %}
+            </div>
+          {% if journal2.settings.get('product_page_gallery_carousel') %}
+            <script>
+              (function () {
+                var opts = {
+                  slidesPerView: parseInt('{{ journal2.settings.get('product_page_additional_width', '5') }}', 10),
+                  slidesPerGroup: parseInt('{{ journal2.settings.get('product_page_additional_width', '5') }}', 10),
+                  spaceBetween: parseInt('{{ journal2.settings.get('product_page_additional_spacing', '15') }}', 10),
+                  {% if journal2.settings.get('product_page_gallery_carousel_arrows') != 'never' %}
+                  nextButton: $('#product-gallery .swiper-button-next'),
+                  prevButton: $('#product-gallery .swiper-button-prev'),
+                  {% endif %}
+                  autoplay: {{ journal2.settings.get('product_page_gallery_carousel_autoplay') ? journal2.settings.get('product_page_gallery_carousel_transition_delay', 4000) : 'false' }},
+                  speed: parseInt({{ journal2.settings.get('product_page_gallery_carousel_transition_speed') }}, 10) || 400,
+                  touchEventsTarget: {% if journal2.settings.get('product_page_gallery_carousel_touchdrag') %} 'container' {% else %} false {% endif %}
+                };
+
+                $('#product-gallery .swiper-container').swiper(opts);
+              })();
+            </script>
+          {% endif %}
+          {% endif %}
+          {% for tab in journal2.settings.get('additional_product_description_image', []) %}
+            <div class="journal-custom-tab">
+              {% if tab.has_icon %}
+                <div class="block-icon block-icon-left" style="{{ tab.icon_css }}">{{ tab.icon }}</div>
+              {% endif %}
+              {% if tab.name %}
+                <h3>{{ tab.name }}</h3>
+              {% endif %}
+              {{ tab.content }}
+            </div>
+          {% endfor %}
+          <div class="image-gallery" style="display: none !important;">
+            {% if thumb %}
+              <a href="{{ popup }}" data-original="{{ original ? original : popup }}" title="{{ heading_title }}" class="swipebox"><img src="{{ thumb }}" title="{{ heading_title }}" alt="{{ heading_title }}"/></a>
+            {% endif %}
+            {% for image in images %}
+              <a href="{{ image.popup }}" data-original="{{ image.original ? image.original : image.popup }}" title="{{ heading_title }}" class="swipebox"><img src="{{ image.thumb }}" title="{{ heading_title }}" alt="{{ heading_title }}"/></a>
+            {% endfor %}
+          </div>
+          {% if journal2.settings.get('share_buttons_status') and journal2.settings.get('share_buttons_position') == 'left' and (journal2.settings.get('config_share_buttons', []) | length > 0) %}
+            <div class="social share-this">
+              <div class="social-loaded">
+                <script type="text/javascript">var switchTo5x = true;</script>
+                <script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
+                <script type="text/javascript">stLight.options({publisher: "{{ journal2.settings.get('share_buttons_account_key') }}", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+                {% for item in journal2.settings.get('config_share_buttons', []) %}
+                  <span class="{{ item.class }}{{ journal2.settings.get('share_buttons_style') }}" displayText="{{ journal2.settings.get('share_buttons_style') ? item.name : '' }}"></span>
+                {% endfor %}
+              </div>
+            </div>
+          {% endif %}
+          <meta itemprop="description" content="{{ journal2.settings.get('product_description') }}"/>
+          <div class="product-tabs">
+            {% if journal2.settings.get('share_buttons_status') and journal2.settings.get('share_buttons_position') == 'bottom' and (journal2.settings.get('config_share_buttons', []) | length > 0) %}
+              <div class="social share-this">
+                <div class="social-loaded">
+                  <script type="text/javascript">var switchTo5x = true;</script>
+                  <script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
+                  <script type="text/javascript">stLight.options({publisher: "{{ journal2.settings.get('share_buttons_account_key') }}", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+                  {% for item in journal2.settings.get('config_share_buttons', []) %}
+                    <span class="{{ item.class }}{{ journal2.settings.get('share_buttons_style') }}" displayText="{{ journal2.settings.get('share_buttons_style') ? item.name : '' }}"></span>
+                  {% endfor %}
+                </div>
+              </div>
+            {% endif %}
+            <ul id="tabs" class="nav nav-tabs htabs">
+              {% set is_active = true %}
+              {% if description and not journal2.settings.get('hide_product_description') %}
+                <li {% if is_active %} class="active" {% set is_active = false %} {% endif %}><a href="#tab-description" data-toggle="tab">{{ tab_description }}</a></li>
+              {% endif %}
+              {% if attribute_groups %}
+                <li {% if is_active %} class="active" {% set is_active = false %} {% endif %}><a href="#tab-specification" data-toggle="tab">{{ tab_attribute }}</a></li>
+              {% endif %}
+              {% if review_status %}
+                <li {% if is_active %} class="active" {% set is_active = false %} {% endif %}><a href="#tab-review" data-toggle="tab">{{ tab_review }}</a></li>
+              {% endif %}
+              {% for tab in journal2.settings.get('additional_product_tabs', []) %}
+                <li {% if is_active %} class="active" {% set is_active = false %} {% endif %}><a href="#additional-product-tab-{{ loop.index }}" data-toggle="tab">{{ tab.name }}</a></li>
+              {% endfor %}
+            </ul>
+            <div class="tabs-content">
+              {% set is_active = true %}
+              {% if description and not journal2.settings.get('hide_product_description') %}
+                <div class="tab-pane tab-content {% if is_active %} active {% set is_active = false %}{% endif %}" id="tab-description">{{ description }}</div>
+              {% endif %}
+              {% if attribute_groups %}
+                <div class="tab-pane tab-content {% if is_active %} active {% set is_active = false %}{% endif %}" id="tab-specification">
+                  <table class="table table-bordered attribute">
+                    {% for attribute_group in attribute_groups %}
+                      <thead>
+                      <tr>
+                        <td colspan="2"><strong>{{ attribute_group.name }}</strong></td>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      {% for attribute in attribute_group.attribute %}
+                        <tr>
+                          <td>{{ attribute.name }}</td>
+                          <td>{{ attribute.text }}</td>
+                        </tr>
+                      {% endfor %}
+                      </tbody>
+                    {% endfor %}
+                  </table>
+                </div>
+              {% endif %}
+              {% if review_status %}
+                <div class="tab-pane tab-content {% if is_active %} active {% set is_active = false %}{% endif %}" id="tab-review" {% if rating %} itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating" {% endif %}>
+                  {% if rating %}
+                    <meta itemprop="ratingValue" content="{{ rating }}"/>
+                    <meta itemprop="reviewCount" content="{{ journal2.settings.get('product_num_reviews') }}"/>
+                    <meta itemprop="bestRating" content="5"/>
+                    <meta itemprop="worstRating" content="1"/>
+                  {% endif %}
+                  <form class="form-horizontal" id="form-review">
+                    <div id="review"></div>
+                    <h2 id="review-title">{{ text_write }}</h2>
+                    {% if review_guest %}
+                      <div class="form-group required">
+                        <div class="col-sm-12">
+                          <label class="control-label" for="input-name">{{ entry_name }}</label>
+                          <input type="text" name="name" value="{{ customer_name }}" id="input-name" class="form-control"/>
+                        </div>
+                      </div>
+                      <div class="form-group required">
+                        <div class="col-sm-12">
+                          <label class="control-label" for="input-review">{{ entry_review }}</label>
+                          <textarea name="text" rows="5" id="input-review" class="form-control"></textarea>
+                          <div class="help-block">{{ text_note }}</div>
+                        </div>
+                      </div>
+                      <div class="form-group required">
+                        <div class="col-sm-12">
+                          <label class="control-label">{{ entry_rating }}</label>
+                          &nbsp;&nbsp;&nbsp; {{ entry_bad }}&nbsp;
+                          <input type="radio" name="rating" value="1"/>
+                          &nbsp;
+                          <input type="radio" name="rating" value="2"/>
+                          &nbsp;
+                          <input type="radio" name="rating" value="3"/>
+                          &nbsp;
+                          <input type="radio" name="rating" value="4"/>
+                          &nbsp;
+                          <input type="radio" name="rating" value="5"/>
+                          &nbsp;{{ entry_good }}</div>
+                      </div>
+                      {{ captcha }}
+                      <div class="buttons clearfix">
+                        <div class="pull-right">
+                          <button type="button" id="button-review" data-loading-text="{{ text_loading }}" class="btn btn-primary button">{{ button_continue }}</button>
+                        </div>
+                      </div>
+                    {% else %}
+                      {{ text_login }}
+                    {% endif %}
+                  </form>
+                </div>
+              {% endif %}
+              {% for tab in journal2.settings.get('additional_product_tabs', []) %}
+                <div id="additional-product-tab-{{ loop.index }}" class="tab-pane tab-content journal-custom-tab {% if is_active %} active {% set is_active = false %}{% endif %}">{{ tab.content }}</div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+        {% if column_left or column_right %}
+          {% set class = 'col-sm-6' %}
+        {% else %}
+          {% set class = 'col-sm-4' %}
+        {% endif %}
+        <div class="right">
+          {% if journal2.settings.get('product_page_title_position', 'top') == 'right' %}
+            <h1 class="heading-title" itemprop="name">{{ heading_title }}</h1>
+          {% endif %}
+          <div id="product" class="product-options">
+            {% for tab in journal2.settings.get('additional_product_description_top', []) %}
+              <div class="journal-custom-tab">
+                {% if tab.has_icon %}
+                  <div class="block-icon block-icon-left" style="{{ tab.icon_css }}">{{ tab.icon }}</div>
+                {% endif %}
+                {% if tab.name %}
+                  <h3>{{ tab.name }}</h3>
+                {% endif %}
+                {{ tab.content }}
+              </div>
+            {% endfor %}
+
+                <div style="border:0px solid #ffffff;padding:5px;background:#ffffff;text-align:left;font-weight:bold;font-size:16px;">
+                    {{ heading_title }}
+                </div>
+                <div style="border:0px solid #D0D0D0;padding:0px;background:#ffffff;display:table;">
+                  <div style="border:1px solid #D0D0D0;height:inherit;width:48%;margin-bottom:0px;margin-left:0px;margin-top:0px;margin-right:10px;display:table-cell;padding:10px;vertical-align:top;">   
+                   <ul class="list-unstyled description" style="border:0px;">
+                      {% if journal2.settings.get('product_views') %}
+                        <li class="product-views-count">{{ journal2.settings.get('product_page_options_views_text') }}: {{ journal2.settings.get('product_views') }}</li>
+                      {% endif %}
+                      {% if journal2.settings.get('manufacturer_image') == 'on' %}
+                        <li class="brand-logo">
+                          <a href="{{ manufacturers }}" class="brand-image">
+                            <img src="{{ manufacturer_image }}" width="{{ manufacturer_image_width }}" height="{{ manufacturer_image_height }}" alt="{{ manufacturer }}"/>
+                          </a>
+                          {% if manufacturer_image_name %}
+                            <a href="{{ manufacturers }}" class="brand-logo-text">
+                              {{ manufacturer_image_name }}
+                            </a>
+                          {% endif %}
+                        </li>
+                      {% else %}
+                        {% if manufacturer %}
+                          <li class="p-brand">{{ text_manufacturer }} <a href="{{ manufacturers }}">{{ manufacturer }}</a></li>
+                        {% endif %}
+                        {% endif %}
+                      <li class="p-model">{{ text_model }} <span class="p-model" itemprop="model">{{ model }}</span></li>
+{% if seller_detail %}
+				<li>{{ text_seller_label }} <a href="{{ seller_detail.seller_href }}">{{ seller_detail.seller_name }}</a></li>
+				{% if seller_review_status %}
+				<li>{% if seller_detail.seller_rating %}
+				<div class="rating" style="display:inline !important;">
+							{{ text_seller_rating }}&nbsp;&nbsp;&nbsp;
+							  {% for i in 1..5 %}
+							  {% if seller_detail.seller_rating < i %}
+							  <span class="fa fa-stack" style="min-width:0;"><i class="fa fa-star-o fa-stack-1x"></i></span>
+							  {% else %}
+							  <span class="fa fa-stack" style="min-width:0;"><i class="fa fa-star fa-stack-1x"></i></span>
+							 {% endif %}
+							  {% endfor %}
+							  <a href="{{ seller_detail.seller_review_link }}">{{ seller_detail.seller_count }} {{ text_seller_review }}</a>
+							</div>
+							{% else %}
+							<div class="rating"  style="display:inline !important;">{{ text_seller_rating }}&nbsp;&nbsp;&nbsp;
+								{% for i in 1..5 %}
+									<span class="fa fa-stack" style="min-width:0;"><i class="fa fa-star-o fa-stack-1x"></i></span>
+								{% endfor %}
+								<a href="{{ seller_detail.seller_review_link }}">{{ seller_detail.seller_count }} {{ text_seller_review }}</a>
+							</div>
+							{% endif %}</li>
+				{% endif %}
+					<li><a href="{{ seller_detail.seller_contact_link }}">{{ text_seller_contact }}</a></li>
+			{% endif %}
+                      {% if reward %}
+                        <li class="p-rewards">{{ text_reward }} <span class="p-rewards">{{ reward }}</span></li>
+                      {% endif %}
+                      <li class="p-stock">{{ text_stock }} <span class="journal-stock {{ stock_status }}">{{ stock }}</span></li>
+                    </ul> 
+                    <span style="color:#FF6600;font-weight:bold;font-size:12px;">Share This Product</span><br />
+                    <!-- Share buttons -->
+                    <div class="share-div share-buttons-custom" onclick="return getURL()">
+                        <img src="https://www.obejor.com.ng/image/catalog/smedia/facebook.png" alt="Facebook" />
+                    </div>
+                    <div class="share-buttons-custom" onclick="return getTwitterURL()">
+                        <img src="https://www.obejor.com.ng/image/catalog/smedia/twitter.png" alt="Twitter" />
+                    </div>                    
+                    <!-- End of share buttons-->
+                  </div>  
+                  <div style="border:1px solid #ffffff;height:inherit;width:3%;margin-bottom:0px;margin-left:0px;margin-right:0px;margin-top:0px;display:table-cell;">
+                  </div>
+                  {% if from_abroad == 'YES' %}
+                  <div style="border:1px solid #D0D0D0;width:48%;height:100%;margin-bottom:0px;margin-top:0px;margin-right:0px;margin-left:0px;display:table-cell;background:#ffffff;padding:5px;position:relative;" >
+                        <table style="border:0px;">
+                         <tr>
+                          <td style="border:0px;color:#000000;padding:5px;"><p align="justify">This product is shipped from abroad. You can receive it in Lagos between {{ del_date }} and {{ del_dateb }}. If you are in other cities, allow up to 7 additional business days.</p>
+                          </td>                           
+                         </tr>
+                         <tr>
+                          <td style="border:0px;color:#000000;padding:5px;"> <p>Prepayment is required for international delivery online. There is no additional payment on delivery</p> <br />
+                           <p align="justify">You are entitled to <b>Full</b> refund if your package is not delivered.</p>
+                          </td> 
+                         </tr>
+                        </table> 
+                  </div>
+                  {% else %}
+                  <div style="border:1px solid #D0D0D0;width:48%;height:100%;margin-bottom:0px;margin-top:0px;margin-right:0px;margin-left:0px;display:table-cell;background:#ffffff;padding:5px;position:relative;" >
+                        <table style="border:0px;">
+                         <tr>
+                          <td style="border:0px;padding:0px;"><img src="https://www.obejor.com/image/catalog/producticons/securepay.jpg" style="width:45px;height:40px" /></td><td style="border:0px;padding:0px;"> <span style="color:#FF6600;">Secure & Reliable Payment </span></td> 
+                         </tr>
+                         <tr><td>&nbsp;</td></tr>
+                         <tr>
+                          <td style="border:0px;padding:0px;"><img src="https://www.obejor.com/image/catalog/producticons/returnpolicy.png" style="width:40px;height:35px" /></td> <td style="border:0px;padding:0px;"><span style="color:#00000;">Free 7-day return if eligible </span></td>
+                         </tr>
+                         <tr>
+                          <td colspan = '2' style="border:0px;color:#000000;padding:5px;"> <p><br />You can receive it in Lagos by {{ del_date }}. If you are in other cities, allow up to 2 additional business days.</p>
+                          </td> 
+                         </tr>
+                         
+                        </table> 
+                  </div>
+                  {% endif %}
+                    
+                </div>
+            
+            
+            {% if journal2.settings.get('product_sold') %}
+              <div class="product-sold-count-text">{{ journal2.settings.get('product_sold') }}</div>
+            {% endif %}
+            {% if date_end and journal2.settings.get('show_countdown_product_page', 'on') == 'on' %}
+              <div class="countdown-wrapper">
+                <div class="expire-text">{{ journal2.settings.get('countdown_product_page_title') }}</div>
+                <div class="countdown"></div>
+              </div>
+              <script>Journal.countdown($('.right .countdown'), '{{ date_end }}');</script>
+            {% endif %}
+            {% if price %}
+              <ul class="list-unstyled price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                <meta itemprop="itemCondition" content="http://schema.org/NewCondition"/>
+                <meta itemprop="priceCurrency" content="{{ journal2.settings.get('product_price_currency') }}"/>
+                <meta itemprop="price" content="{{ journal2.settings.get('product_price') }}"/>
+                {% if journal2.settings.get('product_in_stock') == 'yes' %}
+                  <link itemprop="availability" href="http://schema.org/InStock"/>
+                {% endif %}
+                {% if not special %}
+                  <li class="product-price">{{ price }}</li>
+                {% else %}
+                  <li class="price-old">{{ price }}</li>
+                  <li class="price-new" {% if date_end %}data-end-date="{{ date_end }}"{% endif %}>{{ special }}</li>
+                {% endif %}
+                {% if tax %}
+                  <li class="price-tax">{{ text_tax }} {{ tax }}</li>
+                {% endif %}
+                {% if points %}
+                  <li class="reward">
+                    <small>{{ text_points }} {{ points }}</small>
+                  </li>
+                {% endif %}
+                {% for discount in discounts %}
+                  <li class="discounts">{{ discount.quantity }}{{ text_discount }}{{ discount.price }}</li>
+                {% endfor %}
+                {% if from_abroad == 'YES' %}
+                  <li class="discounts"><span style="color:#ff6600"><img src="https://www.obejor.com.ng/image/catalog/producticons/airplaneicon.png" style="width:35px;height:35px;" /><b>&nbsp;&nbsp;<u>Shipped From Abroad</u></b></span></li>
+                {% endif %}
+                
+              </ul>
+            {% endif %}
+            {% if options %}
+              <div class="options {{ journal2.settings.get('product_page_options_push_classes') }}">
+                <h3>{{ text_option }}</h3>
+                {% for option in options %}
+                  {% if option.type == 'select' %}
+                    <div class="option form-group{% if option.required %} required {% endif %} option-{{ option.type }}">
+                      <label class="control-label" for="input-option{{ option.product_option_id }}">{{ option.name }}</label>
+                      <select name="option[{{ option.product_option_id }}]" id="input-option{{ option.product_option_id }}" class="form-control">
+                        <option value="">{{ text_select }}</option>
+                        {% for option_value in option.product_option_value %}
+                          <option value="{{ option_value.product_option_value_id }}">{{ option_value.name }}
+                            {% if option_value.price %}
+                              ({{ option_value.price_prefix }}{{ option_value.price }})
+                            {% endif %} </option>
+                        {% endfor %}
+                      </select>
+                    </div>
+                  {% endif %}
+                  {% if option.type == 'radio' %}
+                    <div class="option form-group{% if option.required %} required {% endif %} option-{{ option.type }}">
+                      <label class="control-label">{{ option.name }}</label>
+                      <div id="input-option{{ option.product_option_id }}"> {% for option_value in option.product_option_value %}
+                          <div class="radio">
+                            <label>
+                              <input type="radio" name="option[{{ option.product_option_id }}]" value="{{ option_value.product_option_value_id }}"/>
+                              {% if option_value.image %} <img src="{{ option_value.image }}" alt="{{ option_value.name }} {% if option_value.price %} {{ option_value.price_prefix }} {{ option_value.price }} {% endif %}" class="img-thumbnail"/> {% endif %}
+                              {{ option_value.name }}
+                              {% if option_value.price %}
+                                ({{ option_value.price_prefix }}{{ option_value.price }})
+                              {% endif %} </label>
+                          </div>
+                        {% endfor %} </div>
+                    </div>
+                  {% endif %}
+                  {% if option.type == 'checkbox' %}
+                    <div class="option form-group{% if option.required %} required {% endif %} option-{{ option.type }}">
+                      <label class="control-label">{{ option.name }}</label>
+                      <div id="input-option{{ option.product_option_id }}"> {% for option_value in option.product_option_value %}
+                          <div class="checkbox">
+                            <label>
+                              <input type="checkbox" name="option[{{ option.product_option_id }}][]" value="{{ option_value.product_option_value_id }}"/>
+                              {% if option_value.image %} <img src="{{ option_value.image }}" alt="{{ option_value.name }} {% if option_value.price %} {{ option_value.price_prefix }} {{ option_value.price }} {% endif %}" class="img-thumbnail"/> {% endif %}
+                              {{ option_value.name }}
+                              {% if option_value.price %}
+                                ({{ option_value.price_prefix }}{{ option_value.price }})
+                              {% endif %} </label>
+                          </div>
+                        {% endfor %} </div>
+                    </div>
+                  {% endif %}
+                  {% if option.type == 'text' %}
+                    <div class="option form-group{% if option.required %} required {% endif %} option-{{ option.type }}">
+                      <label class="control-label" for="input-option{{ option.product_option_id }}">{{ option.name }}</label>
+                      <input type="text" name="option[{{ option.product_option_id }}]" value="{{ option.value }}" placeholder="{{ option.name }}" id="input-option{{ option.product_option_id }}" class="form-control"/>
+                    </div>
+                  {% endif %}
+                  {% if option.type == 'textarea' %}
+                    <div class="option form-group{% if option.required %} required {% endif %} option-{{ option.type }}">
+                      <label class="control-label" for="input-option{{ option.product_option_id }}">{{ option.name }}</label>
+                      <textarea name="option[{{ option.product_option_id }}]" rows="5" placeholder="{{ option.name }}" id="input-option{{ option.product_option_id }}" class="form-control">{{ option.value }}</textarea>
+                    </div>
+                  {% endif %}
+                  {% if option.type == 'file' %}
+                    <div class="option form-group{% if option.required %} required {% endif %} option-{{ option.type }}">
+                      <label class="control-label">{{ option.name }}</label>
+                      <button type="button" id="button-upload{{ option.product_option_id }}" data-loading-text="{{ text_loading }}" class="btn btn-default btn-block"><i class="fa fa-upload"></i> {{ button_upload }}</button>
+                      <input type="hidden" name="option[{{ option.product_option_id }}]" value="" id="input-option{{ option.product_option_id }}"/>
+                    </div>
+                  {% endif %}
+                  {% if option.type == 'date' %}
+                    <div class="option form-group{% if option.required %} required {% endif %} option-{{ option.type }}">
+                      <label class="control-label" for="input-option{{ option.product_option_id }}">{{ option.name }}</label>
+                      <div class="input-group date">
+                        <input type="text" name="option[{{ option.product_option_id }}]" value="{{ option.value }}" data-date-format="YYYY-MM-DD" id="input-option{{ option.product_option_id }}" class="form-control"/>
+                        <span class="input-group-btn">
+                <button class="btn btn-default" type="button"><i class="fa fa-calendar"></i></button>
+                </span></div>
+                    </div>
+                  {% endif %}
+                  {% if option.type == 'datetime' %}
+                    <div class="option form-group{% if option.required %} required {% endif %} option-{{ option.type }}">
+                      <label class="control-label" for="input-option{{ option.product_option_id }}">{{ option.name }}</label>
+                      <div class="input-group datetime">
+                        <input type="text" name="option[{{ option.product_option_id }}]" value="{{ option.value }}" data-date-format="YYYY-MM-DD HH:mm" id="input-option{{ option.product_option_id }}" class="form-control"/>
+                        <span class="input-group-btn">
+                <button type="button" class="btn btn-default"><i class="fa fa-calendar"></i></button>
+                </span></div>
+                    </div>
+                  {% endif %}
+                  {% if option.type == 'time' %}
+                    <div class="option form-group{% if option.required %} required {% endif %} option-{{ option.type }}">
+                      <label class="control-label" for="input-option{{ option.product_option_id }}">{{ option.name }}</label>
+                      <div class="input-group time">
+                        <input type="text" name="option[{{ option.product_option_id }}]" value="{{ option.value }}" data-date-format="HH:mm" id="input-option{{ option.product_option_id }}" class="form-control"/>
+                        <span class="input-group-btn">
+                <button type="button" class="btn btn-default"><i class="fa fa-calendar"></i></button>
+                </span></div>
+                    </div>
+                  {% endif %}
+                {% endfor %}
+              </div>
+              <script>Journal.enableSelectOptionAsButtonsList();</script>
+            {% endif %}
+            {% if recurrings %}
+              <hr>
+              <h3>{{ text_payment_recurring }}</h3>
+              <div class="form-group required">
+                <select name="recurring_id" class="form-control">
+                  <option value="">{{ text_select }}</option>
+                  {% for recurring in recurrings %}
+                    <option value="{{ recurring.recurring_id }}">{{ recurring.name }}</option>
+                  {% endfor %}
+                </select>
+                <div class="help-block" id="recurring-description"></div>
+              </div>
+            {% endif %}
+            <div class="form-group cart {% if labels and labels.outofstock %} outofstock {% endif %}">
+              <div>
+                {% if journal2.settings.get('hide_add_to_cart_button') %}
+                  {% for tab in journal2.settings.get('additional_product_enquiry', []) %}
+                    <div>{{ tab.content }}</div>
+                  {% endfor %}
+                  <input type="hidden" name="product_id" value="{{ product_id }}"/>
+                {% else %}
+                  <span class="qty" style="width:40%">
+              <label class="control-label text-qty" for="input-quantity">{{ entry_qty }}</label>
+              <input type="text" name="quantity" value="{{ minimum }}" size="2" data-min-value="{{ minimum }}" id="input-quantity" class="form-control"/>
+              <input type="hidden" name="product_id" value="{{ product_id }}"/>
+              <script>
+                /* quantity buttons */
+                var $input = $('.cart input[name="quantity"]');
+                function up() {
+                  var val = parseInt($input.val(), 10) + 1 || parseInt($input.attr('data-min-value'), 10);
+                  $input.val(val);
+                }
+                function down() {
+                  var val = parseInt($input.val(), 10) - 1 || 0;
+                  var min = parseInt($input.attr('data-min-value'), 10) || 1;
+                  $input.val(Math.max(val, min));
+                }
+                $('<a href="javascript:;" class="journal-stepper">-</a>').insertBefore($input).click(down);
+                $('<a href="javascript:;" class="journal-stepper">+</a>').insertAfter($input).click(up);
+                $input.keydown(function (e) {
+                  if (e.which === 38) {
+                    up();
+                    return false;
+                  }
+                  if (e.which === 40) {
+                    down();
+                    return false;
+                  }
+                });
+              </script>
+              </span>
+ {% if template_product_status == 1 %}
+				{% else %}
+                  <button type="button" id="button-cart" data-loading-text="{{ text_loading }}" class="button" style="width:40%"><span class="button-cart-text">{{ button_cart }} </span></button>
+{% endif %}
+                {% endif %}
+              </div>
+            </div>
+            {% if minimum > 1 %}
+              <div class="alert alert-info information"><i class="fa fa-info-circle"></i> {{ text_minimum }}</div>
+            {% endif %}
+            <div class="wishlist-compare">
+              <span class="links">
+                  <a onclick="addToWishList('{{ product_id }}');">{{ button_wishlist }}</a>
+                  <a onclick="addToCompare('{{ product_id }}');">{{ button_compare }}</a>
+              </span>
+            </div>
+            {% if review_status %}
+              <div class="rating">
+                <p>{% for i in 1..5 %}
+                    {% if rating < i %}<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>{% else %}<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>{% endif %}
+                  {% endfor %} <a href="" onclick="$('a[href=\'#tab-review\']').trigger('click'); return false;">{{ reviews }}</a> / <a href="" onclick="$('a[href=\'#tab-review\']').trigger('click'); return false;">{{ text_write }}</a></p>
+              </div>
+            {% endif %}
+            {% if journal2.settings.get('share_buttons_status') and journal2.settings.get('share_buttons_position') == 'right' and (journal2.settings.get('config_share_buttons', []) | length > 0) %}
+              <div class="social share-this">
+                <div class="social-loaded">
+                  <script type="text/javascript">var switchTo5x = true;</script>
+                  <script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
+                  <script type="text/javascript">stLight.options({publisher: "{{ journal2.settings.get('share_buttons_account_key') }}", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+                  {% for item in journal2.settings.get('config_share_buttons', []) %}
+                    <span class="{{ item.class }}{{ journal2.settings.get('share_buttons_style') }}" displayText="{{ journal2.settings.get('share_buttons_style') ? item.name : '' }}"></span>
+                  {% endfor %}
+                </div>
+              </div>
+            {% endif %}
+            {% for tab in journal2.settings.get('additional_product_description_bottom', []) %}
+              <div class="journal-custom-tab">
+                {% if tab.has_icon %}
+                  <div class="block-icon block-icon-left" style="{{ tab.icon_css }}">{{ tab.icon }}</div>
+                {% endif %}
+                {% if tab.name %}
+                  <h3>{{ tab.name }}</h3>
+                {% endif %}
+                {{ tab.content }}
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      {% if tags %}
+        <p class="tags">
+          <b>{{ text_tags }}</b>
+          {% for tag in tags %}
+            {% if loop.last %}
+              <a href="{{ tag.href }}">{{ tag.tag }}</a>
+            {% else %}
+              <a href="{{ tag.href }}">{{ tag.tag }}</a>,
+            {% endif %}
+          {% endfor %}
+        </p>
+      {% endif %}
+      {% if products and journal2.settings.get('related_products_status') %}
+        <div class="box related-products {% if journal2.settings.get('related_products_carousel') %} journal-carousel {% if journal2.settings.get('related_products_carousel_arrows') == 'top' %} arrows-top {% endif %} {% endif %}">
+          <div>
+            <div class="box-heading">{{ text_related }}</div>
+            <div class="box-content">
+              {% if journal2.settings.get('related_products_carousel') %}
+              <div class="swiper">
+                <div class="swiper-container" {% if journal2.settings.get('rtl') %} dir="rtl" {% endif %}>
+                  <div class="swiper-wrapper">
+                    {% endif %}
+                    {% for product in products %}
+                      <div class="product-grid-item {{ journal2.settings.get('related_products_grid_classes') }} {% if journal2.settings.get('related_products_carousel') %} swiper-slide {% endif %} display-{{ journal2.settings.get('product_grid_wishlist_icon_display') }} {{ journal2.settings.get('product_grid_button_block_button') }}">
+                        <div class="product-thumb product-wrapper {% if product.labels and product.labels.outofstock %} outofstock {% endif %}">
+                          <div class="image {% if journal2.settings.get('show_countdown', 'never') != 'never' and product.date_end %} has-countdown {% endif %}">
+                            <a href="{{ product.href }}" {% if product.thumb2 %} class="has-second-image" style="background: url('{{ product.thumb2 }}') no-repeat" {% endif %}>
+                              <img class="lazy first-image" width="{{ journal2.settings.get('config_image_width') }}" height="{{ journal2.settings.get('config_image_height') }}" src="{{ journal2.settings.get('product_dummy_image') }}" data-src="{{ product.thumb }}" title="{{ product.name }}" alt="{{ product.name }}"/>
+                            </a>
+                            {% for label, name in product.labels %}
+                              <span class="label-{{ label }}"><b>{{ name }}</b></span>
+                            {% endfor %}
+                            {% if journal2.settings.get('product_grid_wishlist_icon_position') == 'image' and journal2.settings.get('product_grid_wishlist_icon_display') == 'icon' %}
+                              <div class="wishlist"><a onclick="addToWishList('{{ product.product_id }}');" class="hint--top" data-hint="{{ button_wishlist }}"><i class="wishlist-icon"></i><span class="button-wishlist-text">{{ button_wishlist }}</span></a></div>
+                              <div class="compare"><a onclick="addToCompare('{{ product.product_id }}');" class="hint--top" data-hint="{{ button_compare }}"><i class="compare-icon"></i><span class="button-compare-text">{{ button_compare }}</span></a></div>
+                            {% endif %}
+                          </div>
+                          <div class="product-details">
+                            <div class="caption">
+                              <h4 class="name"><a href="{{ product.href }}">{{ product.name }}</a></h4>
+                              <p class="description">{{ product.description }}</p>
+                              {% if product.price %}
+                                <div class="price">
+                                  {% if not product.special %}
+                                    {{ product.price }}
+                                  {% else %}
+                                    <span class="price-old">{{ product.price }}</span> <span class="price-new" {% if product.date_end %}data-end-date="{{ product.date_end }}"{% endif %}>{{ product.special }}</span>
+                                  {% endif %}
+                                </div>
+                              {% endif %}
+                              {% if product.rating %}
+                                <div class="rating">
+                                  {% for i in 1..5 %}
+                                    {% if product.rating < i %}
+                                      <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span>
+                                    {% else %}
+                                      <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span>
+                                    {% endif %}
+                                  {% endfor %}
+                                </div>
+                              {% endif %}
+                            </div>
+                            <div class="button-group">
+                              {% if staticCall('Journal2Utils', 'isEnquiryProduct', [null, product]) %}
+                                <div class="cart enquiry-button">
+                                  <a href="javascript:Journal.openPopup('{{ journal2.settings.get('enquiry_popup_code') }}', '{{ product.product_id }}');" data-clk="addToCart('{{ product.product_id }}');" class="button hint--top" data-hint="{{ journal2.settings.get('enquiry_button_text') }}">{{ journal2.settings.get('enquiry_button_icon') }}<span class="button-cart-text">{{ journal2.settings.get('enquiry_button_text') }}</span></a>
+                                </div>
+                              {% else %}
+                                <div class="cart {% if product.labels and product.labels.outofstock %} outofstock {% endif %}">
+                                  <a onclick="addToCart('{{ product.product_id }}', '{{ product.minimum }}');" class="button hint--top" data-hint="{{ button_cart }}"><i class="button-left-icon"></i><span class="button-cart-text">Add To Cart</span><i class="button-right-icon"></i></a>
+                                </div>
+                              {% endif %}
+                              <div class="wishlist"><a onclick="addToWishList('{{ product.product_id }}');" class="hint--top" data-hint="{{ button_wishlist }}"><i class="wishlist-icon"></i><span class="button-wishlist-text">{{ button_wishlist }}</span></a></div>
+                              <div class="compare"><a onclick="addToCompare('{{ product.product_id }}');" class="hint--top" data-hint="{{ button_compare }}"><i class="compare-icon"></i><span class="button-compare-text">{{ button_compare }}</span></a></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    {% endfor %}
+                    {% if journal2.settings.get('related_products_carousel') %}
+                  </div>
+                </div>
+                {% if journal2.settings.get('related_products_carousel') and journal2.settings.get('related_products_carousel_arrows') != 'none' %}
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
+                {% endif %}
+                {% endif %}
+              </div>
+              {% if journal2.settings.get('related_products_carousel') and journal2.settings.get('related_products_carousel_bullets') %}
+                <div class="swiper-pagination"></div>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+
+      {% if journal2.settings.get('show_countdown', 'never') != 'never' %}
+        <script>
+          $('.related-products .product-grid-item > div').each(function () {
+            var $new = $(this).find('.price-new');
+            if ($new.length && $new.attr('data-end-date')) {
+              $(this).find('.image').append('<div class="countdown"></div>');
+            }
+            Journal.countdown($(this).find('.countdown'), $new.attr('data-end-date'));
+          });
+        </script>
+      {% endif %}
+      {% if journal2.settings.get('related_products_carousel') %}
+        {% set grid = staticCall('Journal2Utils', 'getItemGrid', [journal2.settings.get('related_products_items_per_row'), journal2.settings.get('site_width', 1024), journal2.settings.get('config_columns_count', 0)]) %}
+        {% set grid = [
+        [0, grid.xs],
+        [470, grid.sm],
+        [760, grid.md],
+        [980, grid.lg],
+        [1100, grid.xl],
+        ] %}
+        <script>
+          (function () {
+            var grid = $.parseJSON('{{ grid | json_encode() }}');
+
+            var breakpoints = {
+              470: {
+                slidesPerView: grid[0][1],
+                slidesPerGroup: grid[0][1]
+              },
+              760: {
+                slidesPerView: grid[1][1],
+                slidesPerGroup: grid[1][1]
+              },
+              980: {
+                slidesPerView: grid[2][1],
+                slidesPerGroup: grid[2][1]
+              },
+              1220: {
+                slidesPerView: grid[3][1],
+                slidesPerGroup: grid[3][1]
+              }
+            };
+
+            var opts = {
+              slidesPerView: grid[4][1],
+              slidesPerGroup: grid[4][1],
+              breakpoints: breakpoints,
+              spaceBetween: parseInt('{{ journal2.settings.get('product_grid_item_spacing', '15') }}', 10),
+              pagination: {% if journal2.settings.get('related_products_carousel_bullets') %} $('.related-products .swiper-pagination') {% else %} false {% endif %},
+              paginationClickable: true,
+              nextButton: {% if journal2.settings.get('related_products_carousel_arrows') != 'none' %} $('.related-products .swiper-button-next') {% else %} false {% endif %},
+              prevButton: {% if journal2.settings.get('related_products_carousel_arrows') != 'none' %} $('.related-products .swiper-button-prev') {% else %} false {% endif %},
+              autoplayStopOnHover: {% if journal2.settings.get('related_products_carousel_pause_on_hover') %} true {% else %} false {% endif %},
+              autoplay: {{ journal2.settings.get('related_products_carousel_autoplay') ? journal2.settings.get('related_products_carousel_transition_delay', 4000) : 'false' }},
+              speed: parseInt({{ journal2.settings.get('related_products_carousel_transition_speed') }}, 10) || 400,
+              touchEventsTarget: {% if journal2.settings.get('related_products_carousel_touchdrag') %} 'container' {% else %} false {% endif %}
+            };
+
+            $('.related-products .swiper-container').swiper(opts);
+          })();
+        </script>
+      {% endif %}
+      {% endif %}
+      {{ content_bottom }}</div>
+  </div>
+</div>
+
+<script type="text/javascript"><!--
+  $('select[name=\'recurring_id\'], input[name="quantity"]').change(function () {
+    $.ajax({
+      url: 'index.php?route=product/product/getRecurringDescription',
+      type: 'post',
+      data: $('input[name=\'product_id\'], input[name=\'quantity\'], select[name=\'recurring_id\']'),
+      dataType: 'json',
+      beforeSend: function () {
+        $('#recurring-description').html('');
+      },
+      success: function (json) {
+        $('.alert-dismissible, .text-danger').remove();
+
+        if (json['success']) {
+          $('#recurring-description').html(json['success']);
+        }
+      }
+    });
+  });
+//--></script>
+<script type="text/javascript"><!--
+  $('#button-cart').on('click', function() {
+    $.ajax({
+      url: 'index.php?route=checkout/cart/add',
+      type: 'post',
+      data: $('#product input[type=\'text\'], #product input[type=\'hidden\'], #product input[type=\'radio\']:checked, #product input[type=\'checkbox\']:checked, #product select, #product textarea'),
+      dataType: 'json',
+      beforeSend: function() {
+        $('#button-cart').button('loading');
+      },
+      complete: function() {
+        $('#button-cart').button('reset');
+      },
+      success: function(json) {
+        $('.alert-dismissible, .text-danger').remove();
+        $('.form-group').removeClass('has-error');
+
+        if (json['error']) {
+          if (json['error']['option']) {
+            for (i in json['error']['option']) {
+              var element = $('#input-option' + i.replace('_', '-'));
+
+              if (element.parent().hasClass('input-group')) {
+                element.parent().after('<div class="text-danger">' + json['error']['option'][i] + '</div>');
+              } else {
+                element.after('<div class="text-danger">' + json['error']['option'][i] + '</div>');
+              }
+            }
+          }
+
+          if (json['error']['recurring']) {
+            $('select[name=\'recurring_id\']').after('<div class="text-danger">' + json['error']['recurring'] + '</div>');
+          }
+
+          // Highlight any found errors
+          $('.text-danger').parent().addClass('has-error');
+        }
+
+        if (json['success']) {
+            window.location.href='index.php?route=checkout/cart';
+          if (!Journal.showNotification(json['success'], json['image'], true)) {
+            $('.breadcrumb').after('<div class="alert alert-success success">' + json['success'] + '<button type="button" class="close" data-dismiss="alert">&times;</button></div>');
+          }
+
+          $('#cart-total').html(json['total']);
+
+          if (Journal.scrollToTop) {
+            $('html, body').animate({ scrollTop: 0 }, 'slow');
+          }
+
+          $('#cart ul').load('index.php?route=common/cart/info ul li');
+        }
+      },
+      error: function(xhr, ajaxOptions, thrownError) {
+        alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+      }
+    });
+  });
+//--></script>
+<script type="text/javascript"><!--
+  $('.date').datetimepicker({
+    language: document.cookie.match(new RegExp('language=([^;]+)')) && document.cookie.match(new RegExp('language=([^;]+)'))[1],
+    pickTime: false
+  });
+
+  $('.datetime').datetimepicker({
+    language: document.cookie.match(new RegExp('language=([^;]+)')) && document.cookie.match(new RegExp('language=([^;]+)'))[1],
+    pickDate: true,
+    pickTime: true
+  });
+
+  $('.time').datetimepicker({
+    language: document.cookie.match(new RegExp('language=([^;]+)')) && document.cookie.match(new RegExp('language=([^;]+)'))[1],
+    pickDate: false
+  });
+
+  $('button[id^=\'button-upload\']').on('click', function () {
+    var node = this;
+
+    $('#form-upload').remove();
+
+    $('body').prepend('<form enctype="multipart/form-data" id="form-upload" style="display: none;"><input type="file" name="file" /></form>');
+
+    $('#form-upload input[name=\'file\']').trigger('click');
+
+    if (typeof timer != 'undefined') {
+      clearInterval(timer);
+    }
+
+    timer = setInterval(function () {
+      if ($('#form-upload input[name=\'file\']').val() != '') {
+        clearInterval(timer);
+
+        $.ajax({
+          url: 'index.php?route=tool/upload',
+          type: 'post',
+          dataType: 'json',
+          data: new FormData($('#form-upload')[0]),
+          cache: false,
+          contentType: false,
+          processData: false,
+          beforeSend: function () {
+            $(node).button('loading');
+          },
+          complete: function () {
+            $(node).button('reset');
+          },
+          success: function (json) {
+            $('.text-danger').remove();
+
+            if (json['error']) {
+              $(node).parent().find('input').after('<div class="text-danger">' + json['error'] + '</div>');
+            }
+
+            if (json['success']) {
+              alert(json['success']);
+
+              $(node).parent().find('input').val(json['code']);
+            }
+          },
+          error: function (xhr, ajaxOptions, thrownError) {
+            alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+          }
+        });
+      }
+    }, 500);
+  });
+//--></script>
+<script type="text/javascript"><!--
+  $('#review').delegate('.pagination a', 'click', function (e) {
+    e.preventDefault();
+
+    $('#review').fadeOut('slow');
+
+    $('#review').load(this.href);
+
+    $('#review').fadeIn('slow');
+  });
+
+  $('#review').load('index.php?route=product/product/review&product_id={{ product_id }}');
+
+  $('#button-review').on('click', function () {
+    $.ajax({
+      url: 'index.php?route=product/product/write&product_id={{ product_id }}',
+      type: 'post',
+      dataType: 'json',
+      data: $("#form-review").serialize(),
+      beforeSend: function () {
+        $('#button-review').button('loading');
+      },
+      complete: function () {
+        $('#button-review').button('reset');
+      },
+      success: function (json) {
+        $('.alert-dismissible').remove();
+
+        if (json['error']) {
+          $('#review').after('<div class="alert alert-danger alert-dismissible warning"><i class="fa fa-exclamation-circle"></i> ' + json['error'] + '</div>');
+        }
+
+        if (json['success']) {
+          $('#review').after('<div class="alert alert-success alert-dismissible success"><i class="fa fa-check-circle"></i> ' + json['success'] + '</div>');
+
+          $('input[name=\'name\']').val('');
+          $('textarea[name=\'text\']').val('');
+          $('input[name=\'rating\']:checked').prop('checked', false);
+        }
+      }
+    });
+  });
+
+  $(document).ready(function () {
+    $('.thumbnails').magnificPopup({
+      type: 'image',
+      delegate: 'a',
+      gallery: {
+        enabled: true
+      }
+    });
+  });
+  
+//--></script>
+<script type="text/javascript"><!--
+  function getURL() {
+    var pageurl =  window.location.href;
+    //window.location = "http://www.facebook.com/sharer.php?u="+pageurl;
+    window.open("http://www.facebook.com/sharer.php?u="+pageurl,"Obejor","height=200,width=150,toolbar=0,menubar=0,location=0");
+    return false;
+  }
+  function getTwitterURL() {
+    var pageurl =  window.location.href;
+    //window.location = "http://www.facebook.com/sharer.php?u="+pageurl;
+    window.open("https://twitter.com/share?url="+pageurl,"Obejor","height=200,width=150,toolbar=0,menubar=0,location=0");
+    return false;
+  }  
+//--></script>
+
+{% if seller_detail %}
+{% if module_purpletree_multivendor_allow_live_chat %}
+{% if store_live_chat_enable %}
+{% if store_live_chat_code != '' %}
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/{{ store_live_chat_code }}/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+{% endif %}
+{% endif %}
+{% endif %}
+{% endif %}
+{{ footer }}

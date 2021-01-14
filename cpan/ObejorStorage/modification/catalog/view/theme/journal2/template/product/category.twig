@@ -1,0 +1,325 @@
+{{ header }}
+<div id="container" class="container j-container">
+  <ul class="breadcrumb">
+    {% for breadcrumb in breadcrumbs %}
+      <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="{{ breadcrumb.href }}" itemprop="url"><span itemprop="title">{{ breadcrumb.text }}</span></a></li>
+    {% endfor %}
+  </ul>
+  <div class="row">{{ column_left }}{{ column_right }}
+    {% if column_left and column_right %}
+      {% set class = 'col-sm-6' %}
+    {% elseif column_left or column_right %}
+      {% set class = 'col-sm-9' %}
+    {% else %}
+      {% set class = 'col-sm-12' %}
+    {% endif %}
+    <div id="content" class="{{ class }}">
+      <h1 class="heading-title">{{ heading_title }}</h1>
+      {{ content_top }}
+      {% if thumb or description %}
+        <div class="category-info">
+          {% if thumb %}
+            <div class="image"><img width="{{ journal2.settings.get('config_image_width') }}" height="{{ journal2.settings.get('config_image_height') }}" src="{{ thumb }}" alt="{{ heading_title }}"/></div>
+          {% endif %}
+          {% if description %}
+            {{ description }}
+          {% endif %}
+        </div>
+      {% endif %}
+
+      {% if journal2.settings.get('refine_category') == 'grid' and journal2.settings.get('refine_category_images', []) | length > 0 %}
+        <div class="refine-images">
+          {% for category in journal2.settings.get('refine_category_images', []) %}
+            <div class="refine-image {{ staticCall('Journal2Utils', 'getProductGridClasses', [journal2.settings.get('refine_category_images_per_row'), journal2.settings.get('site_width', 1024), journal2.settings.get('config_columns_count')]) }}">
+              <a href="{{ category.href }}"><img style="display: block" width="{{ journal2.settings.get('refine_image_width', 175) }}" height="{{ journal2.settings.get('refine_image_height', 175) }}" src="{{ category.thumb }}" alt="{{ category.name }}"/><span class="refine-category-name">{{ category.name }}</span></a>
+            </div>
+          {% endfor %}
+          <script>
+            if (!Journal.isFlexboxSupported) {
+              Journal.equalHeight($(".refine-images .refine-image"), '.refine-category-name');
+            }
+          </script>
+        </div>
+      {% endif %}
+
+      {% if journal2.settings.get('refine_category') == 'carousel' and journal2.settings.get('refine_category_images', []) | length > 0 %}
+        <div id="refine-images">
+          <div class="swiper">
+            <div class="swiper-container" {% if journal2.settings.get('rtl') %} dir="rtl" {% endif %}>
+              <div class="swiper-wrapper">
+                {% for category in journal2.settings.get('refine_category_images', []) %}
+                  <div class="refine-image swiper-slide {{ staticCall('Journal2Utils', 'getProductGridClasses', [journal2.settings.get('refine_category_images_per_row'), journal2.settings.get('site_width', 1024), journal2.settings.get('config_columns_count')]) }}">
+                    <a href="{{ category.href }}"><img style="display: block" width="{{ journal2.settings.get('refine_image_width', 175) }}" height="{{ journal2.settings.get('refine_image_height', 175) }}" src="{{ category.thumb }}" alt="{{ category.name }}"/><span class="refine-category-name">{{ category.name }}</span></a>
+                  </div>
+                {% endfor %}
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+        {% set grid = staticCall('Journal2Utils', 'getItemGrid', [journal2.settings.get('refine_category_images_per_row'), journal2.settings.get('site_width', 1024), journal2.settings.get('config_columns_count')]) %}
+        {% set grid = [
+        [0, grid.xs],
+        [470, grid.sm],
+        [760, grid.md],
+        [980, grid.lg],
+        [1100, grid.xl],
+        ] %}
+        <script>
+          (function () {
+            var grid = $.parseJSON('{{ grid | json_encode() }}');
+
+            var breakpoints = {
+              470: {
+                slidesPerView: grid[0][1],
+                slidesPerGroup: grid[0][1]
+              },
+              760: {
+                slidesPerView: grid[1][1],
+                slidesPerGroup: grid[1][1]
+              },
+              980: {
+                slidesPerView: grid[2][1],
+                slidesPerGroup: grid[2][1]
+              },
+              1220: {
+                slidesPerView: grid[3][1],
+                slidesPerGroup: grid[3][1]
+              }
+            };
+
+            var opts = {
+              slidesPerView: grid[4][1],
+              slidesPerGroup: grid[4][1],
+              breakpoints: breakpoints,
+              spaceBetween: parseInt('{{ journal2.settings.get('refine_grid_item_spacing', '15') }}', 10),
+              pagination: $('#refine-images .swiper-pagination'),
+              paginationClickable: true,
+              nextButton: $('#refine-images .swiper-button-next'),
+              prevButton: $('#refine-images .swiper-button-prev'),
+              autoplayStopOnHover: {% if journal2.settings.get('refine_carousel_pause_on_hover') %} true {% else %} false {% endif %},
+              autoplay: {{ journal2.settings.get('refine_carousel_autoplay') ? journal2.settings.get('refine_carousel_transition_delay', 4000) : 'false' }},
+              speed: parseInt({{ journal2.settings.get('refine_carousel_transition_speed', 400) }}, 10),
+              touchEventsTarget: {% if journal2.settings.get('refine_carousel_touchdrag') %} 'container' {% else %} false {% endif %}
+            };
+
+            $('#refine-images .swiper-container').swiper(opts);
+          })();
+        </script>
+      {% endif %}
+
+ 	  <!-- Start Seller Featured Productsr -->
+	{% if productss %}  
+	<h3>{{ text_seller_featured_products }}</h3>
+	<div class="row">
+	<div id="carousel_seller_featured" class="owl-carousel">
+	{% for product in productss %}
+       <div class="">
+              <div class="product-thumb product-wrapper {% if product.labels and product.labels.outofstock %} outofstock {% endif %}">
+                <div class="image {% if journal2.settings.get('show_countdown', 'never') != 'never' and product.date_end %} has-countdown {% endif %}">
+                  <a href="{{ product.href }}" {% if product.thumb2 %} class="has-second-image" style="background: url('{{ product.thumb2 }}') no-repeat" {% endif %}>
+                    <img class="lazy first-image" width="{{ journal2.settings.get('config_image_width') }}" height="{{ journal2.settings.get('config_image_height') }}" src="{{ journal2.settings.get('product_dummy_image') }}" data-src="{{ product.thumb }}" title="{{ product.name }}" alt="{{ product.name }}"/>
+                  </a>
+                  {% for label, name in product.labels %}
+                    <span class="label-{{ label }}"><b>{{ name }}</b></span>
+                  {% endfor %}
+                  {% if journal2.settings.get('product_grid_wishlist_icon_position') == 'image' and journal2.settings.get('product_grid_wishlist_icon_display') == 'icon' %}
+                    <div class="wishlist"><a onclick="addToWishList('{{ product.product_id }}');" class="hint--top" data-hint="{{ button_wishlist }}"><i class="wishlist-icon"></i><span class="button-wishlist-text">{{ button_wishlist }}</span></a></div>
+                    <div class="compare"><a onclick="addToCompare('{{ product.product_id }}');" class="hint--top" data-hint="{{ button_compare }}"><i class="compare-icon"></i><span class="button-compare-text">{{ button_compare }}</span></a></div>
+                  {% endif %}
+                </div>
+                <div class="product-details">
+                  <div class="caption">
+                    <h4 class="name"><a href="{{ product.href }}">{{ product.name }}</a></h4>
+                    <p class="description">{{ product.description }}</p>
+                    {% if product.price %}
+                      <div class="price">
+                        {% if not product.special %}
+                          {{ product.price }}
+                        {% else %}
+                          <span class="price-old">{{ product.price }}</span> <span class="price-new" {% if product.date_end %}data-end-date="{{ product.date_end }}"{% endif %}>{{ product.special }}</span>
+                        {% endif %}
+                      </div>
+                      {% if product.tax %}
+                        <span class="price-tax">{{ text_tax }} {{ product.tax }}</span>
+                      {% endif %}
+                    {% endif %}
+                    {% if product.rating %}
+                      <div class="rating">
+                        {% for i in 1..5 %}
+                          {% if product.rating < i %}
+                            <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span>
+                          {% else %}
+                            <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span>
+                          {% endif %}
+                        {% endfor %}
+                      </div>
+                    {% endif %}
+                  </div>
+                  <div class="button-group">
+                    {% if staticCall('Journal2Utils', 'isEnquiryProduct', [null, product]) %}
+                      <div class="cart enquiry-button">
+                        <a href="javascript:Journal.openPopup('{{ journal2.settings.get('enquiry_popup_code') }}', '{{ product.product_id }}');" data-clk="addToCart('{{ product.product_id }}');" class="button hint--top" data-hint="{{ journal2.settings.get('enquiry_button_text') }}">{{ journal2.settings.get('enquiry_button_icon') }}<span class="button-cart-text">{{ journal2.settings.get('enquiry_button_text') }}</span></a>
+                      </div>
+                    {% else %}
+                      <div class="cart {% if product.labels and product.labels.outofstock %} outofstock {% endif %}">
+                        <a onclick="addToCart('{{ product.product_id }}');" class="button hint--top" data-hint="{{ button_cart }}"><i class="button-left-icon"></i><span class="button-cart-text">{{ button_cart }}</span><i class="button-right-icon"></i></a>
+                      </div>
+                    {% endif %}
+                    <div class="wishlist"><a onclick="addToWishList('{{ product.product_id }}');" class="hint--top" data-hint="{{ button_wishlist }}"><i class="wishlist-icon"></i><span class="button-wishlist-text">{{ button_wishlist }}</span></a></div>
+                    <div class="compare"><a onclick="addToCompare('{{ product.product_id }}');" class="hint--top" data-hint="{{ button_compare }}"><i class="compare-icon"></i><span class="button-compare-text">{{ button_compare }}</span></a></div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        {% endfor %}
+	    </div>
+	   </div>
+	{% endif %}
+ <!-- End Seller Featured Productsr  --> 
+      {% if journal2.settings.get('refine_category') == 'text' and categories %}
+        <h2 class="refine">{{ text_refine }}</h2>
+        <div class="category-list">
+          <ul>
+            {% for category in categories %}
+              <li><a href="{{ category.href }}">{{ category.name }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
+
+      {% if products %}
+
+        <div class="product-filter">
+          <div class="display">
+            <a onclick="Journal.gridView()" class="grid-view">{{ journal2.settings.get('category_grid_view_icon', button_grid) }}</a>
+            <a onclick="Journal.listView()" class="list-view">{{ journal2.settings.get('category_list_view_icon', button_list) }}</a>
+          </div>
+          <div class="product-compare"><a href="{{ compare }}" id="compare-total">{{ text_compare }}</a></div>
+          <div class="limit"><b>{{ text_limit }}</b>
+            <select onchange="location = this.value;">
+              {% for limits in limits %}
+                {% if limits.value == limit %}
+                  <option value="{{ limits.href }}" selected="selected">{{ limits.text }}</option>
+                {% else %}
+                  <option value="{{ limits.href }}">{{ limits.text }}</option>
+                {% endif %}
+              {% endfor %}
+            </select>
+          </div>
+          <div class="sort"><b>{{ text_sort }}</b>
+            <select onchange="location = this.value;">
+              {% for sorts in sorts %}
+                {% if sorts.value == '%s-%s'|format(sort, order) %}
+                  <option value="{{ sorts.href }}" selected="selected">{{ sorts.text }}</option>
+                {% else %}
+                  <option value="{{ sorts.href }}">{{ sorts.text }}</option>
+                {% endif %}
+              {% endfor %}
+            </select>
+          </div>
+        </div>
+
+        <div class="row main-products product-grid" data-grid-classes="{{ journal2.settings.get('product_grid_classes') }} display-{{ journal2.settings.get('product_grid_wishlist_icon_display') }} {{ journal2.settings.get('product_grid_button_block_button') }}">
+          {% for product in products %}
+            <div class="product-grid-item {{ journal2.settings.get('product_grid_classes') }}">
+              <div class="product-thumb product-wrapper {% if product.labels and product.labels.outofstock %} outofstock {% endif %}">
+                <div class="image {% if journal2.settings.get('show_countdown', 'never') != 'never' and product.date_end %} has-countdown {% endif %}">
+                    
+                 {% if product.from_abroad == 'YES' %}
+                    <hr style="height:2px;"><span style="color:#ff6600;float:left;"><u>Shipped From Abroad</u></span></hr><br />
+                 {% else %}
+                    <br />
+                 {% endif %}
+                  
+                  <a href="{{ product.href }}" {% if product.thumb2 %} class="has-second-image" style="background: url('{{ product.thumb2 }}') no-repeat" {% endif %}>
+                    <img class="lazy first-image" width="{{ journal2.settings.get('config_image_width') }}" height="{{ journal2.settings.get('config_image_height') }}" src="{{ journal2.settings.get('product_dummy_image') }}" data-src="{{ product.thumb }}" title="{{ product.name }}" alt="{{ product.name }}"/>
+                  </a>
+                  {% for label, name in product.labels %}
+                    <span class="label-{{ label }}"><b>{{ name }}</b></span>
+                  {% endfor %}
+                  {% if journal2.settings.get('product_grid_wishlist_icon_position') == 'image' and journal2.settings.get('product_grid_wishlist_icon_display') == 'icon' %}
+                    <div class="wishlist"><a onclick="addToWishList('{{ product.product_id }}');" class="hint--top" data-hint="{{ button_wishlist }}"><i class="wishlist-icon"></i><span class="button-wishlist-text">{{ button_wishlist }}</span></a></div>
+                    <div class="compare"><a onclick="addToCompare('{{ product.product_id }}');" class="hint--top" data-hint="{{ button_compare }}"><i class="compare-icon"></i><span class="button-compare-text">{{ button_compare }}</span></a></div>
+                  {% endif %}
+                </div>
+                <div class="product-details">
+                  <div class="caption">
+                    <h4 class="name"><a href="{{ product.href }}">{{ product.name[:25] }}...</a></h4>
+                    <p class="description">{{ product.description[:25] }}...</p>
+                    {% if product.price %}
+                      <div class="price">
+                        {% if not product.special %}
+                          {{ product.price }}
+                        {% else %}
+                          <span class="price-old">{{ product.price }}</span> <span class="price-new" {% if product.date_end %}data-end-date="{{ product.date_end }}"{% endif %}>{{ product.special }}</span>
+                        {% endif %}
+                      </div>
+                      {% if product.tax %}
+                        <span class="price-tax">{{ text_tax }} {{ product.tax }}</span>
+                      {% endif %}
+                    {% endif %}
+                    {#{% if product.rating %}#}
+                    {#  <div class="rating">#}
+                    {#    {% for i in 1..5 %}#}
+                    {#      {% if product.rating < i %}#}
+                    {#        <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span>#}
+                    {#      {% else %}#}
+                    {#        <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span>#}
+                    {#      {% endif %}#}
+                    {#    {% endfor %}#}
+                    {#  </div>#}
+                    {#{% endif %}#}
+                  </div>
+                  <div class="button-group">
+                    {% if staticCall('Journal2Utils', 'isEnquiryProduct', [null, product]) %}
+                      <div class="cart enquiry-button">
+                        <a href="javascript:Journal.openPopup('{{ journal2.settings.get('enquiry_popup_code') }}', '{{ product.product_id }}');" data-clk="addToCart('{{ product.product_id }}');" class="button hint--top" data-hint="{{ journal2.settings.get('enquiry_button_text') }}">{{ journal2.settings.get('enquiry_button_icon') }}<span class="button-cart-text">{{ journal2.settings.get('enquiry_button_text') }}</span></a>
+                      </div>
+                    {% else %}
+                      <div class="cart {% if product.labels and product.labels.outofstock %} outofstock {% endif %}">
+                        <a onclick="addToCart('{{ product.product_id }}', '{{ product.minimum }}');" class="button hint--top" data-hint="{{ button_cart }}"><i class="button-left-icon"></i><span class="button-cart-text">Add To Cart</span><i class="button-right-icon"></i></a>
+                      </div>
+                    {% endif %}
+                    <div class="wishlist"><a onclick="addToWishList('{{ product.product_id }}');" class="hint--top" data-hint="{{ button_wishlist }}"><i class="wishlist-icon"></i><span class="button-wishlist-text">{{ button_wishlist }}</span></a></div>
+                    <div class="compare"><a onclick="addToCompare('{{ product.product_id }}');" class="hint--top" data-hint="{{ button_compare }}"><i class="compare-icon"></i><span class="button-compare-text">{{ button_compare }}</span></a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+
+        <div class="row pagination">
+          <div class="col-sm-6 text-left links">{{ pagination }}</div>
+          <div class="col-sm-6 text-right results">{{ results }}</div>
+        </div>
+      {% endif %}
+
+      {% if not categories and not products %}
+        <p>{{ text_empty }}</p>
+        <div class="buttons">
+          <div class="pull-right"><a href="{{ continue }}" class="btn btn-primary button">{{ button_continue }}</a></div>
+        </div>
+      {% endif %}
+      {{ content_bottom }}</div>
+  </div>
+  <script>Journal.applyView('{{ journal2.settings.get('product_view', 'grid') }}');</script>
+  {% if journal2.settings.get('show_countdown', 'never') != 'never' %}
+    <script>Journal.enableCountdown();</script>
+  {% endif %}
+</div>
+<script type="text/javascript"><!--
+				$('#carousel_seller_featured').owlCarousel({
+					items:{{ no_Of_product }},
+					autoPlay: 3000,
+					margin:10,
+					navigation: true,
+					navigationText: ['<i class="fa fa-chevron-left fa-5x"></i>', '<i class="fa fa-chevron-right fa-5x"></i>'],
+					pagination: true
+				});
+				$( document ).ready(function() {
+					$('#carousel_seller_featured .owl-item').addClass("product-grid-item {{ journal2.settings.get('product_grid_classes') }} display-{{ journal2.settings.get('product_grid_wishlist_icon_display')}} {{ journal2.settings.get('product_grid_button_block_button')}}");
+				});
+--></script>
+{{ footer }}

@@ -1,0 +1,856 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202011 will be lost/reset.
+# Last config file used to build this data file was /home/obejorng/tmp/awstats/awstats.obejor.com.ng.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2010                
+POS_TIME 2692                
+POS_VISITOR 39339               
+POS_DAY 41552               
+POS_DOMAIN 3552                
+POS_LOGIN 3949                
+POS_ROBOT 4104                
+POS_WORMS 4904                
+POS_EMAILSENDER 5035                
+POS_EMAILRECEIVER 5178                
+POS_SESSION 41661               
+POS_SIDER 41845               
+POS_FILETYPES 5313                
+POS_DOWNLOADS 5451                
+POS_OS 5499                
+POS_BROWSER 5786                
+POS_SCREENSIZE 6490                
+POS_UNKNOWNREFERER 6564                
+POS_UNKNOWNREFERERBROWSER 7013                
+POS_ORIGIN 7222                
+POS_SEREFERRALS 7358                
+POS_PAGEREFS 7562                
+POS_SEARCHWORDS 8034                
+POS_KEYWORDS 8186                
+POS_MISC 2356                
+POS_ERRORS 8245                
+POS_CLUSTER 3805                
+POS_SIDER_404 8367                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20201201000224 224 44943 13205818490774
+FirstTime 20201101001328
+LastTime 20201102105125
+LastUpdate 20201201120251 224 0 223 0 0
+TotalVisits 62                  
+TotalUnique 53                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 54                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+FlashSupport 0 0 0
+AddToFavourites 0 7 0
+DirectorSupport 0 0 0
+JavaEnabled 0 0 0
+QuickTimeSupport 0 0 0
+TotalMisc 0 0 0
+PDFSupport 0 0 0
+RealPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 10 10 3818339 521 586 6526674
+1 1 1 518186 435 505 2881217
+2 4 4 647315 447 509 2931270
+3 2 2 517212 1389 1456 3675891
+4 4 4 594827 2673 2744 3597864
+5 4 4 1568983 4056 4143 6298994
+6 4 4 696737 2226 2328 6009498
+7 8 8 814480 2433 2519 5091037
+8 6 6 1703850 2131 2208 4877402
+9 12 12 983713 2073 2150 4303231
+10 23 23 4184598 1689 1786 6708168
+11 3 3 646830 1199 1307 1747107
+12 1 1 50737 837 891 1235157
+13 0 0 0 940 1016 1287309
+14 6 6 1567987 654 726 927018
+15 3 3 1555265 1087 1185 5344350
+16 1 1 50193 761 833 2662790
+17 1 3 630433 380 452 2674262
+18 3 3 646830 437 494 1728843
+19 0 0 0 932 1007 1719365
+20 6 6 1637719 438 513 2682573
+21 6 6 2128605 541 613 1275070
+22 6 6 687039 378 455 1068369
+23 2 2 100345 552 624 3015695
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 13
+ua 34 34 7084626
+us 28 28 10199115
+ng 19 21 982079
+id 10 10 387451
+ru 6 6 2082844
+de 6 6 1665061
+fr 4 4 1605420
+cn 4 4 658806
+gb 1 1 0
+ie 1 1 49908
+at 1 1 0
+tw 1 1 516727
+ca 1 1 518186
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 16
+DotBot/ 102 15986380 20201102104303 31
+SemrushBot/ 69 1966794 20201102095147 2
+bot[\s_+:,\.\;\/\\-] 66 1485206 20201102103039 24
+facebookexternalhit/ 31 1198429 20201102103542 0
+AhrefsBot/ 18 493507 20201102101656 2
+Googlebot/ 11 288814 20201102103607 3
+Applebot/ 6 180679 20201102074633 2
+DuckDuckGo\-Favicons\-Bot/ 5 250775 20201102102350 0
+bingbot/ 4 4736 20201102052018 4
+unknown 4 4736 20201102074802 4
+MJ12bot/ 3 52708 20201102030957 2
+Deepnet[\x20]Explorer 3 550830 20201101234220 0
+(firefox/)([0-9]\.|[0-1][0]\.) 1 50312 20201101082442 0
+no_user_agent 1 213122 20201102095413 0
+AdsBot\-Google[\x20]\( 1 49766 20201101160655 0
+Dalvik/ 1 44247 20201102092126 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 4
+html 111 25537466 0 0
+jpg 2 110150 0 0
+Unknown 3 101637 0 0
+php 2 970 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 18
+winxp 14 14
+linuxandroid 1 1
+linuxubuntu 1 1
+winlong 1 1
+win2000 3 3
+macosx10 2 2
+macosx12 1 1
+win10 37 37
+win95 3 3
+win98 3 3
+wince 3 3
+linux 16 16
+win7 10 10
+ios_iphone 2 2
+macosx 3 3
+winnt 3 3
+Unknown 10 8
+win2003 5 5
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 35
+chrome78.0.3904.108 6 6
+msie8.0 1 1
+opera9.01 3 3
+chrome55.0.2914.13 1 1
+Unknown 3 1
+chrome46.0.2490.80 1 1
+chrome59.0.3071.115 2 2
+firefox46.0 1 1
+firefox52.7.3 1 1
+chrome67.0.3396.79 1 1
+msie5.5 9 9
+firefox58.0 3 3
+chrome52.0.2743.116 2 2
+msie6.0 12 12
+netscape5.0 3 3
+chrome66.0.3359.181 2 2
+msie3.02 3 3
+chrome85.0.4183.121 4 4
+mozilla 5 5
+edge18 1 1
+chrome63.0.3239.84 1 1
+chrome67.0.3396.62 1 1
+firefox81.0 2 2
+firefox66.0 1 1
+chrome58.0.3029.110 3 3
+chrome70.0.3538.67 1 1
+chrome86.0.4240.111 11 11
+opera55.0.2994.44 2 2
+opera7.60 5 5
+msie11.0 5 5
+safari9.0 2 2
+firefox82.0 8 8
+chrome86.0.4240.110 1 1
+firefox50.0.1 1 1
+chrome85.0.4183.102 10 10
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+Mozilla/5.0 20201102093456
+Mozilla/5.0_zgrab/0.x 20201101143555
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20201101001328
+NativeOperaMini(Spreadtrum/HW_Version:________fp6531_bar;Native_Opera_Mini/4.4.33961;en) 20201101171447
+Mozilla/5.0_(compatible;_NetcraftSurveyAgent/1.0;__info@netcraft.com) 20201101175244
+AHC/2.1 20201102074802
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+NativeOperaMini(Spreadtrum/HW_Version:________fp6531_bar;Native_Opera_Mini/4.4.33961;en) 20201101171447
+AHC/2.1 20201102074802
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 72 74
+From1 0 0
+From2 11 11
+From3 29 29
+From4 4 4
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 4
+www_google_com 1 1
+bing 1 1
+alexa 3 3
+t_online_catchall 6 6
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 11
+https://fable.in.ua 3 3
+https://sexotuber.xyz 3 3
+https://soch.biographiya.com 3 3
+https://fonscore.com 3 3
+https://it.painting-planet.com 3 3
+https://schoolessay.ru 3 3
+https://spektr-clinic.ru 3 3
+https://www.solartek.ru/tonirovka-avto/ 3 3
+https://l.facebook.com 2 2
+https://sauna-v-ufe.ru 2 2
+http://m.facebook.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+302 11 220
+404 611 48710936
+301 30092 8735250
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 462
+/haier-thermocool-tlsa06-6kg-top-load-semi-auto-washing-machine-blue 1 -
+/automobile/tools-equipment/magnetic-screwdriver-set-10-pcs-cremax-professional-cushion-grip-5-phillips-and-5-flat-head-tips-screwdriver 1 -
+/lg-electronics-tone-infinim-hbs-900-bluetooth-wireless-stereo-headset 1 -
+/grocery/snacking/cookies-royal-favour-danish-cookie-buttercookiesdanish-cookies 1 -
+/huawei-mate20-pro-6.39-inch-6gb-ram-128gb-rom-android-9.0-40mp-20mp-8mp-24mp-4200-mah-battery 1 -
+/electronics/optoma-x402-4200-lumen-xga-projector 1 -
+/fexda-bl-25jt-tecno-wx3-battery-2500mah-capacity 1 -
+/oraimo-keychain-micro-usb-cable-ocd-m021 1 -
+/dual-usb-ipad-car-charger-ts073 1 -
+/electronics/LG%20LED%20HD%20Tv%2020%20Inch%20%E2%80%93%2020LB 1 -
+/fexda-gionee-l900-battery-2000mah-capacity 6 -
+/hp/Hp-Pro-MT-A2200-AMD-Ryzen%E2%84%A2-3%202200G-Quad-Core-4GB-RAM-500GB-HDD-Microtower-Business-PC-Free-DOS-Desktop 1 -
+/hp-elitebook-1040-g3-14-core-i7-6600u-8-gb-ram-256-gb-ssd-windows-10-professional 1 -
+/comfortable-car-steering-wheel-cover 1 -
+/huawei-p30-pro-647-inch-8gb-ram-256gb-rom-android-9040mp-20mp-8mp-dual-sim-black-4200mah-battery 1 -
+/fashion/womens-categories/heel/fang-kenneth-women-block-mule-heel-slippers 2 -
+/fexda-gionee-p8w-battery-2600mah-capacity 1 -
+/hp-200-g3-aio-pentium-all-in-one-pc-19-5-inch-4gb-ram-1tb-freedos-6qs18ea 1 -
+/sketchup-pro-v8-full-retail-software 5 -
+/hp-290-intel-core-i3-4gb-ram-500gb-hdd-freedos-185-monitor-with-free-premax-wireless-mouse 1 -
+/norton-internet-security-single-user 1 -
+/n20-bluetooth-wireless-mini-speaker-1200mah 1 -
+/smart-swatch/dammyluv-store 1 -
+/itel-it5625-phone-with-triple-sim-card-8mb-rom-8mb-ram-2.8-inches-display-2500mah-battery 1 -
+/automobile/tools-equipment/spark-plug-ignition-tools/oregon-42-452-spark-plug-wrench 1 -
+/computer/Toshiba-Laptop-Charger-adapter-19V-3.42A 1 -
+/dell/dell-optiplex-7050-2-mini-tower-core-i5-4gb-500gb-hdd-18.5-monitor-freedos 1 -
+/data/admin/allowurl.txt 1 -
+/standard-motor-products-us240t-ignition-starter-switch 1 -
+/about-obejor 11 -
+/emerson-liebert-ps750rt3-230-psi-line-interactive-ups-750va-675w 1 -
+/electronics/firman-firman-rd8910ex-rugged-line-petrol-generator-68kva-key-starter 1 -
+/tecno-t372-triple-sim-24-screen-4mb-rom-4mb-ram-1150mah-fm-loud-speaker-black 1 -
+/hp-v244h-23-8-inch-lcd-monitor 1 -
+/oemtools-27000-clutch-holding-tool 1 -
+/gionee-f205-lite-5.47-hd-ips-display-16rom-1gb-ram-8mp-5mp-selfie-camera-android-8.1-2670mAh-battery 1 -
+/Samsung-Galaxy-Note-9-6.4-Inch-8gb-ram-512gb-rom-Android-8.1-12mp-12mp-Single-sim-4000mah-battery 1 -
+/children-home-school-multipurpose-activities-chair-table-set-1-chair-1-table 2 -
+/drawer-filing-cabinet-metal-four-drawer-filing-cabinet-metal 1 -
+/apple-ipad-mini-4-wifi-version-7.9-inches-ios-9-128gb-rom-2gb-ram-5124mah-battery 3 -
+/hp-24y-23-8-inch-display-monitor 1 -
+/projector/acer-x117h-3600-lumen-svga-dlp-projector 1 -
+/magnetic-screwdriver-set-10-pcs-cremax-professional-cushion-grip-5-phillips-and-5-flat-head-tips-screwdriver 1 -
+/itel-1408-phone-battery-bl-30pi-3000mah-capacity 1 -
+/baby-wipe-smolfix-baby-wipe-count-60-12-in-a-carton-molfix-refills 1 -
+/allwin-motocross-full-body-armour-jacket-chest-shoulder-elbow-motorcycle-protect-suit-red 1 -
+/cartman-16-universal-anti-slip-cross-wrench-lug-wrench 1 -
+/chief-architect-home-designer-pro-2018-dvd-keycard 1 -
+/interior-door-grab-handle-cover-switch-bezel-set-for-vw-jetta-golf-bora-mk4-beige 1 -
+/adminer-4.2.5.php 2 -
+/honda-genuine-shin-etsu-grease 1 -
+/lg/LG%2032mu59-b%2032-inch%20(31.5%E2%80%9D%20Diagonal)%20Uhd%204k%20Monitor 1 -
+/fashion/jackets-suits-women-essential-suit-jacket 1 -
+/generic-twin-wireless-usb-pc-game-pad 2 -
+/msi-notebook-true-gaming7th-gen-intel-corei7-3.8ghz1tb-hdd-128gb-ssd8gb-ramwindows 1 -
+/oregon-42-452-spark-plug-wrench 3 -
+/computer/sketchup-pro-v8-full-retail-software 1 -
+/infinix-ch11-3pin-packet-micro-charger 1 -
+/oraimo-aux-cable-ocd-a101 1 -
+/oraimo-power-bank-opb-b105d-10000mah 1 -
+/ad.php 2 -
+/2017-newest-acer-extensa-x2-high-performance-business-desktop-pc-with-keyboardmouse-intel-celeron-j3060-processor-2gb-ram-500gb-7200rpm-hdd 1 -
+/automobile/tools-equipment/mictuning-19pcs-auto-audio-trim-removal-tool-set-and-clip-plier 1 -
+/lenovo-yoga-910-13-9-inch-2-in-1-touchscreen-laptop-intel-core-i7-7500u-27ghz-processor-16gb-ram-256gb-ssd-intel-hd-graphics-windows-10-home 2 -
+/hp-15-intel-core-i5-8gb-ram-2tb-hdd-window-10-home-touch-screen 1 -
+/havit-laptop-speaker 1 -
+/Hp-Pro-MT-A2200-AMD-Ryzen%E2%84%A2-3%202200G-Quad-Core-4GB-RAM-500GB-HDD-Microtower-Business-PC-Free-DOS-Desktop 1 -
+/shop/wp-includes/wlwmanifest.xml 2 -
+/hpe-proliant-dl380-gen9-intel-xeon-e5-2683v4-16core-21ghz-2p-processor-32gb-ram-p440ar-8sff-2x500w-server-719064-b21 1 -
+/dmwd-portable-handheld-electric-steam-brush-clothes-mini-portable-travel-iron-garment-steamer 1 -
+/adminer-4.3.1-en.php 2 -
+/rear-view-mirror-universal-car-truck-mirror-interior-rearview-mirror-suction-cup-width-245cm-96in 1 -
+/portable-handheld-two-way-radio-walkie-talkie-cp1200-for-motorola 3 -
+/backups/wallet.dat 1 -
+/phone-tablets/phone-accessories/phone-powerbank/oraimo-power-bank-10000mah-pb-10er 7 -
+/mini-sewing-machine-double-speed-automatic-thread-included 1 -
+/computer/printer-scanner/canon-printer-scanner/canon-i-sensys-lbp6030w-print-only-quick-laser-beam-wireless-printer 1 -
+/LG%20LED%20HD%20Tv%2020%20Inch%20%E2%80%93%2020LB 1 -
+/electronics/epson-eb-x27-portable-3lcd-xga-projector 1 -
+/wp-json/wp/v2/users 1 http://obejor.com.ng/wp-json/wp/v2/users
+/huawei-mate-30-pro-6.53-inch-8gb-ram-128gb-rom-emui10.0-400mp-40.0mp-8.0mp-3d-deep-sense-back-camera-green 1 -
+/toyota/three-pocket-pickup-truck-cargo-net-fit-for-toyota-tacoma-2013-2019-cargo-organizer-storage-net 1 -
+/sage-software-sage-50-pro-accounting-2018 1 -
+/oraimo-pure-bass-earphone-vortex-oep-e23 1 -
+/lenovo-security-cable-lock 1 -
+/backup/bitcoin/wallet.dat 1 -
+/dell-optiplex-7050-2-mini-tower-core-i5-4gb-500gb-hdd-18.5-monitor-freedos 1 -
+/samsung-galaxy-s-8-4gb-ram-64gb-rom-6.2-inches-android-7.0-nougat-12mp-8mp-4g-lte-3500mah-battery 1 -
+/hp-prodesk-600-g5-small-form-factor-pc-intel-core-i5-9500-8gb-ram-1tb-hdd-7ac38ea 1 -
+/dell-inspiron-15.6-touch-screen-intel-core-i5-8gb-ram-2tb-hdd-blacki3567-5664blk 1 -
+/adminer-4.3.1.php 2 -
+/sandisk-16gb-memory-adapter-microsd 1 -
+/audew-all-weather-car-cover-6-layer-breathable-uv-protection-waterproof-dustproof-universal-fit-full-car-covers-for-sedan-suv-l167-190 1 -
+/philips-low-end-hair-dryer-bhd001-03 1 -
+/rukari-long-sleeve-t-shirts-pack-of-4 1 -
+/oraimo-necklace-oeb-e54d-bluetooth-earphone-80mah-battery 1 -
+/sandisk-ultra-64gb-microsd-80mb-s-speed-memory-card-adapter 1 -
+/oraimo-otg-flash-drive-cg-32ar-32g-silver 1 -
+/electronics/xbox-360-slim-ac-adapter-power-supply 1 -
+/oppo/oppo-a1k-cph1923-2gb-ram-32gb-rom-6.1-inches-hd-large-display-smart-phone-4000mah 1 -
+/graphic%20design/corel-coreldraw-graphics-suite-x6 1 -
+/Itel%20A55%206.0%22%20Screen%20(1GB%20+%2016GB%20ROM),%20Android%E2%84%A2%209%20Pie,%208+8MP%20Dual%20Camera,%20Fingerprint%20&%20Face%20ID,%203000mAh 1 -
+/ginahdi-3pcs-classic-men-party-tie-necktie-pocket-square-handkerchief-cuff-link 1 -
+/apple/apple-iphone-11-64gb-rom-4gb-ram-6.1-inch-3110mAh-battery-12mp-tripple-12mp-rear-camera-red 1 -
+/power-oil-pure-vegetable-cooking-oil-16-liters 1 -
+/_adminer.php 2 -
+/lisle/lisle-22930-3-8-low-profile-disconnect 1 -
+/apple-iphone-11-64gb-rom-4gb-ram-6.1-inch-dual-sim-nano-sim-dual-stand-by-3110mah-battery-12mp-tripple-12mp-rear-camera 1 -
+/grocery/food-cupboards/indomie-instant-noodle-super-pack-x-40-1-carton 3 -
+/headlight-bulbs-conversion-kit-h1-prime-led-12000lm-cool-white-6000k 1 -
+/samsung-galaxy-a10-6.2-inches-2gb-ram-32gb-rom-android-9.0-pie-rear-13mp-f1.9-front-5mp-f2.0-blue-3400mah-battery 2 -
+/pisen-3-in-1-micro-usb-lightning-cable-type-c-ap01-600 1 -
+/fexda-gionee-f103-battery-2400mah-capacity 1 -
+/dell-optiplex-3060-sff-desktop-computer-with-intel-core-i3-8100-3.6ghz-quad-core-4gb-ram-500gb-hdd-4yfd5 1 -
+/motorola-radio-xirc1200-dp1400 1 -
+/adminer-4.2.5-en.php 2 -
+/fexda-bl-22ai-itel-battery-2500-mah-capacity 1 -
+/tecno-pop-4-bc2-6-fw-ips-32gb-rom-2gb-ram-8mp-5mp-camera-android-q-go-edition-5000mah 1 -
+/automobile/interior-accessories/air-fresheners/top-breeze-automatic-spray-air-freshener-refillable 3 -
+/dell-p318s-3200-lumens-projector 1 -
+/motorola-ep450-cp140-portable-digital-two-way-radio-long-distence-walkie-talkie-radio-motorola-talkabout-10km-fm-transmitter 1 -
+/huawei-nova-3i-6.3-inch-fhd-octa-core-4gb-ram-128gb-rom-android-8.1-oreo-16mp-2mp-24mp-2mp-dual-sim-4g-fingerprint-id-3340mah-smartphone 1 -
+/acer-x117h-3600-lumen-svga-dlp-projector 1 -
+/logitech/logitech-conference-webcam-bcc950s 1 -
+/projector/projector-ceiling-mount 1 -
+/rubbers-pedal-pads-for-hyundai-accent-tucson-tiburon-elant-genesis-coupe 1 -
+/Lenovo%20ThinkPad%20T570%2015.6%20inches%20Core%E2%84%A2%20i7%20Processor%207500U%20(8GB%20Ram%20&%20256GB%20Hard%20Drive) 1 -
+/adminer-4.3.0-en.php 2 -
+/canon-photo-printer-paper-kp108-ink 2 -
+/samsung-galaxy-a2-core-sm-a260f-5-inches-hd-1gb-ram-16gb-rom-andorid-9.0-pie-5mp-5mp-dual-sim-2600mah-blue 1 -
+/corel-wordperfect-office-x6-standard-edition 1 -
+/adminer-4.3.1-mysql-en.php 2 -
+/apc/apc-smart-ups-c-3000va-rack-mount-lcd-230v-smc3000rmi2u 1 -
+/hoes-leather-brown-leather-formal-male-shoes 1 -
+/itel-5022-wireless-fm-bright-torch-dual-sim-phone-black 1 -
+/stc/hsdpa-72mbps-universal-modem-wireless-usb-dongle 1 -
+/storage-device/digrich-usb-flash-drive-4gb 1 -
+/phone-tablets/feature-phone/nokia-button/nokia-230-dual-sim-2.8-inches-16mb-ram-1200mah-battery 1 -
+/bissell-spotclean-pro-portable-deep-cleaner-vacuum-cleaner 1 -
+/kitchen-dining/mach-7-piece-solid-wood-dining-set 1 -
+/hp-elitebook-folio-1040-g3-core-i7-6600u-8gb-ram-128gb-ssd-v2w21ua 1 -
+/samsung-galaxy-note-10-plus-note-10-6.8-inch-12gb-ram-256gb-rom-12mp-16mp-dual-sim-4300-mah-battery-smartphone- 1 -
+/itel-4510-super-bright-torch-opera-mini-fm-1500mah-battery-dual-sim-black 1 -
+/rocket-car-scratch-repair-spray-paint-for-car-body-other-parts 1 -
+/fashion/mens-suits-blazer-jackets 1 -
+/lg/lg-190-litres-chest-freezer-frz-215 1 -
+/samsung-s19a100n-185-inch-widescreen-led-monitor 3 -
+/fexda-bl-21bi-battery-for-itel-phone-it1503-it2052200mah 1 -
+/camco-life-is-better-at-campsite-27-vinyl-cover-with-elastic-hem-durable-design-keeps-dirt-rain-and-sun-away-from-your-spare-tire-53292 1 -
+/professional-high-receiving-motorola-mtp850s-tetra-portable-radio 1 -
+/newage-y305-power-bank-12500mah 1 -
+/wordpress/wp-includes/wlwmanifest.xml 2 -
+/gionee-f205-dual-sim-5.45-hd-ips-display-16gb-rom-2gb-ram-8mp-5mp-selfie-camera-android-7.0-os-2670mah-battery-4g-lte 1 -
+/electronics/yamaha-psr-s970-electronic-keyboard 1 -
+/electronics/nintendo-2ds-xl-handheld-gaming-system 1 -
+/dell/dell-latitude-3590-15.6inches-core-i7-8550u-8-gb-ram-500-gb-hdd 1 -
+/.well-known/security.txt 1 -
+/duralast-brake-pads-front-mkd908 1 -
+/generic/corel-winzip-20-pro-150pcs 1 -
+/hp-elitebook-850-g4-intel-core-i7-500gb-hdd-8gb-ram-windows-10-pro 1 -
+/Knox%20Electric%20Cooler%20and%20Warmer%20for%20Car%20and%20Home%20with%20Wheels%20-%2048%20Quart%20(45%20Liter)%20%E2%80%93%20Holds%2060%20Cans%20or%206%20Two%20Liter%20Bottles%20and%2015%20Cans%20-%20Dual%20110V%20AC%20House%20and%2012V%20DC%20Vehicle%2 1 -
+/wp2/wp-includes/wlwmanifest.xml 2 -
+/astroai-tire-inflator-with-pressure-gauge 1 -
+/dell-precision-t3620-tower-worstation-intel-core-i7-6700k-40ghz-processor-32gb-ram-500gb-hdd-intel-hd-graphics-windows-10-pro 1 -
+/optoma-s341-3500-lumen-svga-dlp-projector 1 -
+/blackberry-key2-45-inches-android-81-oreo-64gb-rom-6gb-ram-3500mah-battery-dual-sim-nano-sim 1 -
+/kenwood-tk-2000-3000-two-way-radio-walkie-talkie 1 -
+/fexda-bl-17bi-battery-for-itel-phone-it1403-it1452 1 -
+/screen-projectortriple-60-x-60-projector-screen-with-tripod-stand 1 -
+/hp-pavilion-580-027c-desktop-computer-intel-core-i7-7700-36ghz-processor-16gb-ram-1tb-hdd-amd-radeon-graphics-windows-10-home-z5p50aa 1 -
+/lenovo-li2054w-195-inch-ips-wide-monitor 1 -
+/microsoft-wireless-mobile-mouse-1850 1 -
+/power-steering-fluid-for-honda-acura 1 -
+/kiddies-world/baby-essential/feeding-bottle/philips-avent-anti-colic-baby-feeding-bottle 4 -
+/dell/dell-poweredge-t30-mini-tower-server-intel-xeon-e3-1225v5-33ghz-processor-8gb-ram-1tb 1 -
+/oraimo-pb-6oar-power-bank-6000mah 1 -
+/enfamil-premium-infant-formula-powder-222-ounce-tubinfant-formula 1 -
+/mobo-bateria-portatil-5000mah-power-bank 1 -
+/pisen-wireless-charging-base-qwd001-ts-106w 1 -
+/honda-genuine-accessories-75700-tf0-000-grille-emblem 1 -
+/hp-external-dvd-rw-2.0-slim-portable-drive 1 -
+/suits-jacketsblack-women-essential-suit-jacket 1 -
+/computer/canon-canoscan-lide-300-scanner 1 -
+/electronics/elepaq-45-kva-key-start-generator 1 -
+/beamtech-h8-led-fog-light-bulb-csp-chips-6500k-800-lumens-xenon-white-extremely 1 -
+/office-items/rexel-promax-v65ws-cross-cut-shredder 1 -
+/electronics/camera-game/xbox-360-wireless-controller-black 2 -
+/dell-inspiron-3477-238-inch-all-in-one-desktop-computer-intel-core-i5-7200u-31ghz-processor-8gb-ram-1tb-hdd-intel-hd-graphics-windows-10-home-i3477-5852blk-pus 1 -
+/google-pixel-3a-4gb-ram-64gb-rom-5.5-inches-android-9.0-pie-4g-lte-smartphone-2915mah-battery 1 -
+/kids-sunglassesneliblu-neon-bulk-kids-sunglasses-party-favors-24-pack-bulk-pool-party-favors 1 -
+/LG%2032mu59-b%2032-inch%20(31.5%E2%80%9D%20Diagonal)%20Uhd%204k%20Monitor 1 -
+/lucas-transmission-fix-stops-slip 1 -
+/xmlrpc.php 2 -
+/backup/wallet.dat 1 -
+/samsung-level-u-pro-bluetooth-headset-12mm-speaker-drivers 1 -
+/web-camera-chusei-cs3dw300-3d 1 -
+/indeedbuy-2017-newest-2-pcs-4-holes-stainless-steel-black-license-plate-frame 1 -
+/index.php 5 -
+/hp-officejet-100-mobile-printer-l411a 1 -
+/apc-smart-ups-sc-420va-230v 1 -
+/test/wp-includes/wlwmanifest.xml 2 -
+/phone-tablets/apple-ipad-pro-12.9-inches-3rd-generation-256gb-rom-4gb-ram-wifi-cellular-2018-international-warranty 1 -
+/fexda-samsung-sams5300-battery-1200mah 1 -
+/hp-envy-27-all-in-one-core-i7-8700t24ghznvidia-gtx-1050-1tb-256gb-ssd-16gb-ram-27-uhd-touch-wireless-keyboard-mouse 1 -
+/tecno-t484-2.8-inches-8mb-rom-8mb-ram-dual-sim-phone-4000mah-battery 1 -
+/logitech/logitech-conference-webcam-bcc950 1 -
+/itel-5081-triple-sim-slim-body-facebook-wireless-fm-phone-black 1 -
+/4-megapixel-full-hd-outdoor-poe-dome-camera-dcs-f4624e 1 -
+/itel/itel-4510-super-bright-torch-opera-mini-fm-1500mah-battery-dual-sim-black 2 -
+/lcd-led-tv/LG%20LED%20HD%20Tv%2020%20Inch%20%E2%80%93%2020LB 1 -
+/canon-i-sensys-mf631cn-a4-colour-multifunction-laser-printer 1 -
+/product_id=823 1 -
+/zenith-bill-counter 1 -
+/servers/hpe-proliant-dl360-gen9-intel-xeon-e5-2620v4 1 -
+/fexda-bl-5d-battery-tecno-q1-tf31-tf22 3 -
+/htc-u-play-32gb-rom-3gb-ram-5.2-inches-android-6.0-2500-mah-battery 5 -
+/samsung-galaxy-a50-sm-a505f-6.4-inches-4gb-ram-128gb-rom-android-9-pie-25mp-5mp-8mp-25mp-dual-sim-4g-smartphone-4000mah-battery 1 -
+/hp-color-laserjet-pro-mfp-m477fdn-printer 1 -
+/three-pocket-pickup-truck-cargo-net-fit-for-toyota-tacoma-2013-2019-cargo-organizer-storage-net 1 -
+/iphone-xs-max-5d-full-screen-protector 1 -
+/adminer.php 2 -
+/microsoft-office-professional-2016-for-windows 1 -
+/canon-eos-5d-mark-iv-304mp-digital-slr-camera-black 1 -
+/web/wp-includes/wlwmanifest.xml 2 -
+/.listing 1 obejor.com.ng/.listing
+/hp/hp-elitebook-745-g3-14-a10-pro-8700b-4-gb-ram-500-gb-amd-radeontm-r5 1 -
+/dji-matrice-600-pro-hexacopter 1 -
+/phone-tablets/apple-iphone-11-pro-dual-sim-64gb-rom-4gb-ram-58-inch-super-retina-xdr-oled-ios-13-12mp-12mp-12mp-12mp-4g-lte-smartphone-3046-mah 1 -
+/lns-169-bluetooth-wireless-speaker 1 -
+/vitaform/pillows-vitacool-pillow-vitacool 1 -
+/ups/apc-smart-ups-c-3000va-rack-mount-lcd-230v-smc3000rmi2u 1 -
+/phone-tablets/phone-accessories/phone-charger/oraimo-ocw-u61d-usb-wall-chargerfast-charging 1 -
+/automobile/duralast-brake-pads-front-mkd908 1 -
+/fashion/tods-men-shoes-loafers-with-front-tie-id0008 1 -
+/fexda-i9600-samsung-galaxy-s5-battery-2800mah-capacity 1 -
+/ait-205a-black-toner-printer-cartridge 1 -
+/hp-250-g6-core-i3-3qm21ea-4gb-500gb-dvdrw-15-inches-bt-cam-win-10 8 -
+/new-balance-liverpool-home-shirt-2020 1 -
+/blackberry-dtek50-5.2-inches-android-6.0-13-mp-8mp-hybrid-dual-sim-16gb-rom-3gb-ram-2610-mah-battery 1 -
+/stabilizers/blue-gate-2kva-stabilizer-2000va 1 -
+/2018/wp-includes/wlwmanifest.xml 2 -
+/hp/hp-notebook-15-intel-core-i3-1tb-hdd-8gb-ram-dvd-rw-8th-gen-win-10-pre-loaded 1 -
+/hp/hp-proone-440-g4-all-in-one-desktop-pc-intel-core-i3-8100t-3.1ghz-4gb-ddr4-1tb-hdd-23.8-diagonal-fhd-ips-widescreen-wled-backlit-anti-glare-display-dvd-r-camera-wi-fi-bluetooth-usb-keyboard-and-mouse-freedos-20 1 -
+/hp/hp-pavilion-24-all-in-one-8th-gencorei5-17ghz1tb-hdd-16gb-intel-optane12gb-ram-238-touchscreen-windows-10-home 1 -
+/chusei-web-camer-cs3dw300-3d 1 -
+/hp/hp-15-laptop-charger-blue-mouth-45w-195v 1 -
+/cms/wp-includes/wlwmanifest.xml 2 -
+/huawei-y9-prime-2019-6.59-inch-4gb-rom-64gb-rom-android-9-16mp-pop-up-selfie-camera-4000-mah-4g-smartphone-emerald-green 1 -
+/nokia-6-1-plus-nokia-x6-ta-1116-dual-sim-android-8-oreo-64gb-rom-4gb-ram-3000-mah-battery 1 -
+/adminer-4.2.5-mysql.php 2 -
+/motorola-dem300-long-range-powerful-mobile-radio-cars 1 -
+/hp-envy-24-23-inch-led-backlit-ips-display-monitor 1 -
+/acer-projector-x118h-dlp-3600-lumens-hdmiusb 1 -
+/home-office/sewing-arts-craft/butterfly-sewing-machine-automatic-and-manual 1 -
+/emerson-liebert-psp650mt3-230u-psp-650va-390w 1 -
+/news/wp-includes/wlwmanifest.xml 2 -
+/dell-alienware-17r5-core-i7-2.2ghz-1tb-plus-256ssd-16gb-8gb-nvidiaaw17r5-7811blk 1 -
+/oppo-a1k-cph1923-2gb-ram-32gb-rom-6.1-inches-hd-large-display-smart-phone-4000mah-battery 1 -
+/Bitcoin/wallet.dat 1 -
+/apc-smart-ups-750va-usb-serial-230v 4 -
+/blue-gate-ups-650va 1 -
+/bitcoin/backup/wallet.dat 1 -
+/wp-login.php 4 -
+/apple-magic-mouse-2-wireless-rechargeable-latest-version 1 -
+/microsoft-wireless-desktop-keyboard-850 1 -
+/phone-tablets/apple-ipad-pro-12.9-inch-3rd-generation-64gb-rom-4gb-ram-wifi-cellular-2018 1 -
+/jersey/new-balance-liverpool-home-shirt-2020 1 -
+/fexda-bl-25it-battery-tecno-w2capacity-2500mah 1 -
+/computer/desktop/dell%20desktop/dell-optiplex-7060-small-form-factor-desktop-computer-intel-core-i7-8700-32ghz-processor-16gb-ram-1tb-hdd-intel-uhd-graphics-windows-10-pro 1 -
+/kenwood-radio-transceivers-best-100-meil-walkie-talkie-tk-2207-tk-3207g 1 -
+/2019/wp-includes/wlwmanifest.xml 2 -
+/hp/hp-27es-27-ips-led-backlight-display-monitor 1 -
+/dell-inspiron-17-7000-touch-screen-17-3-inches-2-in-1-convertible-laptop-intel-core-i7-7500u-27ghz-processor-16gb-ram-512gb-ssd-nvidia-geforce-graphics-windows-10-pro-6cyk2f2 1 -
+/sony/sony-65-inch-bravia-a1-oled-television-kd-65a1 1 -
+/nokia-2-battery-he3384000mah 1 -
+/apple-iwatch-series-3-42mm 1 -
+/phone-tablets/apple-iphone-11-61-inch-liquid-retina-lcd-4gb-ram-64gb-rom-ios-13-12mp-12mp-12mp-4g-lte-smartphone-dual-sim 1 -
+/djack-powerful-bluetooth-home-theatre-system-dj-703a 1 -
+/fexda-samsung-g530-galaxy-grand-prime-2600mah-battery 1 -
+/samsung-bluetooth-stereo-headset-level-u-pro-black 1 -
+/Lenovo%20ThinkPad%20T480 1 -
+/papaya-essential-women-trouser-grey 1 -
+/camera-game/blazblue-nintendo-switch 1 -
+/adminer-4.3.1-mysql.php 2 -
+/stylish-unique-girl-ball-gown-dress-peach 1 -
+/huawei-nova-3i-4gb-ram-128gb-rom-6.3-inch-android-8.1-kirin-710-octa-core-4g-smartphone-3340mah-battery 1 -
+/horizontal-cable-organizer-1u-w-brush-strip-ar8429 1 -
+/Samsung-Galaxy-Tab-S4-10.5%E2%80%9D(64GB,4GB)-13MP-Rear-With-Flash-8MP-Selfie-7300mAh-4G-LTE 1 -
+/lisle-22930-3-8-low-profile-disconnect 1 -
+/apc-smart-ups-3000va-230v 2 -
+/phone-tablets/phone-accessories/phone-charger/infinix-ch11-3pin-packet-micro-charger 2 -
+/automobile/zyhw-6.7-height-decorative-black-plastic-dummy-antenna-ornament-for-car 1 -
+/phone-tablets/phone-accessories/phone-charger/oraimo-3pin-2000mah-micro-usb-packet-charger 1 -
+/hp-laserjet-p2035-printer-ce461a 1 -
+/itel/itel-2171-wireless-fm-torch-dual-sim-feature-phone-black 1 -
+/dede/login.php 2 -
+/hp-envy-all-in-one-32-a0007nh-315diagonal-4k-ips-zbd-hdr-600-micro-edge-wled-backlit-intelr-core-i7-9700-16gb-ddr4-2666-sdram-256gb-pcier-nvmetm-tlc-m2-ssd-1tb-7200-rpm-sata-hdd 1 -
+/sony-vpl-dx220-xga-desktop-projector-2700-lumens 1 -
+/huawei-mate-20-pro-6.39-inches-6gb-ram-128gb-rom-android-9.0-40mp-20mp-8mp-24mp-dual-nano-sim-4g-lte-smartphone-twilight-4200mah-battery 1 -
+/party-store/full-lawyer-costume-with-wig-black-white 1 -
+/corel-winzip-20-pro-150pcs 1 -
+/tire-dressing-tire-protectant-no-tire-shine-no-dirt-attracting-residue-natural 1 -
+/pisen-color-power-pro-ts-d212-10000mah-power-bank-24a-fast-charger 4 -
+/phone-tablets/fexda-bl-45at-battery-tecno-l64500mah 1 -
+/lg-27mp38vq-b-27-inch-diagonal-class-full-hd-ips-led-monitor 1 -
+/water/bottled-waternestle-pure-life-bottled-water 1 -
+/polystar-double-door-fridge-pv-dd203lr-red 1 -
+/hp/hp-probook-440-g4-core-i3-7100u-4gb-500gb-14-inches-bt-cam-win-10-pro-silver 1 -
+/ozium-804281-2-regular-45oz-2-pack-smoke-odors-eliminator-gel-original-scent 1 -
+/wallet/wallet.dat 1 -
+/automobile/interior-accessories/steering-wheels-accessories/car-steering-wheel-cover 1 -
+/mictuning-20-led-trailer-tail-lights-bar-waterproof 1 -
+/pisen-power-adapter-1abritish-safety-standard-ts-uc037 1 -
+/old/wp-admin/ 1 http://obejor.com.ng/
+/app-ads.txt 13 -
+/fexda-bl-5cat-battery-tecno-phone-t312-t371-t349 1 -
+/dell-inspiron-2-in-1-173-touch-screen-laptop-intel-core-i7-16gb-memory-nvidia-geforce-mx150-2tb-hard-drive 1 -
+/phone-tablets/apple-iphone-11-pro-256gb-rom-4gb-ram-dual-sim-65-inch-super-retina-xdr-oled-ios-13-4g-lte 1 -
+/fexda-battery-for-gionee-phone-e31800mah-capacity 1 -
+/paper-flower-pink-set 1 -
+/computer/sony-playstation-4-500gb-fortnite 1 -
+/television/lcd-led-tv/LG%20LED%20HD%20Tv%2020%20Inch%20%E2%80%93%2020LB 1 -
+/rubber-rainboots-safety-rainboots 1 -
+/bitcoin/wallet.dat 1 -
+/diabetic-stabilizerhigh-quality-6-pcs-diabetic-patch-stabilize-blood-sugar 1 -
+/adminer-4.3.0-mysql-en.php 2 -
+/samsung-gear-iconx-reviewed-to-buy-or-not-in-aug-2019-2104-1 1 -
+/lava-iris-42-dual-sim-5.0-hd-ips-8gb-rom-1gb-ram-3g-2000mah-battery 3 -
+/preggy-panties-black-panties 1 -
+/hp-envy-750-597c-mini-tower-desktop-computerhp-envy-750-597c-mini-tower-desktop-computer-intel-core-i7-7700-36-ghz-processor-16gb-ram-1tb-hdd-nvidia-geforce-graphics-windows-10 1 -
+/computer/apc-smart-ups-srt-10000va-230v-srt10kxli 1 -
+/infants-travel-system-car-seat-stroller 1 -
+/dell/dell-optiplex-7050-small-form-factor-desktop-computer-intel-core-i7-7700-36ghz-processor-8gb-ram-1tb-hdd-intel-hd-graphics-windows-10-pro 1 -
+/fexda-bl-25bi-battery-itel-phone-it5600-it5610-it5620 5 -
+/acer-kg281k-bmiipx-28-inch-ultra-hd-4k-lcd-gaming-monitor-umpx1aa003 1 -
+/fashion-pirate-cap-chemotherapy-cap-silky-durag 1 -
+/fexda-bl-30ht-battery-for-tecno-phone-c8-inbuilt3000mah-capacity 5 -
+/wallet.dat 1 -
+/ps-game-accessories/nintendo-switch-console 1 -
+/electronics/musical-instrument/brass/yamaha-alto-saxophone 1 -
+/wp/wp-includes/wlwmanifest.xml 2 -
+/lenovo-ideacenter-aio-510-22ish-intelr-coretm-i3-8gb-ram-1tb-hdd-touchscreenwins-10 1 -
+/apc-smart-ups-c-2000va-lcd-230v-smc2000i 1 -
+/hp-m477nw-all-in-one-wireless-laser-printer-with-fax 1 -
+//wp-login.php 1 -
+/baby-clothes-fashion-children-short-sleeved-polo-t-shirt-boys-green-with-white-colour-stripe 1 -
+/wd-1tb-my-passport-usb-30-secure-portable-hard-drive-red-wdbynn0010bbk-wesn 1 -
+/Lenovo%20V310z%20Intel%C2%AE%20Core%E2%84%A2%20I3-7100%20Processor 1 -
+/infinix-ch11-3pin-t-micro-charger 1 -
+/samsung-galaxy-note10-n970-6-inch-android-9-pie-8gb-ram-256gb-rom-12mp-16mp-dual-sim-smartphone-aura-white-4300-mah-battery-international-warranty-dubai 1 -
+/oraimo-roadster-ocm-bh10-is-a-2-in-1-wireless-headset-plus-car-charger 1 -
+/security.txt 1 -
+/blog/wp-includes/wlwmanifest.xml 2 -
+/ryze-tech-tello-quadcopter 1 -
+/automobile/exterior-accessories/covers/audew-all-weather-car-cover-6-layer-breathable-uv-protection-waterproof-dustproof-universal-fit-full-car-covers-for-sedan-suv-l167-190 1 -
+/wp1/wp-includes/wlwmanifest.xml 2 -
+/television/LG%20LED%20HD%20Tv%2020%20Inch%20%E2%80%93%2020LB 1 -
+/wp-includes/wlwmanifest.xml 2 -
+/phone-tablets/smartphone/itel-smartphone/itel-a33-android-8.1-5.0-screenfinger-print-sensor16gb-rom-1gb-rom2200mah-battery20mp-selfie50mp-rear-camera-black-gold 1 -
+/Lisle%2036050%20Valve%20Keeper%20Remover%20and%20Installer%20Kit 1 -
+/tdma-digital-handheld-walkie-talkie-motorola-mototrbo-dp4800 1 -
+/samsung-galaxy-tab-s5e-sm-t725-10.5-inches-4gb-ram-64gb-rom-13mp-8mp-selfie-lte-7040-mah-battery 1 -
+/apc-smart-ups-srt-19-rail-kit-for-smart-ups-srt-5-6-8-10kva-srtrk2 1 -
+/automobile/oils-fluids/rocket-car-scratch-repair-spray-paint-for-car-body-other-parts 1 -
+/primrose-road-5-piece-dining-set 1 -
+/tecno/tecno-pouvoir-3-air-lc6-60inches-5000mah-android-90-16gb-1gb-ram-4g-lte-8-8mp-camera-face-id-fingerprint-midnight-black 1 -
+/samsung-galaxy-a70-sm-a705f-6-inches-s-amoled-6gb-ram-128gb-rom-android-9.0-pie-32mp-8mp-5mp-32mp-dual-sim-4g-fingerprint-4500mAh-battery 1 -
+/furniture/hamlin-reclining-3-piece-living-room-set 1 -
+/nasco-15-liter-juicer-blender-food-processor-600-watts-white 1 -
+/fexda-bl-24ai-battery-itel-phone-1800mah-capacity 1 -
+/hdmi-vga-adapter-cable 1 -
+/lenovo-thinkpad-yoga-370-intel-core-i7-7500u-16gb-ram-512gb-ssd13.3-inch-fhd-multi-touch-windows-10 1 -
+/lg/LG%20LED%20HD%20Tv%2020%20Inch%20%E2%80%93%2020LB 1 -
+/total-quartz-5000-engine-oil-4l 1 -
+/hp/hp-envy-x360-convertible-15-6th-gen-intel-corei7-25ghz256gb-ssd8gb-ram156-touchscreenwindows-10-silver 1 -
+/apc-back-ups-700va-230vavr-iec-sockets 1 -
+/ads.txt 1 -
+/mini-x-thermal-receipt-printer-veeda-vdp5890f1 1 -
+/camera-game/dji-mavic-2-kit 1 -
+/apc-smart-ups-srt-3000va-230v-srt3000xli 1 -
+/Adminer.php 2 -
+/tecno-pouvoir-2-air-6.0inchs-Lc6-1gb-ram-16gb-rom-android-8.1go-13mp-8mp-dual-sim-3g-fingerprint-face-id-5000mah-battery 1 -
+/hp-20-all-in-one-desktop-pc-intel-core-dual-core-4gb-ram-1tb-hdd-dvd-writer-win-10 1 -
+/hp-envy-13-ah0000nia-intelr-coretm-i3-8130u-13.3-diagonal-fhd-ips-4gb-lpddr3-1866-sdram-128gb-m2-ssd-4mm92ea 1 -
+/oppo-f11-pro-6.5-inches-android-9.0-pie-6gb-ram-128gb-rom-48mp-16mp-4000-mah-thunder-black 1 -
+/brake-caliper-synthetic-grease-2060-1 1 -
+/oraimo-power-bank-20000mah-max-power-titan-opb-p201d 1 -
+/hp-122-black-ink 1 -
+/roll-bar-grab-handles-for-jeep-wrangler-yj-tj-jk-brutus-rollbar-handle-pair 1 -
+/panasonic-quality-5l-electric-kettle 1 -
+/toyota-front-wheel-bearing-set 1 -
+/bedroom-bathroom/beddinds-vita-sizzler 1 -
+/beats-by-dre-powerbeats3beautost-fit-for-toyota-highlander-2015-2016-2017-2018-2019-chrome-rear-spoiler-wing-side-beveled-window-cover-trim-fit-for-toyota-highlander-2015-2016-2017-2018-2019-chrome-rear-spoiler-wing-side-beveled-window-cover-trim 1 -
+/public/simpleboot/css/simplebootadmin.css 1 -
+/infinix/infinix-ch11-3pin-packet-micro-charger 3 -
+/new-age-y635-power-bank-18500-mah 1 -
+/fexda-bl-5cat-battery-tecno-1150mah 1 -
+/electronics/generator-power-solution/ampower-portable-solar-inverter-powerbank-generator 1 -
+/phone-tablets/phone-accessories/fexda-battery-gionee-phone-p5w2200mah-capacity 1 -
+/dell/dell-precision-5810-tower-workstation-desktop-intel-xeon-e5-1650-35-ghz-processor-32gb-ram-500gb-hdd-nvidia-quadro-graphics-windows-10-pro 1 -
+/golds-gym-mini-stepper 1 -
+/dell/dell-optiplex-7070-00001-sff-intel-core-i7-desktop-8-gb-ram-1-tb-hard-drive-freedos 1 -
+/Hankook-Battery-75-Ahs%20-12v 1 -
+/tr-industrial-forestry-safety-helmet-and-hearing-protection-system 1 -
+/site/wp-includes/wlwmanifest.xml 2 -
+/optoma-w402-4500-lumens-wxga-dlp-3d-multimedia-projector 1 -
+/mictuning-19pcs-auto-audio-trim-removal-tool-set-and-clip-plier 1 -
+/ampower-portable-solar-inverter-powerbank-generator 1 -
+/new-age-powerbank-y103-10000mah 1 -
+/magner-175-money-counting-machine 2 -
+/admin/login.php 3 -
+/kisonli-r3-bluetooth-wireless-speaker-400mah 1 -
+/fexda-bl-25bt-battery-tecno-phone-t465-t5282800mah-capacity 8 -
+/media/wp-includes/wlwmanifest.xml 2 -
+/utility/convert/source/d7.2_x1.5/readme.txt 1 -
+/samsung/samsung-gear-iconx-2019 1 -
+/hp-envy-all-in-one-32-a0008nh-intelr-core-i7-9700-16gb-ddr4-2666-sdram-256-gb-pcier-nvmetm-tlc-m2-ssd-2tb-5400-rpm-sata-hdd-9hp00ea 1 -
+/hp-22-all-in-one-desktop-pc-intel-core-dual-core-7300u-4gb-ram-1tb-hdd-dvd-writer-win-10 1 -
+/sito/wp-includes/wlwmanifest.xml 2 -
+/fexda-i8190-samsung-galaxy-s3mini-battery-1500mah-capacity 1 -
+/citycall-tab-a9-512mb-ram-4gb-rom 1 -
+/abro-brake-fluid-oil 6 -
+/automobile/portable-car-side-window-sun-shade-covers 1 -
+/dammyluv-store 1 -
+/fexda-itel-bl-15bl-battery-1500mah-capacity 1 -
+/website/wp-includes/wlwmanifest.xml 2 -
+/imation-wkb-750-multi-media-wireless-keyboard-black 1 -
+/apple/apple-iphone-11-pro-max-12mp-tof-3d-camera-ios-13-6.5-inch-64gb-rom-4gb-ram-grey-3969mAh-battery 1 -
+/chen/login.php 1 -
+/apple-macbook-air-sleeve-13-inch-black-bag 1 -
+/havit-multi-function-21-usb-speaker-with-bluetooth-function-sk-590bt-black 1 -
+/fexda-n9000-samsung-galaxy-note-3-battery-3200mah 1 -
+/bellcount-c410-money-counting-machine 1 -
+/jbl-prx-725-15-dual-two-way-powered-loudspeaker 1 -
+/motorola-talkie-walkie-talkie-t80 1 -
+/hp-240-g6-notebook-4la39la-intel-core-i3-7020u-8gb-ram-1tb-hdd 1 -
+/adminer-4.3.0-mysql.php 2 -
+/tecno-t901-dual-sim-24-inches-03mp-camara-1900mah-battery 2 -
+/apple/apple-iphone-8-64gb-rom-2gb-ram-4.7-inch-12mp-7mp-camara-1821-mah-battery 1 -
+/ladies-striped-jumpsuit-belt-vneck 1 -
+/itel-it5616-2.4-inches-screen-2500mah-big-battery-8mb-rom-8mb-rom-bright-torch-java-support-dual-sim-mobile 1 -
+/philips-avent-anti-colic-baby-feeding-bottle 1 -
+/powermaster-57294-alternatorpowermaster-57294-alternator 1 -
+/samsung-galaxy-m10-dual-sim-6.22-inches-android-8.1-Oreo-16gb-rom-2gb-ram13mp-5mp-rear-camera-5mp-front-camera-4g-lte-3400-mah-battery 1 -
+/computer/apple-usb-ethernet-adapter 1 -
+/sandisk-8gb-memory-adapter-microsd 1 -
+/bedroom-bathroom/pillows-vitacool-pillow-vitacool 1 -
+/apple-iphone-7-128gb-rom-2gb-ram-4.7-inches-1960-mah-battery 1 -
+/tecno-t661-ultra-slim-99mm-dual-sim-2.4ips-screen-1200mah-battery 1 -
+/electronic-keyboard-54-keys 1 -
+/epson/epson-eb-s05-svga-3200-lumens-projector 1 -
+/norton-internet-security-5-users 1 -
+/projector/dell-1220-2700-lumens-dlp-projector 1 -
+/hp-probook-440-g5-14.0-inches-core-i5-8250u-4gb-ram-500gb-hhd-window-10 1 -
+/yamaha-psr-e263-portable-keyboard-with-stand-and-adapter 1 -
+/oraimo-ocd-d101-twin-head-micro-lighting-cable-2a-black 1 -
+/fexda-n910-samsung-galaxy-phone-note-4-battery-3220mah-capacity 1 -
+/computer/bluegate-25kva-ups 1 -
+/vsop-remy-martin-vsop. 1 -
+/computer/networking/security-monitoring/kenwood-tk-3107-uhf-5w-walkie-talkie-5km 1 -
+/western-digital-wd-blue-1tb-desktop-hdd-internal-hard-disk-drive-5400-rpm-sata-6gb-s-64mb-cache-35-inch-wd10ezex 1 -
+/supplements 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 54
+197.210.29.244 17 17 793377 20201102105125
+37.115.113.245 12 12 2203320 20201102104824
+5.34.180.192 9 9 1940490 20201102064822
+195.123.209.118 9 9 1940490 20201101181939
+102.89.2.111 4 4 135858 20201101225652
+40.74.247.209 3 3 1562875 20201102002001
+52.149.144.169 3 3 1555265 20201101153733
+47.89.15.58 3 3 1558630 20201101212526
+34.105.219.249 3 3 1149674 20201102104056
+213.239.193.124 2 2 570269 20201102104748
+102.89.3.247 2 2 100345 20201101231532
+185.210.217.252 2 2 1040127 20201101002444
+178.159.37.104 2 2 431220 20201101144603
+102.89.1.66 2 2 51178 20201101214025
+102.128.73.2 2 2 100070 20201102104348
+34.221.134.161 2 2 319283 20201102104447
+185.232.21.123 2 2 1041747 20201102052635
+35.225.82.182 2 2 632740 20201102083938
+144.76.22.133 1 1 50254 20201101075604
+37.228.224.31 1 1 49908 20201102091755
+137.226.113.8 1 1 159618 20201101051248
+202.133.247.208 1 1 516727 20201101030511
+157.245.7.153 1 1 520283 20201101175244
+192.35.168.16 1 1 49870 20201101143555
+95.174.110.235 1 1 485 20201102030630
+85.10.207.246 1 1 517302 20201101221912
+91.211.20.65 1 1 485 20201101024237
+62.210.92.175 1 1 50336 20201102091325
+136.143.177.43 1 1 50602 20201101202121
+62.4.14.198 1 1 517293 20201101212945
+104.232.215.198 1 1 50399 20201101075555
+135.181.1.123 1 1 518186 20201101010817
+35.245.188.175 1 1 518698 20201102100207
+197.210.76.88 1 1 33879 20201101223312
+104.154.99.135 1 1 519857 20201101103125
+197.210.61.75 1 1 44673 20201101143821
+119.28.77.193 1 1 50193 20201101160946
+192.35.168.80 1 1 50737 20201101120302
+209.97.155.164 1 1 521565 20201101140249
+197.210.70.39 0 2 110150 
+193.30.121.226 1 1 367618 20201101052448
+202.112.51.5 1 1 520659 20201101144321
+104.232.215.183 1 1 49850 20201102074637
+195.154.61.206 1 1 517428 20201101212619
+104.131.188.92 1 1 518432 20201101004352
+95.217.145.60 1 1 518524 20201102074802
+150.255.10.41 1 1 43997 20201102040517
+62.4.14.206 1 1 520363 20201101213735
+195.34.150.18 1 1 0 20201102093456
+217.182.175.162 1 1 0 20201102074635
+35.185.241.102 1 1 520280 20201101084822
+74.120.14.34 1 1 50075 20201101001328
+94.130.167.98 1 1 50582 20201102074707
+58.19.82.17 1 1 43957 20201102071601
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 2
+20201101 63 65 16505361 38
+20201102 53 53 9244862 24
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+1h+ 2
+30mn-1h 1
+0s-30s 57
+5mn-15mn 1
+30s-2mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 4
+/ 108 25534145 58 58
+/obejorstore_backend/ 3 3321 1 1
+/cpanel 3 101637 1 1
+/admin/index.php 2 970 2 2
+END_SIDER

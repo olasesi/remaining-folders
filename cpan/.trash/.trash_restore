@@ -1,0 +1,5 @@
+error_log=/home/obejorng/public_html/error_log
+Aincrad.pub=/home/obejorng/.ssh/Aincrad.pub
+obejorng.pub=/home/obejorng/.ssh/obejorng.pub
+obejorpc.pub=/home/obejorng/.ssh/obejorpc.pub
+authorized_keys=/home/obejorng/.ssh/authorized_keys

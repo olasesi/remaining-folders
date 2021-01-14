@@ -1,0 +1,82 @@
+<header class="journal-header-center journal-header-mega"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <div class="header">
+    <div class="journal-top-header j-min z-1"></div>
+    <div class="journal-menu-bg z-0"></div>
+    <div class="journal-center-bg j-100 z-0"></div>
+    <div id="header" class="journal-header z-2">
+      <div class="header-assets top-bar">
+        <div class="journal-links j-min xs-100 sm-100 md-50 lg-50 xl-40">
+          <div class="links j-min">
+            <ul class="top-menu">
+              {{ journal2.settings.get('config_primary_menu') }}
+            </ul>
+          </div>
+        </div>
+        {% if language %}
+          <div class="journal-language j-min">
+            {{ language }}
+          </div>
+        {% endif %}
+        {% if currency %}
+          <div class="journal-currency j-min">
+            {{ currency }}
+          </div>
+        {% endif %}
+        <div class="journal-secondary j-min xs-100 sm-100 md-50 lg-50 xl-60">
+          <div class="links j-min">
+            <ul class="top-menu">
+
+			{% if sellerlogged %}
+			<li><a href="{{ seller_panel_link }}"><i class="fa fa-user fas fa user-o" aria-hidden="true"></i><span class=""> {{ text_seller_panel }}</span></a></li>
+			{% else %}
+			<li><a href="{{ seller_register_link }}"><i class="fa fa-user fas fa user-o" aria-hidden="true"></i><span class=""> {{ text_seller_register }}</span></a></li>
+			{% endif %}
+			{% if module_purpletree_multivendor_browse_sellers %}
+			<li><a href="{{ browse_seller_link }}"><i class="fa fa-users" aria-hidden="true"></i><span class=""> {{ text_browse_sellers }}</span></a></li>
+			{% endif %}
+			
+              {{ journal2.settings.get('config_secondary_menu') }}
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="header-assets">
+        <div class="journal-logo j-100 xs-30 sm-100 md-30 lg-30 xl-30">
+          {% if logo %}
+            <div id="logo" style="width:60%;">
+              <a href="{{ home | replace('index.php?route=common/home', '') }}"
+              style="width:100%;">
+                {{ staticCall('Journal2Utils', 'getLogo', [config]) }}
+              </a>
+            </div>
+          {% endif %}
+        </div>
+        <div id="searchidupper" class="journal-search barz-up j-min xs-100 sm-50 md-45 lg-45 xl-45">
+          {{ search }}
+        </div>
+        <div class="journal-cart j-min xs-100 sm-50 md-25 lg-25 xl-25">
+          {{ cart }}
+        </div>
+      </div>
+      <div class="journal-menu j-min xs-100 sm-100 md-100 lg-100 xl-100">
+        {{ journal2.settings.get('config_mega_menu') }}
+        <div style="width: 100%;" id="searchidlower" class="journal-search barz-down j-min xs-100 sm-50 md-45 lg-45 xl-45">
+          {{ search }}
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+    var scwidth = screen.width;
+    var uppersearchdiv = document.getElementById("searchidupper");
+    var lowersearchdiv = document.getElementById("searchidlower");
+    
+    if(scwidth == 760 || scwidth == 992 || scwidth >= 1200){
+        lowersearchdiv.parentNode.removeChild(lowersearchdiv);
+        //alert(scwidth + " | " + lowersearchdiv);
+    }else if(scwidth <= 600 || scwidth == 700 || scwidth == 701){
+        uppersearchdiv.parentNode.removeChild(uppersearchdiv);
+    }
+    //alert(scwidth + " | " + lowersearchdiv);
+  </script>
+</header>

@@ -1,0 +1,166 @@
+{{ header }}
+<div id="container" class="container j-container">
+  <ul class="breadcrumb">
+    {% for breadcrumb in breadcrumbs %}
+      <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="{{ breadcrumb.href }}" itemprop="url"><span itemprop="title">{{ breadcrumb.text }}</span></a></li>
+    {% endfor %}
+  </ul>
+  <div class="row">{{ column_left }}{{ column_right }}
+    {% if column_left and column_right %}
+      {% set class = 'col-sm-6' %}
+    {% elseif column_left or column_right %}
+      {% set class = 'col-sm-9' %}
+    {% else %}
+      {% set class = 'ol-xs-12 col-sm-6 col-lg-8' %}
+    {% endif %}
+    <div class='col-xs-6 col-lg-4'>
+          <nav class='acc-nav'>
+              
+          </nav>
+          <h2 class="secondary-title">{{ text_my_account }}</h2>
+          <div class="content my-account">
+            <ul class="list-unstyled">
+              <li><a href="{{ edit }}">{{ text_edit }}</a></li>
+              <li><a href="{{ password }}">{{ text_password }}</a></li>
+              <li><a href="{{ address }}">{{ text_address }}</a></li>
+              <li><a href="{{ wishlist }}">{{ text_wishlist }}</a></li>
+            </ul>
+          </div>
+          <h2 class="secondary-title">{{ text_my_orders }}</h2>
+          <div class="content my-orders">
+            <ul class="list-unstyled">
+              <li><a href="{{ order }}">{{ text_order }}</a></li>
+              <li><a href="{{ download }}">{{ text_download }}</a></li>
+              {% if reward %}
+                <li><a href="{{ reward }}">{{ text_reward }}</a></li>
+              {% endif %}
+              <li><a href="{{ return }}">{{ text_return }}</a></li>
+              <li><a href="{{ transaction }}">{{ text_transaction }}</a></li>
+              <li><a href="{{ recurring }}">{{ text_recurring }}</a></li>
+            </ul>
+          </div>
+          <h2 class="secondary-title">{{ text_my_newsletter }}</h2>
+          <ul class="list-unstyled">
+            <li><a href="{{ newsletter }}">{{ text_newsletter }}</a></li>
+          </ul>
+      </div>
+    {#<div id="content" class="{{ class }} order-list">{{ content_top }}#}
+    {#  <h1 class="heading-title">{{ heading_title }}</h1>#}
+    {#  {% if orders %}#}
+    {#    <div class="table-responsive">#}
+    {#      <table class="table table-bordered table-hover list">#}
+    {#        <thead>#}
+    {#        <tr>#}
+    {#          <td class="text-right">{{ column_order_id }}</td>#}
+    {#          <td class="text-left">{{ column_customer }}</td>#}
+    {#          <td class="text-right">{{ column_product }}</td>#}
+    {#          <td class="text-left">{{ column_status }}</td>#}
+    {#          <td class="text-right">{{ column_total }}</td>#}
+    {#          <td class="text-left">{{ column_date_added }}</td>#}
+    {#          <td></td>#}
+    {#        </tr>#}
+    {#        </thead>#}
+    {#        <tbody>#}
+    {#        {% for order in orders %}#}
+    {#          <tr>#}
+    {#            <td class="text-right">#{{ order.order_id }}</td>#}
+    {#            <td class="text-left">{{ order.name }}</td>#}
+    {#            <td class="text-right">{{ order.products }}</td>#}
+    {#            
+			<td class="text-left pts-table_order_list" style="padding: 0px;">
+				<table style="width: 100%;">
+					{% for status in order.status %}
+					<tr>
+						<td class="purpleproductname" style="padding: 5px;">
+							<table>
+								{% for product in status.product %}
+									<tr>
+										<td>{{ product.product_name }}</td>
+									</tr>
+								{% endfor %}
+							</table>
+						</td>
+							<td class="purplstatus" style="text-align:right;padding:11px;">{{ status.order_status }}</td>
+					</tr>
+				  {% endfor %}
+				</table>
+			  </td>
+			#}
+    {#            <td class="text-right">{{ order.total }}</td>#}
+    {#            <td class="text-left">{{ order.date_added }}</td>#}
+    {#            <td class="text-right"><a href="{{ order.view }}" data-toggle="tooltip" title="{{ button_view }}" class="btn btn-info btn-primary"><i class="fa fa-eye"></i></a></td>#}
+    {#          </tr>#}
+    {#        {% endfor %}#}
+    {#        </tbody>#}
+    {#      </table>#}
+    {#    </div>#}
+    {#    <div class="row">#}
+    {#      <div class="col-sm-6 text-left">{{ pagination }}</div>#}
+    {#      <div class="col-sm-6 text-right">{{ results }}</div>#}
+    {#    </div>#}
+    {#  {% else %}#}
+    {#    <p>{{ text_empty }}</p>#}
+    {#  {% endif %}#}
+    {#  <div class="buttons clearfix">#}
+    {#    <div class="pull-right"><a href="{{ continue }}" class="btn btn-primary button">{{ button_continue }}</a></div>#}
+    {#  </div>#}
+    {#  {{ content_bottom }}</div>#}
+    <section class="{{ class }}">
+        <div>
+            <header>
+                <h1>Orders</h1>
+            </header>
+             {% if orders %}
+                <div class='row'>
+                 {% for order in orders %}
+                    <div>
+                        <article>
+                            <div>
+                                <h2>{{ order.products }}</h2>
+                                <p>{{ order.date_added }}</p>
+                                <p>{{ order.status }}</p>
+                            </div>
+                          <tr>
+                            <td class="text-right">#{{ order.order_id }}</td>
+                            <td class="text-left">{{ order.name }}</td>
+                            <td class="text-right">{{ order.products }}</td>
+                            
+			<td class="text-left pts-table_order_list" style="padding: 0px;">
+				<table style="width: 100%;">
+					{% for status in order.status %}
+					<tr>
+						<td class="purpleproductname" style="padding: 5px;">
+							<table>
+								{% for product in status.product %}
+									<tr>
+										<td>{{ product.product_name }}</td>
+									</tr>
+								{% endfor %}
+							</table>
+						</td>
+							<td class="purplstatus" style="text-align:right;padding:11px;">{{ status.order_status }}</td>
+					</tr>
+				  {% endfor %}
+				</table>
+			  </td>
+			
+                            <td class="text-right">{{ order.total }}</td>
+                            <td class="text-left">{{ order.date_added }}</td>
+                            <td class="text-right"><a href="{{ order.view }}" data-toggle="tooltip" title="{{ button_view }}" class="btn btn-info btn-primary"><i class="fa fa-eye"></i></a></td>
+                          </tr>
+                            <a href="{{ order.view }}">See Details</a>
+                        </article>
+                    </div>
+                 {% endfor %}
+            </div>
+            {% else %}
+                <p>{{ text_empty }}</p>
+            {% endif %}
+        </div>
+    </section>
+  </div>
+</div>
+{{ footer }}
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>

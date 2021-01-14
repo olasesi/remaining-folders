@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+{% if not constant('JOURNAL_INSTALLED') %}
+<h3>Journal Installation Error</h3>
+<p>Make sure you have uploaded all Journal files to your server and successfully replaced <b>system/engine/front.php</b> file.</p>
+<p>Please read this: <a href="http://docs.digital-atelier.com/opencart/journal/#/settings/install" target="_blank">here</a>.</p>
+{% endif %}
+{% if not currency %}
+{{- journal2.html_classes.addClass('no-currency') -}}
+{% endif %}
+{% if not language %}
+{{- journal2.html_classes.addClass('no-language') -}}
+{% endif %}
+<html dir="{{ direction }}" lang="{{ lang }}" class="{{ journal2.html_classes.getAll() }}" data-j2v="{{ constant('JOURNAL_VERSION') }}">
+<head>
+<!-- Google searchverification -->
+
+<!--Close Section  There should only be one code of this type in this website - Google analytics, Facebook pixel (I Facebook pixel allows for more types), Google search verification-->
+    
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
+{% if journal2.settings.get('responsive_design', '1') == '1' %}
+{% if journal2.settings.get('pinch_zoom', '1') == '1' %}
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% else %}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% endif %}
+{% endif %}
+<meta name="format-detection" content="telephone=no">
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/><![endif]-->
+<title>{{ title }}</title>
+<base href="{{ base }}" />
+{% set meta_title = journal2.settings.get('blog_meta_title') %}
+{% if meta_title %}
+<meta name="title" content="{{ meta_title }}" />
+{% endif %}
+{% if description %}
+<meta name="description" content="{{ description }}" />
+{% endif %}
+{% if keywords %}
+<meta name="keywords" content="{{ keywords }}" />
+{% endif %}
+{% for sm in journal2.settings.get('share_metas', {}) %}
+<meta {{ sm.key }}="{{ sm.type }}" content="{{ sm.content }}" />
+{% endfor %}
+{% if icon %}
+<link href="{{ icon }}" rel="icon" />
+{% endif %}
+{% set blog_feed_url = journal2.settings.get('blog_blog_feed_url') %}
+{% if blog_feed_url %}
+<link rel="alternate" type="application/rss+xml" title="RSS" href="{{ blog_feed_url }}" />
+{% endif %}
+{% for link in links %}
+<link href="{{ link.href }}" rel="{{ link.rel }}" />
+{% endfor %}
+{% for style in styles %}
+{{- journal2.minifier.addStyle(style.href) -}}
+{% endfor %}
+{% for font in journal2.google_fonts.getFonts() %}
+<link rel="stylesheet" href="{{ font }}"/>
+{% endfor %}
+{% for script in scripts %}
+{{- journal2.minifier.addScript(script, 'header') -}}
+{% endfor %}
+{{- journal2.minifier.addStyle('catalog/view/theme/journal2/css/hint.min.css') -}}
+{{- journal2.minifier.addStyle('catalog/view/theme/journal2/css/journal.css') -}}
+{{- journal2.minifier.addStyle('catalog/view/theme/journal2/css/features.css') -}}
+{{- journal2.minifier.addStyle('catalog/view/theme/journal2/css/header.css') -}}
+{{- journal2.minifier.addStyle('catalog/view/theme/journal2/css/module.css') -}}
+{{- journal2.minifier.addStyle('catalog/view/theme/journal2/css/pages.css') -}}
+{{- journal2.minifier.addStyle('catalog/view/theme/journal2/css/account.css') -}}
+{{- journal2.minifier.addStyle('catalog/view/theme/journal2/css/blog-manager.css') -}}
+{{- journal2.minifier.addStyle('catalog/view/theme/journal2/css/side-column.css') -}}
+{{- journal2.minifier.addStyle('catalog/view/theme/journal2/css/product.css') -}}
+{{- journal2.minifier.addStyle('catalog/view/theme/journal2/css/category.css') -}}
+{{- journal2.minifier.addStyle('catalog/view/theme/journal2/css/footer.css') -}}
+{{- journal2.minifier.addStyle('catalog/view/theme/journal2/css/icons.css') -}}
+{% if journal2.settings.get('responsive_design') %}
+{{- journal2.minifier.addStyle('catalog/view/theme/journal2/css/responsive.css') -}}
+{% endif %}
+{{- journal2.minifier.addStyle('catalog/view/theme/journal2/css/flex.css') -}}
+{{- journal2.minifier.addStyle('catalog/view/theme/journal2/css/rtl.css') -}}
+{{- journal2.minifier.css() -}}
+{% if journal2.cache.getDeveloperMode() or not journal2.minifier.getMinifyCss() %}
+<link rel="stylesheet" href="index.php?route=journal2/assets/css" />
+{% endif %}
+{{- journal2.minifier.addScript('catalog/view/theme/journal2/js/journal.js', 'header') -}}
+{% if journal2.minifier.loadGoogleRecaptcha()  %}
+<script src="https://www.google.com/recaptcha/api.js"></script>
+{% endif %}
+{{ journal2.minifier.js('header') }}
+{% for analytic in analytics %}
+{{ analytic }}
+{% endfor %}
+<script>
+{% if journal2.settings.get('show_countdown', 'never') != 'never' or journal2.settings.get('show_countdown_product_page', 'on') == 'on' %}
+Journal.COUNTDOWN = {
+  DAYS    : "{{ journal2.settings.get('countdown_days', 'Days') }}",
+  HOURS   : "{{ journal2.settings.get('countdown_hours', 'Hours') }}",
+  MINUTES : "{{ journal2.settings.get('countdown_min', 'Min') }}",
+  SECONDS : "{{ journal2.settings.get('countdown_sec', 'Sec') }}"
+};
+{% endif %}
+Journal.NOTIFICATION_BUTTONS = '{{ journal2.settings.get('notification_buttons') }}';
+</script>
+<!--<meta name="google-site-verification" content="ZISwvY3CE5OHv2m6dKJ7RxsY6jdRB-gMQyJSXDGwqT0" />-->
+
+			<script src="catalog/view/javascript/purpletree/common.js" type="text/javascript"></script>
+			
+</head>
+<body>
+  
+<!--[if lt IE 9]>
+<div class="old-browser">{{ journal2.settings.get('old_browser_message', 'You are using an old browser. Please <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">upgrade to a newer version</a> or <a href="http://browsehappy.com/">try a different browser</a>.') }}</div>
+<![endif]-->
+{{ journal2.settings.get('config_header_modules') }}
+{% set header_type = journal2.settings.get('header_type', 'default') == 'extended' ? 'default' : journal2.settings.get('header_type', 'default') %}
+{{ include(config.get('config_template') ~ "/template/journal2/headers/" ~ header_type ~ ".twig") }}
+{% if journal2.settings.get('config_top_modules') %}
+<div id="top-modules">
+  {{ journal2.settings.get('config_top_modules') }}
+</div>
+{% endif %}
+<div class="extended-container">

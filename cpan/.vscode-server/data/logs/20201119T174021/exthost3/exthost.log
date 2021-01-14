@@ -1,0 +1,17 @@
+[2020-11-19 17:59:06.047] [exthost] [info] extension host started
+[2020-11-19 17:59:06.297] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-11-19 17:59:06.297] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/obejorng/.vscode-server/bin/e5a624b788d92b8d34d1392e4c4d9789406efe8f/extensions/debug-auto-launch/dist/extension
+[2020-11-19 17:59:06.305] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-11-19 17:59:06.305] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/obejorng/.vscode-server/bin/e5a624b788d92b8d34d1392e4c4d9789406efe8f/extensions/emmet/dist/node/emmetNodeMain
+[2020-11-19 17:59:06.343] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2020-11-19 17:59:06.343] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/obejorng/.vscode-server/bin/e5a624b788d92b8d34d1392e4c4d9789406efe8f/extensions/git/dist/main
+[2020-11-19 17:59:06.399] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-11-19 17:59:06.400] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/obejorng/.vscode-server/bin/e5a624b788d92b8d34d1392e4c4d9789406efe8f/extensions/merge-conflict/dist/mergeConflictMain
+[2020-11-19 17:59:06.404] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-11-19 17:59:06.404] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/obejorng/.vscode-server/bin/e5a624b788d92b8d34d1392e4c4d9789406efe8f/extensions/search-result/dist/extension.js
+[2020-11-19 17:59:11.263] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2020-11-19 17:59:11.263] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/obejorng/.vscode-server/bin/e5a624b788d92b8d34d1392e4c4d9789406efe8f/extensions/github/dist/extension.js
+[2020-11-19 17:59:11.512] [exthost] [info] eager extensions activated
+[2020-11-19 17:59:11.970] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2020-11-19 17:59:11.970] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/obejorng/.vscode-server/bin/e5a624b788d92b8d34d1392e4c4d9789406efe8f/extensions/ms-vscode.js-debug/src/extension.js
+[2020-11-19 17:59:25.590] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 5000
